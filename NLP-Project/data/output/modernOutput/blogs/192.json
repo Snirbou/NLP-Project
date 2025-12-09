@@ -1,0 +1,1091 @@
+[
+  {
+    "id": 1,
+    "sentence": "A tough girl .",
+    "dicta": {
+      "text": "A tough girl .",
+      "tokens": [
+        {
+          "token": "a",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "a",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "a"
+          ],
+          "lex": "a",
+          "morph": {
+            "token": "a",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "tough",
+          "offsets": {
+            "start": 2,
+            "end": 7
+          },
+          "syntax": {
+            "word": "tough",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "tough"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "tough",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "girl",
+          "offsets": {
+            "start": 8,
+            "end": 12
+          },
+          "syntax": {
+            "word": "girl",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "a"
+          },
+          "seg": [
+            "girl"
+          ],
+          "lex": "girl",
+          "morph": {
+            "token": "girl",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "A tough girl with a red baloon .",
+    "dicta": {
+      "text": "A tough girl with a red baloon .",
+      "tokens": [
+        {
+          "token": "a",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "a",
+            "dep_head_idx": 1,
+            "dep_func": "dep",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "a"
+          ],
+          "lex": "a",
+          "morph": {
+            "token": "a",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "tough",
+          "offsets": {
+            "start": 2,
+            "end": 7
+          },
+          "syntax": {
+            "word": "tough",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "tough"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "tough",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "girl",
+          "offsets": {
+            "start": 8,
+            "end": 12
+          },
+          "syntax": {
+            "word": "girl",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "girl"
+          ],
+          "lex": "girl",
+          "morph": {
+            "token": "girl",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "with",
+          "offsets": {
+            "start": 13,
+            "end": 17
+          },
+          "syntax": {
+            "word": "with",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "with"
+          ],
+          "lex": "with",
+          "morph": {
+            "token": "with",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "a",
+          "offsets": {
+            "start": 18,
+            "end": 19
+          },
+          "syntax": {
+            "word": "a",
+            "dep_head_idx": 1,
+            "dep_func": "dep",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "a"
+          ],
+          "lex": "a",
+          "morph": {
+            "token": "a",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "red",
+          "offsets": {
+            "start": 20,
+            "end": 23
+          },
+          "syntax": {
+            "word": "red",
+            "dep_head_idx": 4,
+            "dep_func": "compound:smixut",
+            "dep_head": "a"
+          },
+          "seg": [
+            "red"
+          ],
+          "lex": "red",
+          "morph": {
+            "token": "red",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "baloon",
+          "offsets": {
+            "start": 24,
+            "end": 30
+          },
+          "syntax": {
+            "word": "baloon",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "baloon"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "baloon",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 31,
+            "end": 32
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "tough"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "Afik and Aya , too .",
+    "dicta": {
+      "text": "Afik and Aya , too .",
+      "tokens": [
+        {
+          "token": "afik",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "afik",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "afik"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "afik",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "and",
+          "offsets": {
+            "start": 5,
+            "end": 8
+          },
+          "syntax": {
+            "word": "and",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "afik"
+          },
+          "seg": [
+            "and"
+          ],
+          "lex": "and",
+          "morph": {
+            "token": "and",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "aya",
+          "offsets": {
+            "start": 9,
+            "end": 12
+          },
+          "syntax": {
+            "word": "aya",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "afik"
+          },
+          "seg": [
+            "aya"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "aya",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "too"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "too",
+          "offsets": {
+            "start": 15,
+            "end": 18
+          },
+          "syntax": {
+            "word": "too",
+            "dep_head_idx": 0,
+            "dep_func": "dep",
+            "dep_head": "afik"
+          },
+          "seg": [
+            "too"
+          ],
+          "lex": "too",
+          "morph": {
+            "token": "too",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 19,
+            "end": 20
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "afik"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "af and ay",
+          "label": "DUC",
+          "start": 0,
+          "end": 12,
+          "token_start": 0,
+          "token_end": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "sentence": "Cut out .",
+    "dicta": {
+      "text": "Cut out .",
+      "tokens": [
+        {
+          "token": "cut",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "cut",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "cut"
+          ],
+          "lex": "cut",
+          "morph": {
+            "token": "cut",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "out",
+          "offsets": {
+            "start": 4,
+            "end": 7
+          },
+          "syntax": {
+            "word": "out",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "cut"
+          },
+          "seg": [
+            "out"
+          ],
+          "lex": "out",
+          "morph": {
+            "token": "out",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 8,
+            "end": 9
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "cut"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 5,
+    "sentence": "Cloud shooting .",
+    "dicta": {
+      "text": "Cloud shooting .",
+      "tokens": [
+        {
+          "token": "cloud",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "cloud",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "cloud"
+          ],
+          "lex": "cloud",
+          "morph": {
+            "token": "cloud",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "shooting",
+          "offsets": {
+            "start": 6,
+            "end": 14
+          },
+          "syntax": {
+            "word": "shooting",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "cloud"
+          },
+          "seg": [
+            "shooting"
+          ],
+          "lex": "response",
+          "morph": {
+            "token": "shooting",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 15,
+            "end": 16
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "cloud"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 6,
+    "sentence": "Wilkins , was it .",
+    "dicta": {
+      "text": "Wilkins , was it .",
+      "tokens": [
+        {
+          "token": "wilkins",
+          "offsets": {
+            "start": 0,
+            "end": 7
+          },
+          "syntax": {
+            "word": "wilkins",
+            "dep_head_idx": 2,
+            "dep_func": "vocative",
+            "dep_head": "was"
+          },
+          "seg": [
+            "wilkins"
+          ],
+          "lex": "wil",
+          "morph": {
+            "token": "wilkins",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 8,
+            "end": 9
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "wilkins"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "was",
+          "offsets": {
+            "start": 10,
+            "end": 13
+          },
+          "syntax": {
+            "word": "was",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "was"
+          ],
+          "lex": "was",
+          "morph": {
+            "token": "was",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "it",
+          "offsets": {
+            "start": 14,
+            "end": 16
+          },
+          "syntax": {
+            "word": "it",
+            "dep_head_idx": 2,
+            "dep_func": "obj",
+            "dep_head": "was"
+          },
+          "seg": [
+            "it"
+          ],
+          "lex": "it",
+          "morph": {
+            "token": "it",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 17,
+            "end": 18
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "was"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 2,
+      "ner_entities": [
+        {
+          "phrase": "wil",
+          "label": "PER",
+          "start": 0,
+          "end": 7,
+          "token_start": 0,
+          "token_end": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "sentence": ".",
+    "dicta": {
+      "text": ".",
+      "tokens": [
+        {
+          "token": ".",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 8,
+    "sentence": ".",
+    "dicta": {
+      "text": ".",
+      "tokens": [
+        {
+          "token": ".",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 9,
+    "sentence": ".",
+    "dicta": {
+      "text": ".",
+      "tokens": [
+        {
+          "token": ".",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 10,
+    "sentence": ".",
+    "dicta": {
+      "text": ".",
+      "tokens": [
+        {
+          "token": ".",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 11,
+    "sentence": ".",
+    "dicta": {
+      "text": ".",
+      "tokens": [
+        {
+          "token": ".",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 12,
+    "sentence": "?",
+    "dicta": {
+      "text": "?",
+      "tokens": [
+        {
+          "token": "?",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "?",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "?"
+          },
+          "seg": [
+            "?"
+          ],
+          "lex": "?",
+          "morph": {
+            "token": "?",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 13,
+    "sentence": "Tower Of Glass",
+    "dicta": {
+      "text": "Tower Of Glass",
+      "tokens": [
+        {
+          "token": "tower",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "tower",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "glass"
+          },
+          "seg": [
+            "tower"
+          ],
+          "lex": "tower",
+          "morph": {
+            "token": "tower",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "of",
+          "offsets": {
+            "start": 6,
+            "end": 8
+          },
+          "syntax": {
+            "word": "of",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "tower"
+          },
+          "seg": [
+            "of"
+          ],
+          "lex": "of",
+          "morph": {
+            "token": "of",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "glass",
+          "offsets": {
+            "start": 9,
+            "end": 14
+          },
+          "syntax": {
+            "word": "glass",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "tower"
+          },
+          "seg": [
+            "glass"
+          ],
+          "lex": "glass",
+          "morph": {
+            "token": "glass",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "tower of glass",
+          "label": "FAC",
+          "start": 0,
+          "end": 14,
+          "token_start": 0,
+          "token_end": 2
+        }
+      ]
+    }
+  }
+]

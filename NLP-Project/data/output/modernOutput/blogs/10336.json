@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "sentence": "42 .",
+    "dicta": {
+      "text": "42 .",
+      "tokens": [
+        {
+          "token": "42",
+          "offsets": {
+            "start": 0,
+            "end": 2
+          },
+          "syntax": {
+            "word": "42",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "42"
+          ],
+          "lex": "42",
+          "morph": {
+            "token": "42",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 3,
+            "end": 4
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "42"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "האם הטרידו אותך מינית בטלפון ?",
+    "dicta": {
+      "text": "האם הטרידו אותך מינית בטלפון ?",
+      "tokens": [
+        {
+          "token": "האם",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "האם",
+            "dep_head_idx": 1,
+            "dep_func": "mark:q",
+            "dep_head": "הטרידו"
+          },
+          "seg": [
+            "האם"
+          ],
+          "lex": "אם",
+          "morph": {
+            "token": "האם",
+            "pos": "SCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הטרידו",
+          "offsets": {
+            "start": 4,
+            "end": 10
+          },
+          "syntax": {
+            "word": "הטרידו",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "?"
+          },
+          "seg": [
+            "הטרידו"
+          ],
+          "lex": "הטריד",
+          "morph": {
+            "token": "הטרידו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אותך",
+          "offsets": {
+            "start": 11,
+            "end": 15
+          },
+          "syntax": {
+            "word": "אותך",
+            "dep_head_idx": 1,
+            "dep_func": "obj",
+            "dep_head": "הטרידו"
+          },
+          "seg": [
+            "אותך"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "אותך",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "2"
+            }
+          }
+        },
+        {
+          "token": "מינית",
+          "offsets": {
+            "start": 16,
+            "end": 21
+          },
+          "syntax": {
+            "word": "מינית",
+            "dep_head_idx": 1,
+            "dep_func": "advmod",
+            "dep_head": "הטרידו"
+          },
+          "seg": [
+            "מינית"
+          ],
+          "lex": "מיני",
+          "morph": {
+            "token": "מינית",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בטלפון",
+          "offsets": {
+            "start": 22,
+            "end": 28
+          },
+          "syntax": {
+            "word": "בטלפון",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "הטרידו"
+          },
+          "seg": [
+            "ב",
+            "טלפון"
+          ],
+          "lex": "טלפון",
+          "morph": {
+            "token": "בטלפון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "?",
+          "offsets": {
+            "start": 29,
+            "end": 30
+          },
+          "syntax": {
+            "word": "?",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "הטרידו"
+          },
+          "seg": [
+            "?"
+          ],
+          "lex": "?",
+          "morph": {
+            "token": "?",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

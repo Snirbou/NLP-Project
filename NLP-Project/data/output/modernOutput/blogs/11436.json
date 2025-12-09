@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "sentence": "ליאור טראמפ \" יור פיירד \"",
+    "dicta": {
+      "text": "ליאור טראמפ \" יור פיירד \"",
+      "tokens": [
+        {
+          "token": "ליאור",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ליאור",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "\""
+          },
+          "seg": [
+            "ליאור"
+          ],
+          "lex": "ליאור",
+          "morph": {
+            "token": "ליאור",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "טראמפ",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "טראמפ",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "ליאור"
+          },
+          "seg": [
+            "טראמפ"
+          ],
+          "lex": "טראמפ",
+          "morph": {
+            "token": "טראמפ",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "יור"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יור",
+          "offsets": {
+            "start": 14,
+            "end": 17
+          },
+          "syntax": {
+            "word": "יור",
+            "dep_head_idx": 0,
+            "dep_func": "appos",
+            "dep_head": "ליאור"
+          },
+          "seg": [
+            "יור"
+          ],
+          "lex": "יור",
+          "morph": {
+            "token": "יור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פיירד",
+          "offsets": {
+            "start": 18,
+            "end": 23
+          },
+          "syntax": {
+            "word": "פיירד",
+            "dep_head_idx": 3,
+            "dep_func": "compound:smixut",
+            "dep_head": "יור"
+          },
+          "seg": [
+            "פיירד"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "פיירד",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 24,
+            "end": 25
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "יור"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "ליאור טראמפ",
+          "label": "PER",
+          "start": 0,
+          "end": 11,
+          "token_start": 0,
+          "token_end": 1
+        },
+        {
+          "phrase": "פייר",
+          "label": "TTL",
+          "start": 18,
+          "end": 23,
+          "token_start": 4,
+          "token_end": 4
+        }
+      ]
+    }
+  }
+]

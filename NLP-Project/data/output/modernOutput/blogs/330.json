@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "sentence": "לופו : הילה : קרקר : sheep : לאשת הנחש :",
+    "dicta": {
+      "text": "לופו : הילה : קרקר : sheep : לאשת הנחש :",
+      "tokens": [
+        {
+          "token": "לופו",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "לופו",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ":"
+          },
+          "seg": [
+            "לופו"
+          ],
+          "lex": "לופו",
+          "morph": {
+            "token": "לופו",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 5,
+            "end": 6
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "הילה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הילה",
+          "offsets": {
+            "start": 7,
+            "end": 11
+          },
+          "syntax": {
+            "word": "הילה",
+            "dep_head_idx": 0,
+            "dep_func": "parataxis",
+            "dep_head": "לופו"
+          },
+          "seg": [
+            "הילה"
+          ],
+          "lex": "הילה",
+          "morph": {
+            "token": "הילה",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "הילה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "קרקר",
+          "offsets": {
+            "start": 14,
+            "end": 18
+          },
+          "syntax": {
+            "word": "קרקר",
+            "dep_head_idx": 2,
+            "dep_func": "dep",
+            "dep_head": "הילה"
+          },
+          "seg": [
+            "קרקר"
+          ],
+          "lex": "קרקר",
+          "morph": {
+            "token": "קרקר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 19,
+            "end": 20
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 6,
+            "dep_func": "punct",
+            "dep_head": "sheep"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "sheep",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "sheep",
+            "dep_head_idx": 4,
+            "dep_func": "parataxis",
+            "dep_head": "קרקר"
+          },
+          "seg": [
+            "sheep"
+          ],
+          "lex": "##ep",
+          "morph": {
+            "token": "sheep",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 8,
+            "dep_func": "punct",
+            "dep_head": "לאשת"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאשת",
+          "offsets": {
+            "start": 29,
+            "end": 33
+          },
+          "syntax": {
+            "word": "לאשת",
+            "dep_head_idx": 6,
+            "dep_func": "nmod",
+            "dep_head": "sheep"
+          },
+          "seg": [
+            "ל",
+            "אשת"
+          ],
+          "lex": "אישה",
+          "morph": {
+            "token": "לאשת",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הנחש",
+          "offsets": {
+            "start": 34,
+            "end": 38
+          },
+          "syntax": {
+            "word": "הנחש",
+            "dep_head_idx": 8,
+            "dep_func": "compound:smixut",
+            "dep_head": "לאשת"
+          },
+          "seg": [
+            "ה",
+            "נחש"
+          ],
+          "lex": "נחש",
+          "morph": {
+            "token": "הנחש",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 39,
+            "end": 40
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 8,
+            "dep_func": "punct",
+            "dep_head": "לאשת"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "הילה",
+          "label": "PER",
+          "start": 7,
+          "end": 11,
+          "token_start": 2,
+          "token_end": 2
+        }
+      ]
+    }
+  }
+]

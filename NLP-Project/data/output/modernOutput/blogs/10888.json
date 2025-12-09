@@ -1,0 +1,381 @@
+[
+  {
+    "id": 1,
+    "sentence": "NO !",
+    "dicta": {
+      "text": "NO !",
+      "tokens": [
+        {
+          "token": "no",
+          "offsets": {
+            "start": 0,
+            "end": 2
+          },
+          "syntax": {
+            "word": "no",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "no"
+          ],
+          "lex": "no",
+          "morph": {
+            "token": "no",
+            "pos": "INTJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 3,
+            "end": 4
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "no"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "YOU כמה תמונות ותגליות מענינות ממפגש אוהד RESCUED FROM T-CHAN",
+    "dicta": {
+      "text": "YOU כמה תמונות ותגליות מענינות ממפגש אוהד RESCUED FROM T-CHAN",
+      "tokens": [
+        {
+          "token": "you",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "you",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "chan"
+          },
+          "seg": [
+            "you"
+          ],
+          "lex": "you",
+          "morph": {
+            "token": "you",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כמה",
+          "offsets": {
+            "start": 4,
+            "end": 7
+          },
+          "syntax": {
+            "word": "כמה",
+            "dep_head_idx": 2,
+            "dep_func": "det",
+            "dep_head": "תמונות"
+          },
+          "seg": [
+            "כמה"
+          ],
+          "lex": "כמה",
+          "morph": {
+            "token": "כמה",
+            "pos": "DET",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תמונות",
+          "offsets": {
+            "start": 8,
+            "end": 14
+          },
+          "syntax": {
+            "word": "תמונות",
+            "dep_head_idx": 0,
+            "dep_func": "nsubj",
+            "dep_head": "you"
+          },
+          "seg": [
+            "תמונות"
+          ],
+          "lex": "תמונה",
+          "morph": {
+            "token": "תמונות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ותגליות",
+          "offsets": {
+            "start": 15,
+            "end": 22
+          },
+          "syntax": {
+            "word": "ותגליות",
+            "dep_head_idx": 2,
+            "dep_func": "conj",
+            "dep_head": "תמונות"
+          },
+          "seg": [
+            "ו",
+            "תגליות"
+          ],
+          "lex": "תגלית",
+          "morph": {
+            "token": "ותגליות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מענינות",
+          "offsets": {
+            "start": 23,
+            "end": 30
+          },
+          "syntax": {
+            "word": "מענינות",
+            "dep_head_idx": 2,
+            "dep_func": "amod",
+            "dep_head": "תמונות"
+          },
+          "seg": [
+            "מענינות"
+          ],
+          "lex": "מעניין",
+          "morph": {
+            "token": "מענינות",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ממפגש",
+          "offsets": {
+            "start": 31,
+            "end": 36
+          },
+          "syntax": {
+            "word": "ממפגש",
+            "dep_head_idx": 2,
+            "dep_func": "nmod",
+            "dep_head": "תמונות"
+          },
+          "seg": [
+            "מ",
+            "מפגש"
+          ],
+          "lex": "מפגש",
+          "morph": {
+            "token": "ממפגש",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אוהד",
+          "offsets": {
+            "start": 37,
+            "end": 41
+          },
+          "syntax": {
+            "word": "אוהד",
+            "dep_head_idx": 5,
+            "dep_func": "compound:smixut",
+            "dep_head": "ממפגש"
+          },
+          "seg": [
+            "אוהד"
+          ],
+          "lex": "אוהד",
+          "morph": {
+            "token": "אוהד",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "rescued",
+          "offsets": {
+            "start": 42,
+            "end": 49
+          },
+          "syntax": {
+            "word": "rescued",
+            "dep_head_idx": 5,
+            "dep_func": "appos",
+            "dep_head": "ממפגש"
+          },
+          "seg": [
+            "rescued"
+          ],
+          "lex": "##led",
+          "morph": {
+            "token": "rescued",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "from",
+          "offsets": {
+            "start": 50,
+            "end": 54
+          },
+          "syntax": {
+            "word": "from",
+            "dep_head_idx": 9,
+            "dep_func": "case",
+            "dep_head": "t"
+          },
+          "seg": [
+            "from"
+          ],
+          "lex": "from",
+          "morph": {
+            "token": "from",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "t",
+          "offsets": {
+            "start": 55,
+            "end": 56
+          },
+          "syntax": {
+            "word": "t",
+            "dep_head_idx": 7,
+            "dep_func": "obl",
+            "dep_head": "rescued"
+          },
+          "seg": [
+            "t"
+          ],
+          "lex": "t",
+          "morph": {
+            "token": "t",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 56,
+            "end": 57
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 11,
+            "dep_func": "punct",
+            "dep_head": "chan"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "chan",
+          "offsets": {
+            "start": 57,
+            "end": 61
+          },
+          "syntax": {
+            "word": "chan",
+            "dep_head_idx": 9,
+            "dep_func": "flat",
+            "dep_head": "t"
+          },
+          "seg": [
+            "chan"
+          ],
+          "lex": "cha",
+          "morph": {
+            "token": "chan",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

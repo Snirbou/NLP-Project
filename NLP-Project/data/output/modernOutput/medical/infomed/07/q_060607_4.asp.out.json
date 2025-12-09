@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 1,
+    "sentence": "בדיקה שמצריכה פניה לאונקולוג \nהאם תוכלו לעזור לי בפיענוח CT לאחר טיפולים כימותרפיים ?",
+    "dicta": {
+      "text": "בדיקה שמצריכה פניה לאונקולוג \nהאם תוכלו לעזור לי בפיענוח CT לאחר טיפולים כימותרפיים ?",
+      "tokens": [
+        {
+          "token": "בדיקה",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "בדיקה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "?"
+          },
+          "seg": [
+            "בדיקה"
+          ],
+          "lex": "בדיקה",
+          "morph": {
+            "token": "בדיקה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שמצריכה",
+          "offsets": {
+            "start": 6,
+            "end": 13
+          },
+          "syntax": {
+            "word": "שמצריכה",
+            "dep_head_idx": 0,
+            "dep_func": "acl:relcl",
+            "dep_head": "בדיקה"
+          },
+          "seg": [
+            "ש",
+            "מצריכה"
+          ],
+          "lex": "מצריך",
+          "morph": {
+            "token": "שמצריכה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פניה",
+          "offsets": {
+            "start": 14,
+            "end": 18
+          },
+          "syntax": {
+            "word": "פניה",
+            "dep_head_idx": 1,
+            "dep_func": "obj",
+            "dep_head": "שמצריכה"
+          },
+          "seg": [
+            "פניה"
+          ],
+          "lex": "פנייה",
+          "morph": {
+            "token": "פניה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאונקולוג",
+          "offsets": {
+            "start": 19,
+            "end": 28
+          },
+          "syntax": {
+            "word": "לאונקולוג",
+            "dep_head_idx": 2,
+            "dep_func": "nmod",
+            "dep_head": "פניה"
+          },
+          "seg": [
+            "ל",
+            "אונקולוג"
+          ],
+          "lex": "קרדיולוג",
+          "morph": {
+            "token": "לאונקולוג",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "האם",
+          "offsets": {
+            "start": 30,
+            "end": 33
+          },
+          "syntax": {
+            "word": "האם",
+            "dep_head_idx": 6,
+            "dep_func": "mark:q",
+            "dep_head": "לעזור"
+          },
+          "seg": [
+            "האם"
+          ],
+          "lex": "אם",
+          "morph": {
+            "token": "האם",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תוכלו",
+          "offsets": {
+            "start": 34,
+            "end": 39
+          },
+          "syntax": {
+            "word": "תוכלו",
+            "dep_head_idx": 6,
+            "dep_func": "aux",
+            "dep_head": "לעזור"
+          },
+          "seg": [
+            "תוכלו"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "תוכלו",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לעזור",
+          "offsets": {
+            "start": 40,
+            "end": 45
+          },
+          "syntax": {
+            "word": "לעזור",
+            "dep_head_idx": 0,
+            "dep_func": "parataxis",
+            "dep_head": "בדיקה"
+          },
+          "seg": [
+            "לעזור"
+          ],
+          "lex": "עזר",
+          "morph": {
+            "token": "לעזור",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 46,
+            "end": 48
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 6,
+            "dep_func": "obl",
+            "dep_head": "לעזור"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בפיענוח",
+          "offsets": {
+            "start": 49,
+            "end": 56
+          },
+          "syntax": {
+            "word": "בפיענוח",
+            "dep_head_idx": 6,
+            "dep_func": "obl",
+            "dep_head": "לעזור"
+          },
+          "seg": [
+            "ב",
+            "פיענוח"
+          ],
+          "lex": "פענוח",
+          "morph": {
+            "token": "בפיענוח",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ct",
+          "offsets": {
+            "start": 57,
+            "end": 59
+          },
+          "syntax": {
+            "word": "ct",
+            "dep_head_idx": 8,
+            "dep_func": "compound:smixut",
+            "dep_head": "בפיענוח"
+          },
+          "seg": [
+            "ct"
+          ],
+          "lex": "ct",
+          "morph": {
+            "token": "ct",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאחר",
+          "offsets": {
+            "start": 60,
+            "end": 64
+          },
+          "syntax": {
+            "word": "לאחר",
+            "dep_head_idx": 11,
+            "dep_func": "case",
+            "dep_head": "טיפולים"
+          },
+          "seg": [
+            "לאחר"
+          ],
+          "lex": "לאחר",
+          "morph": {
+            "token": "לאחר",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "טיפולים",
+          "offsets": {
+            "start": 65,
+            "end": 72
+          },
+          "syntax": {
+            "word": "טיפולים",
+            "dep_head_idx": 8,
+            "dep_func": "nmod",
+            "dep_head": "בפיענוח"
+          },
+          "seg": [
+            "טיפולים"
+          ],
+          "lex": "טיפול",
+          "morph": {
+            "token": "טיפולים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כימותרפיים",
+          "offsets": {
+            "start": 73,
+            "end": 83
+          },
+          "syntax": {
+            "word": "כימותרפיים",
+            "dep_head_idx": 11,
+            "dep_func": "amod",
+            "dep_head": "טיפולים"
+          },
+          "seg": [
+            "כימותרפיים"
+          ],
+          "lex": "כימותרפי",
+          "morph": {
+            "token": "כימותרפיים",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "?",
+          "offsets": {
+            "start": 84,
+            "end": 85
+          },
+          "syntax": {
+            "word": "?",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "בדיקה"
+          },
+          "seg": [
+            "?"
+          ],
+          "lex": "?",
+          "morph": {
+            "token": "?",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "ה - CT הקודם היה נקי .",
+    "dicta": {
+      "text": "ה - CT הקודם היה נקי .",
+      "tokens": [
+        {
+          "token": "ה",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "ה",
+            "dep_head_idx": 2,
+            "dep_func": "det",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "ה"
+          ],
+          "lex": "ה",
+          "morph": {
+            "token": "ה",
+            "pos": "DET",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 2,
+            "end": 3
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "ה"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ct",
+          "offsets": {
+            "start": 4,
+            "end": 6
+          },
+          "syntax": {
+            "word": "ct",
+            "dep_head_idx": 5,
+            "dep_func": "nsubj",
+            "dep_head": "נקי"
+          },
+          "seg": [
+            "ct"
+          ],
+          "lex": "ct",
+          "morph": {
+            "token": "ct",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הקודם",
+          "offsets": {
+            "start": 7,
+            "end": 12
+          },
+          "syntax": {
+            "word": "הקודם",
+            "dep_head_idx": 2,
+            "dep_func": "amod",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "ה",
+            "קודם"
+          ],
+          "lex": "קודם",
+          "morph": {
+            "token": "הקודם",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היה",
+          "offsets": {
+            "start": 13,
+            "end": 16
+          },
+          "syntax": {
+            "word": "היה",
+            "dep_head_idx": 5,
+            "dep_func": "cop",
+            "dep_head": "נקי"
+          },
+          "seg": [
+            "היה"
+          ],
+          "lex": "היי",
+          "morph": {
+            "token": "היה",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "נקי",
+          "offsets": {
+            "start": 17,
+            "end": 20
+          },
+          "syntax": {
+            "word": "נקי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "נקי"
+          ],
+          "lex": "נקי",
+          "morph": {
+            "token": "נקי",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 21,
+            "end": 22
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 5,
+            "dep_func": "punct",
+            "dep_head": "נקי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 5,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "עכשיו התקבלה התשובה הבאה : \" בלוטה פרה אאורטלית מעט גדלה בהשוואה ל - CT הקודם , גברה ההסננה הפרה - סקראלית \" .",
+    "dicta": {
+      "text": "עכשיו התקבלה התשובה הבאה : \" בלוטה פרה אאורטלית מעט גדלה בהשוואה ל - CT הקודם , גברה ההסננה הפרה - סקראלית \" .",
+      "tokens": [
+        {
+          "token": "עכשיו",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "עכשיו",
+            "dep_head_idx": 1,
+            "dep_func": "advmod",
+            "dep_head": "התקבלה"
+          },
+          "seg": [
+            "עכשיו"
+          ],
+          "lex": "עכשיו",
+          "morph": {
+            "token": "עכשיו",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "התקבלה",
+          "offsets": {
+            "start": 6,
+            "end": 12
+          },
+          "syntax": {
+            "word": "התקבלה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "התקבלה"
+          ],
+          "lex": "התקבל",
+          "morph": {
+            "token": "התקבלה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "התשובה",
+          "offsets": {
+            "start": 13,
+            "end": 19
+          },
+          "syntax": {
+            "word": "התשובה",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "התקבלה"
+          },
+          "seg": [
+            "ה",
+            "תשובה"
+          ],
+          "lex": "תשובה",
+          "morph": {
+            "token": "התשובה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הבאה",
+          "offsets": {
+            "start": 20,
+            "end": 24
+          },
+          "syntax": {
+            "word": "הבאה",
+            "dep_head_idx": 2,
+            "dep_func": "amod",
+            "dep_head": "התשובה"
+          },
+          "seg": [
+            "ה",
+            "באה"
+          ],
+          "lex": "בא",
+          "morph": {
+            "token": "הבאה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 25,
+            "end": 26
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 10,
+            "dep_func": "punct",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 10,
+            "dep_func": "punct",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בלוטה",
+          "offsets": {
+            "start": 29,
+            "end": 34
+          },
+          "syntax": {
+            "word": "בלוטה",
+            "dep_head_idx": 10,
+            "dep_func": "nsubj",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "בלוטה"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "בלוטה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פרה",
+          "offsets": {
+            "start": 35,
+            "end": 38
+          },
+          "syntax": {
+            "word": "פרה",
+            "dep_head_idx": 8,
+            "dep_func": "compound:affix",
+            "dep_head": "אאורטלית"
+          },
+          "seg": [
+            "פרה"
+          ],
+          "lex": "פרה",
+          "morph": {
+            "token": "פרה",
+            "pos": "ADV",
+            "feats": {
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אאורטלית",
+          "offsets": {
+            "start": 39,
+            "end": 47
+          },
+          "syntax": {
+            "word": "אאורטלית",
+            "dep_head_idx": 6,
+            "dep_func": "amod",
+            "dep_head": "בלוטה"
+          },
+          "seg": [
+            "אאורטלית"
+          ],
+          "lex": "סרטני",
+          "morph": {
+            "token": "אאורטלית",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מעט",
+          "offsets": {
+            "start": 48,
+            "end": 51
+          },
+          "syntax": {
+            "word": "מעט",
+            "dep_head_idx": 10,
+            "dep_func": "advmod",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "מעט"
+          ],
+          "lex": "מעט",
+          "morph": {
+            "token": "מעט",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "גדלה",
+          "offsets": {
+            "start": 52,
+            "end": 56
+          },
+          "syntax": {
+            "word": "גדלה",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "התקבלה"
+          },
+          "seg": [
+            "גדלה"
+          ],
+          "lex": "גדל",
+          "morph": {
+            "token": "גדלה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בהשוואה",
+          "offsets": {
+            "start": 57,
+            "end": 64
+          },
+          "syntax": {
+            "word": "בהשוואה",
+            "dep_head_idx": 14,
+            "dep_func": "case",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "ב",
+            "השוואה"
+          ],
+          "lex": "השוואה",
+          "morph": {
+            "token": "בהשוואה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ל",
+          "offsets": {
+            "start": 65,
+            "end": 66
+          },
+          "syntax": {
+            "word": "ל",
+            "dep_head_idx": 14,
+            "dep_func": "case",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "ל"
+          ],
+          "lex": "מול",
+          "morph": {
+            "token": "ל",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 67,
+            "end": 68
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 14,
+            "dep_func": "punct",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ct",
+          "offsets": {
+            "start": 69,
+            "end": 71
+          },
+          "syntax": {
+            "word": "ct",
+            "dep_head_idx": 10,
+            "dep_func": "obl",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "ct"
+          ],
+          "lex": "ct",
+          "morph": {
+            "token": "ct",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הקודם",
+          "offsets": {
+            "start": 72,
+            "end": 77
+          },
+          "syntax": {
+            "word": "הקודם",
+            "dep_head_idx": 14,
+            "dep_func": "amod",
+            "dep_head": "ct"
+          },
+          "seg": [
+            "ה",
+            "קודם"
+          ],
+          "lex": "קודם",
+          "morph": {
+            "token": "הקודם",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 78,
+            "end": 79
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 17,
+            "dep_func": "punct",
+            "dep_head": "גברה"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "גברה",
+          "offsets": {
+            "start": 80,
+            "end": 84
+          },
+          "syntax": {
+            "word": "גברה",
+            "dep_head_idx": 10,
+            "dep_func": "parataxis",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "גברה"
+          ],
+          "lex": "התגבר",
+          "morph": {
+            "token": "גברה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ההסננה",
+          "offsets": {
+            "start": 85,
+            "end": 91
+          },
+          "syntax": {
+            "word": "ההסננה",
+            "dep_head_idx": 17,
+            "dep_func": "nsubj",
+            "dep_head": "גברה"
+          },
+          "seg": [
+            "ה",
+            "הסננה"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "ההסננה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הפרה",
+          "offsets": {
+            "start": 92,
+            "end": 96
+          },
+          "syntax": {
+            "word": "הפרה",
+            "dep_head_idx": 21,
+            "dep_func": "compound:affix",
+            "dep_head": "סקראלית"
+          },
+          "seg": [
+            "ה",
+            "פרה"
+          ],
+          "lex": "פרה",
+          "morph": {
+            "token": "הפרה",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 97,
+            "end": 98
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 19,
+            "dep_func": "punct",
+            "dep_head": "הפרה"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סקראלית",
+          "offsets": {
+            "start": 99,
+            "end": 106
+          },
+          "syntax": {
+            "word": "סקראלית",
+            "dep_head_idx": 18,
+            "dep_func": "amod",
+            "dep_head": "ההסננה"
+          },
+          "seg": [
+            "סקראלית"
+          ],
+          "lex": "סרטני",
+          "morph": {
+            "token": "סקראלית",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 107,
+            "end": 108
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 10,
+            "dep_func": "punct",
+            "dep_head": "גדלה"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 109,
+            "end": 110
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "התקבלה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 4,
+    "sentence": "ההסננה חשודה , יש להתייעץ עם אונקולוג עוקב .",
+    "dicta": {
+      "text": "ההסננה חשודה , יש להתייעץ עם אונקולוג עוקב .",
+      "tokens": [
+        {
+          "token": "ההסננה",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "ההסננה",
+            "dep_head_idx": 3,
+            "dep_func": "obl",
+            "dep_head": "יש"
+          },
+          "seg": [
+            "ה",
+            "הסננה"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "ההסננה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חשודה",
+          "offsets": {
+            "start": 7,
+            "end": 12
+          },
+          "syntax": {
+            "word": "חשודה",
+            "dep_head_idx": 0,
+            "dep_func": "amod",
+            "dep_head": "ההסננה"
+          },
+          "seg": [
+            "חשודה"
+          ],
+          "lex": "חשוד",
+          "morph": {
+            "token": "חשודה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "ההסננה"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יש",
+          "offsets": {
+            "start": 15,
+            "end": 17
+          },
+          "syntax": {
+            "word": "יש",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "יש"
+          ],
+          "lex": "יש",
+          "morph": {
+            "token": "יש",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "להתייעץ",
+          "offsets": {
+            "start": 18,
+            "end": 25
+          },
+          "syntax": {
+            "word": "להתייעץ",
+            "dep_head_idx": 3,
+            "dep_func": "csubj",
+            "dep_head": "יש"
+          },
+          "seg": [
+            "להתייעץ"
+          ],
+          "lex": "התייעץ",
+          "morph": {
+            "token": "להתייעץ",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עם",
+          "offsets": {
+            "start": 26,
+            "end": 28
+          },
+          "syntax": {
+            "word": "עם",
+            "dep_head_idx": 6,
+            "dep_func": "case",
+            "dep_head": "אונקולוג"
+          },
+          "seg": [
+            "עם"
+          ],
+          "lex": "עם",
+          "morph": {
+            "token": "עם",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אונקולוג",
+          "offsets": {
+            "start": 29,
+            "end": 37
+          },
+          "syntax": {
+            "word": "אונקולוג",
+            "dep_head_idx": 4,
+            "dep_func": "obl",
+            "dep_head": "להתייעץ"
+          },
+          "seg": [
+            "אונקולוג"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "אונקולוג",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עוקב",
+          "offsets": {
+            "start": 38,
+            "end": 42
+          },
+          "syntax": {
+            "word": "עוקב",
+            "dep_head_idx": 6,
+            "dep_func": "amod",
+            "dep_head": "אונקולוג"
+          },
+          "seg": [
+            "עוקב"
+          ],
+          "lex": "עוקב",
+          "morph": {
+            "token": "עוקב",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 43,
+            "end": 44
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "יש"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 3,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 5,
+    "sentence": "דר משה ארוך - רופא משפחה ומתמחה ברפואת ספורט",
+    "dicta": {
+      "text": "דר משה ארוך - רופא משפחה ומתמחה ברפואת ספורט",
+      "tokens": [
+        {
+          "token": "דר",
+          "offsets": {
+            "start": 0,
+            "end": 2
+          },
+          "syntax": {
+            "word": "דר",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "ספורט"
+          },
+          "seg": [
+            "דר"
+          ],
+          "lex": "דר",
+          "morph": {
+            "token": "דר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "משה",
+          "offsets": {
+            "start": 3,
+            "end": 6
+          },
+          "syntax": {
+            "word": "משה",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "דר"
+          },
+          "seg": [
+            "משה"
+          ],
+          "lex": "משה",
+          "morph": {
+            "token": "משה",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ארוך",
+          "offsets": {
+            "start": 7,
+            "end": 11
+          },
+          "syntax": {
+            "word": "ארוך",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "דר"
+          },
+          "seg": [
+            "ארוך"
+          ],
+          "lex": "ארוך",
+          "morph": {
+            "token": "ארוך",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "רופא"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "רופא",
+          "offsets": {
+            "start": 14,
+            "end": 18
+          },
+          "syntax": {
+            "word": "רופא",
+            "dep_head_idx": 0,
+            "dep_func": "appos",
+            "dep_head": "דר"
+          },
+          "seg": [
+            "רופא"
+          ],
+          "lex": "רופא",
+          "morph": {
+            "token": "רופא",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "משפחה",
+          "offsets": {
+            "start": 19,
+            "end": 24
+          },
+          "syntax": {
+            "word": "משפחה",
+            "dep_head_idx": 4,
+            "dep_func": "compound:smixut",
+            "dep_head": "רופא"
+          },
+          "seg": [
+            "משפחה"
+          ],
+          "lex": "משפחה",
+          "morph": {
+            "token": "משפחה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ומתמחה",
+          "offsets": {
+            "start": 25,
+            "end": 31
+          },
+          "syntax": {
+            "word": "ומתמחה",
+            "dep_head_idx": 4,
+            "dep_func": "conj",
+            "dep_head": "רופא"
+          },
+          "seg": [
+            "ו",
+            "מתמחה"
+          ],
+          "lex": "מתמחה",
+          "morph": {
+            "token": "ומתמחה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ברפואת",
+          "offsets": {
+            "start": 32,
+            "end": 38
+          },
+          "syntax": {
+            "word": "ברפואת",
+            "dep_head_idx": 6,
+            "dep_func": "obl",
+            "dep_head": "ומתמחה"
+          },
+          "seg": [
+            "ב",
+            "רפואת"
+          ],
+          "lex": "רפואה",
+          "morph": {
+            "token": "ברפואת",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ספורט",
+          "offsets": {
+            "start": 39,
+            "end": 44
+          },
+          "syntax": {
+            "word": "ספורט",
+            "dep_head_idx": 7,
+            "dep_func": "compound:smixut",
+            "dep_head": "ברפואת"
+          },
+          "seg": [
+            "ספורט"
+          ],
+          "lex": "ספורט",
+          "morph": {
+            "token": "ספורט",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "דר",
+          "label": "TTL",
+          "start": 0,
+          "end": 2,
+          "token_start": 0,
+          "token_end": 0
+        },
+        {
+          "phrase": "משה ארוך",
+          "label": "PER",
+          "start": 3,
+          "end": 11,
+          "token_start": 1,
+          "token_end": 2
+        }
+      ]
+    }
+  }
+]

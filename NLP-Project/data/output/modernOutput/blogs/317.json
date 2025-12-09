@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "sentence": "הכנתי כפתור .",
+    "dicta": {
+      "text": "הכנתי כפתור .",
+      "tokens": [
+        {
+          "token": "הכנתי",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "הכנתי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "הכנתי"
+          ],
+          "lex": "תכנן",
+          "morph": {
+            "token": "הכנתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כפתור",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "כפתור",
+            "dep_head_idx": 0,
+            "dep_func": "obj",
+            "dep_head": "הכנתי"
+          },
+          "seg": [
+            "כפתור"
+          ],
+          "lex": "כפתור",
+          "morph": {
+            "token": "כפתור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "הכנתי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "פלאשבקים מהברמצווה .",
+    "dicta": {
+      "text": "פלאשבקים מהברמצווה .",
+      "tokens": [
+        {
+          "token": "פלאשבקים",
+          "offsets": {
+            "start": 0,
+            "end": 8
+          },
+          "syntax": {
+            "word": "פלאשבקים",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "פלאשבקים"
+          ],
+          "lex": "פלאשבקים",
+          "morph": {
+            "token": "פלאשבקים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מהברמצווה",
+          "offsets": {
+            "start": 9,
+            "end": 18
+          },
+          "syntax": {
+            "word": "מהברמצווה",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "פלאשבקים"
+          },
+          "seg": [
+            "מה",
+            "ברמצווה"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "מהברמצווה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 19,
+            "end": 20
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "פלאשבקים"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

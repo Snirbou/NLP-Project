@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "sentence": "הקשר ביני ובין החיים האלה מקרי בהחלט .",
+    "dicta": {
+      "text": "הקשר ביני ובין החיים האלה מקרי בהחלט .",
+      "tokens": [
+        {
+          "token": "הקשר",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "הקשר",
+            "dep_head_idx": 5,
+            "dep_func": "nsubj",
+            "dep_head": "מקרי"
+          },
+          "seg": [
+            "ה",
+            "קשר"
+          ],
+          "lex": "קשר",
+          "morph": {
+            "token": "הקשר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ביני",
+          "offsets": {
+            "start": 5,
+            "end": 9
+          },
+          "syntax": {
+            "word": "ביני",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "הקשר"
+          },
+          "seg": [
+            "ביני"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "ביני",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "ובין",
+          "offsets": {
+            "start": 10,
+            "end": 14
+          },
+          "syntax": {
+            "word": "ובין",
+            "dep_head_idx": 3,
+            "dep_func": "case",
+            "dep_head": "החיים"
+          },
+          "seg": [
+            "ו",
+            "בין"
+          ],
+          "lex": "בין",
+          "morph": {
+            "token": "ובין",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "החיים",
+          "offsets": {
+            "start": 15,
+            "end": 20
+          },
+          "syntax": {
+            "word": "החיים",
+            "dep_head_idx": 1,
+            "dep_func": "conj",
+            "dep_head": "ביני"
+          },
+          "seg": [
+            "ה",
+            "חיים"
+          ],
+          "lex": "חי",
+          "morph": {
+            "token": "החיים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "האלה",
+          "offsets": {
+            "start": 21,
+            "end": 25
+          },
+          "syntax": {
+            "word": "האלה",
+            "dep_head_idx": 3,
+            "dep_func": "det",
+            "dep_head": "החיים"
+          },
+          "seg": [
+            "ה",
+            "אלה"
+          ],
+          "lex": "אלה",
+          "morph": {
+            "token": "האלה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מקרי",
+          "offsets": {
+            "start": 26,
+            "end": 30
+          },
+          "syntax": {
+            "word": "מקרי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "מקרי"
+          ],
+          "lex": "מקרה",
+          "morph": {
+            "token": "מקרי",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בהחלט",
+          "offsets": {
+            "start": 31,
+            "end": 36
+          },
+          "syntax": {
+            "word": "בהחלט",
+            "dep_head_idx": 5,
+            "dep_func": "advmod",
+            "dep_head": "מקרי"
+          },
+          "seg": [
+            "בהחלט"
+          ],
+          "lex": "בהחלט",
+          "morph": {
+            "token": "בהחלט",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 37,
+            "end": 38
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 5,
+            "dep_func": "punct",
+            "dep_head": "מקרי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 5,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "ואל תתנו לי כלי נשק , זה יסתיים בהשמדה המונית של אזרחי מדינה עלובה זו .",
+    "dicta": {
+      "text": "ואל תתנו לי כלי נשק , זה יסתיים בהשמדה המונית של אזרחי מדינה עלובה זו .",
+      "tokens": [
+        {
+          "token": "ואל",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "ואל",
+            "dep_head_idx": 1,
+            "dep_func": "advmod",
+            "dep_head": "תתנו"
+          },
+          "seg": [
+            "ו",
+            "אל"
+          ],
+          "lex": "אל",
+          "morph": {
+            "token": "ואל",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תתנו",
+          "offsets": {
+            "start": 4,
+            "end": 8
+          },
+          "syntax": {
+            "word": "תתנו",
+            "dep_head_idx": 7,
+            "dep_func": "advcl",
+            "dep_head": "יסתיים"
+          },
+          "seg": [
+            "תתנו"
+          ],
+          "lex": "נתן",
+          "morph": {
+            "token": "תתנו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 9,
+            "end": 11
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "תתנו"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כלי",
+          "offsets": {
+            "start": 12,
+            "end": 15
+          },
+          "syntax": {
+            "word": "כלי",
+            "dep_head_idx": 1,
+            "dep_func": "obj",
+            "dep_head": "תתנו"
+          },
+          "seg": [
+            "כלי"
+          ],
+          "lex": "כלי",
+          "morph": {
+            "token": "כלי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "נשק",
+          "offsets": {
+            "start": 16,
+            "end": 19
+          },
+          "syntax": {
+            "word": "נשק",
+            "dep_head_idx": 3,
+            "dep_func": "compound:smixut",
+            "dep_head": "כלי"
+          },
+          "seg": [
+            "נשק"
+          ],
+          "lex": "נשק",
+          "morph": {
+            "token": "נשק",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 20,
+            "end": 21
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 7,
+            "dep_func": "punct",
+            "dep_head": "יסתיים"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זה",
+          "offsets": {
+            "start": 22,
+            "end": 24
+          },
+          "syntax": {
+            "word": "זה",
+            "dep_head_idx": 7,
+            "dep_func": "nsubj",
+            "dep_head": "יסתיים"
+          },
+          "seg": [
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "זה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יסתיים",
+          "offsets": {
+            "start": 25,
+            "end": 31
+          },
+          "syntax": {
+            "word": "יסתיים",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "יסתיים"
+          ],
+          "lex": "הסתיים",
+          "morph": {
+            "token": "יסתיים",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בהשמדה",
+          "offsets": {
+            "start": 32,
+            "end": 38
+          },
+          "syntax": {
+            "word": "בהשמדה",
+            "dep_head_idx": 7,
+            "dep_func": "obl",
+            "dep_head": "יסתיים"
+          },
+          "seg": [
+            "ב",
+            "השמדה"
+          ],
+          "lex": "השמדה",
+          "morph": {
+            "token": "בהשמדה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המונית",
+          "offsets": {
+            "start": 39,
+            "end": 45
+          },
+          "syntax": {
+            "word": "המונית",
+            "dep_head_idx": 8,
+            "dep_func": "amod",
+            "dep_head": "בהשמדה"
+          },
+          "seg": [
+            "ה",
+            "מונית"
+          ],
+          "lex": "המוני",
+          "morph": {
+            "token": "המונית",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "של",
+          "offsets": {
+            "start": 46,
+            "end": 48
+          },
+          "syntax": {
+            "word": "של",
+            "dep_head_idx": 11,
+            "dep_func": "case:gen",
+            "dep_head": "אזרחי"
+          },
+          "seg": [
+            "של"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "של",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אזרחי",
+          "offsets": {
+            "start": 49,
+            "end": 54
+          },
+          "syntax": {
+            "word": "אזרחי",
+            "dep_head_idx": 8,
+            "dep_func": "nmod:poss",
+            "dep_head": "בהשמדה"
+          },
+          "seg": [
+            "אזרחי"
+          ],
+          "lex": "אזרח",
+          "morph": {
+            "token": "אזרחי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מדינה",
+          "offsets": {
+            "start": 55,
+            "end": 60
+          },
+          "syntax": {
+            "word": "מדינה",
+            "dep_head_idx": 11,
+            "dep_func": "compound:smixut",
+            "dep_head": "אזרחי"
+          },
+          "seg": [
+            "מדינה"
+          ],
+          "lex": "מדינה",
+          "morph": {
+            "token": "מדינה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עלובה",
+          "offsets": {
+            "start": 61,
+            "end": 66
+          },
+          "syntax": {
+            "word": "עלובה",
+            "dep_head_idx": 12,
+            "dep_func": "amod",
+            "dep_head": "מדינה"
+          },
+          "seg": [
+            "עלובה"
+          ],
+          "lex": "עלוב",
+          "morph": {
+            "token": "עלובה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זו",
+          "offsets": {
+            "start": 67,
+            "end": 69
+          },
+          "syntax": {
+            "word": "זו",
+            "dep_head_idx": 12,
+            "dep_func": "det",
+            "dep_head": "מדינה"
+          },
+          "seg": [
+            "זו"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "זו",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 70,
+            "end": 71
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 7,
+            "dep_func": "punct",
+            "dep_head": "יסתיים"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 7,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "my happiness .",
+    "dicta": {
+      "text": "my happiness .",
+      "tokens": [
+        {
+          "token": "my",
+          "offsets": {
+            "start": 0,
+            "end": 2
+          },
+          "syntax": {
+            "word": "my",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "my"
+          ],
+          "lex": "my",
+          "morph": {
+            "token": "my",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "happiness",
+          "offsets": {
+            "start": 3,
+            "end": 12
+          },
+          "syntax": {
+            "word": "happiness",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "my"
+          },
+          "seg": [
+            "happiness"
+          ],
+          "lex": "intelligence",
+          "morph": {
+            "token": "happiness",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "my"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

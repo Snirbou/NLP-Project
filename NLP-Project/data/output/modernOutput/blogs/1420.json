@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "sentence": "השלמתי את חובתי בשירות הצבאי היום התגייסתי לאזרחות מחדש .",
+    "dicta": {
+      "text": "השלמתי את חובתי בשירות הצבאי היום התגייסתי לאזרחות מחדש .",
+      "tokens": [
+        {
+          "token": "השלמתי",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "השלמתי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "השלמתי"
+          ],
+          "lex": "השלים",
+          "morph": {
+            "token": "השלמתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 7,
+            "end": 9
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 2,
+            "dep_func": "case:acc",
+            "dep_head": "חובתי"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חובתי",
+          "offsets": {
+            "start": 10,
+            "end": 15
+          },
+          "syntax": {
+            "word": "חובתי",
+            "dep_head_idx": 0,
+            "dep_func": "obj",
+            "dep_head": "השלמתי"
+          },
+          "seg": [
+            "חובתי"
+          ],
+          "lex": "חובה",
+          "morph": {
+            "token": "חובתי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "בשירות",
+          "offsets": {
+            "start": 16,
+            "end": 22
+          },
+          "syntax": {
+            "word": "בשירות",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "השלמתי"
+          },
+          "seg": [
+            "ב",
+            "שירות"
+          ],
+          "lex": "שירות",
+          "morph": {
+            "token": "בשירות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הצבאי",
+          "offsets": {
+            "start": 23,
+            "end": 28
+          },
+          "syntax": {
+            "word": "הצבאי",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "בשירות"
+          },
+          "seg": [
+            "ה",
+            "צבאי"
+          ],
+          "lex": "צבאי",
+          "morph": {
+            "token": "הצבאי",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היום",
+          "offsets": {
+            "start": 29,
+            "end": 33
+          },
+          "syntax": {
+            "word": "היום",
+            "dep_head_idx": 6,
+            "dep_func": "advmod",
+            "dep_head": "התגייסתי"
+          },
+          "seg": [
+            "ה",
+            "יום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "היום",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "התגייסתי",
+          "offsets": {
+            "start": 34,
+            "end": 42
+          },
+          "syntax": {
+            "word": "התגייסתי",
+            "dep_head_idx": 0,
+            "dep_func": "parataxis",
+            "dep_head": "השלמתי"
+          },
+          "seg": [
+            "התגייסתי"
+          ],
+          "lex": "התגייס",
+          "morph": {
+            "token": "התגייסתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאזרחות",
+          "offsets": {
+            "start": 43,
+            "end": 50
+          },
+          "syntax": {
+            "word": "לאזרחות",
+            "dep_head_idx": 6,
+            "dep_func": "obl",
+            "dep_head": "התגייסתי"
+          },
+          "seg": [
+            "ל",
+            "אזרחות"
+          ],
+          "lex": "אזרחות",
+          "morph": {
+            "token": "לאזרחות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מחדש",
+          "offsets": {
+            "start": 51,
+            "end": 55
+          },
+          "syntax": {
+            "word": "מחדש",
+            "dep_head_idx": 6,
+            "dep_func": "advmod",
+            "dep_head": "התגייסתי"
+          },
+          "seg": [
+            "מחדש"
+          ],
+          "lex": "חדש",
+          "morph": {
+            "token": "מחדש",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 56,
+            "end": 57
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "השלמתי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "נפלא !",
+    "dicta": {
+      "text": "נפלא !",
+      "tokens": [
+        {
+          "token": "נפלא",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "נפלא",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "נפלא"
+          ],
+          "lex": "נפלא",
+          "morph": {
+            "token": "נפלא",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 5,
+            "end": 6
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "נפלא"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

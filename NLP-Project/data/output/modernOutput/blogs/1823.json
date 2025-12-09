@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "sentence": "לעזאזל , כמעט שכחתי !",
+    "dicta": {
+      "text": "לעזאזל , כמעט שכחתי !",
+      "tokens": [
+        {
+          "token": "לעזאזל",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "לעזאזל",
+            "dep_head_idx": 3,
+            "dep_func": "advmod",
+            "dep_head": "שכחתי"
+          },
+          "seg": [
+            "ל",
+            "עזאזל"
+          ],
+          "lex": "לעזאזל",
+          "morph": {
+            "token": "לעזאזל",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 7,
+            "end": 8
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "לעזאזל"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כמעט",
+          "offsets": {
+            "start": 9,
+            "end": 13
+          },
+          "syntax": {
+            "word": "כמעט",
+            "dep_head_idx": 3,
+            "dep_func": "advmod",
+            "dep_head": "שכחתי"
+          },
+          "seg": [
+            "כמעט"
+          ],
+          "lex": "כמעט",
+          "morph": {
+            "token": "כמעט",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שכחתי",
+          "offsets": {
+            "start": 14,
+            "end": 19
+          },
+          "syntax": {
+            "word": "שכחתי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "שכחתי"
+          ],
+          "lex": "ושכח",
+          "morph": {
+            "token": "שכחתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 20,
+            "end": 21
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "שכחתי"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 3,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "הנה מה שהם מוסרים :",
+    "dicta": {
+      "text": "הנה מה שהם מוסרים :",
+      "tokens": [
+        {
+          "token": "הנה",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "הנה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ":"
+          },
+          "seg": [
+            "הנה"
+          ],
+          "lex": "הנה",
+          "morph": {
+            "token": "הנה",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מה",
+          "offsets": {
+            "start": 4,
+            "end": 6
+          },
+          "syntax": {
+            "word": "מה",
+            "dep_head_idx": 0,
+            "dep_func": "nsubj",
+            "dep_head": "הנה"
+          },
+          "seg": [
+            "מה"
+          ],
+          "lex": "מה",
+          "morph": {
+            "token": "מה",
+            "pos": "PRON",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שהם",
+          "offsets": {
+            "start": 7,
+            "end": 10
+          },
+          "syntax": {
+            "word": "שהם",
+            "dep_head_idx": 3,
+            "dep_func": "nsubj",
+            "dep_head": "מוסרים"
+          },
+          "seg": [
+            "ש",
+            "הם"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "שהם",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מוסרים",
+          "offsets": {
+            "start": 11,
+            "end": 17
+          },
+          "syntax": {
+            "word": "מוסרים",
+            "dep_head_idx": 1,
+            "dep_func": "acl:relcl",
+            "dep_head": "מה"
+          },
+          "seg": [
+            "מוסרים"
+          ],
+          "lex": "מסיר",
+          "morph": {
+            "token": "מוסרים",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 18,
+            "end": 19
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "הנה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

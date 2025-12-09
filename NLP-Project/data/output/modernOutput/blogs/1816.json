@@ -1,0 +1,621 @@
+[
+  {
+    "id": 1,
+    "sentence": "ע\"י הריסת שמונה בתים במזרח ירושלים , רק מאז סיום וועידת אנאפוליס .",
+    "dicta": {
+      "text": "ע\"י הריסת שמונה בתים במזרח ירושלים , רק מאז סיום וועידת אנאפוליס .",
+      "tokens": [
+        {
+          "token": "ע\"י",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "ע\"י",
+            "dep_head_idx": 1,
+            "dep_func": "case",
+            "dep_head": "הריסת"
+          },
+          "seg": [
+            "ע\"י"
+          ],
+          "lex": "ע\"י",
+          "morph": {
+            "token": "ע\"י",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הריסת",
+          "offsets": {
+            "start": 4,
+            "end": 9
+          },
+          "syntax": {
+            "word": "הריסת",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "הריסת"
+          ],
+          "lex": "הריסה",
+          "morph": {
+            "token": "הריסת",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שמונה",
+          "offsets": {
+            "start": 10,
+            "end": 15
+          },
+          "syntax": {
+            "word": "שמונה",
+            "dep_head_idx": 3,
+            "dep_func": "nummod",
+            "dep_head": "בתים"
+          },
+          "seg": [
+            "שמונה"
+          ],
+          "lex": "שמונה",
+          "morph": {
+            "token": "שמונה",
+            "pos": "NUM",
+            "feats": {
+              "Gender": "Masc"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בתים",
+          "offsets": {
+            "start": 16,
+            "end": 20
+          },
+          "syntax": {
+            "word": "בתים",
+            "dep_head_idx": 1,
+            "dep_func": "compound:smixut",
+            "dep_head": "הריסת"
+          },
+          "seg": [
+            "בתים"
+          ],
+          "lex": "בית",
+          "morph": {
+            "token": "בתים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "במזרח",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "במזרח",
+            "dep_head_idx": 3,
+            "dep_func": "nmod",
+            "dep_head": "בתים"
+          },
+          "seg": [
+            "ב",
+            "מזרח"
+          ],
+          "lex": "מזרח",
+          "morph": {
+            "token": "במזרח",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ירושלים",
+          "offsets": {
+            "start": 27,
+            "end": 34
+          },
+          "syntax": {
+            "word": "ירושלים",
+            "dep_head_idx": 4,
+            "dep_func": "compound:smixut",
+            "dep_head": "במזרח"
+          },
+          "seg": [
+            "ירושלים"
+          ],
+          "lex": "ירושלים",
+          "morph": {
+            "token": "ירושלים",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 35,
+            "end": 36
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 9,
+            "dep_func": "punct",
+            "dep_head": "סיום"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "רק",
+          "offsets": {
+            "start": 37,
+            "end": 39
+          },
+          "syntax": {
+            "word": "רק",
+            "dep_head_idx": 9,
+            "dep_func": "advmod",
+            "dep_head": "סיום"
+          },
+          "seg": [
+            "רק"
+          ],
+          "lex": "רק",
+          "morph": {
+            "token": "רק",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מאז",
+          "offsets": {
+            "start": 40,
+            "end": 43
+          },
+          "syntax": {
+            "word": "מאז",
+            "dep_head_idx": 9,
+            "dep_func": "case",
+            "dep_head": "סיום"
+          },
+          "seg": [
+            "מאז"
+          ],
+          "lex": "אז",
+          "morph": {
+            "token": "מאז",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סיום",
+          "offsets": {
+            "start": 44,
+            "end": 48
+          },
+          "syntax": {
+            "word": "סיום",
+            "dep_head_idx": 1,
+            "dep_func": "nmod",
+            "dep_head": "הריסת"
+          },
+          "seg": [
+            "סיום"
+          ],
+          "lex": "סיום",
+          "morph": {
+            "token": "סיום",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "וועידת",
+          "offsets": {
+            "start": 49,
+            "end": 55
+          },
+          "syntax": {
+            "word": "וועידת",
+            "dep_head_idx": 9,
+            "dep_func": "compound:smixut",
+            "dep_head": "סיום"
+          },
+          "seg": [
+            "ו",
+            "ועידת"
+          ],
+          "lex": "ועידה",
+          "morph": {
+            "token": "וועידת",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אנאפוליס",
+          "offsets": {
+            "start": 56,
+            "end": 64
+          },
+          "syntax": {
+            "word": "אנאפוליס",
+            "dep_head_idx": 10,
+            "dep_func": "compound:smixut",
+            "dep_head": "וועידת"
+          },
+          "seg": [
+            "אנאפוליס"
+          ],
+          "lex": "אנאפוליס",
+          "morph": {
+            "token": "אנאפוליס",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 65,
+            "end": 66
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "הריסת"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": [
+        {
+          "phrase": "במזרח ירושלים",
+          "label": "LOC",
+          "start": 21,
+          "end": 34,
+          "token_start": 4,
+          "token_end": 5
+        },
+        {
+          "phrase": "וועידת אנאפוליס",
+          "label": "EVE",
+          "start": 49,
+          "end": 64,
+          "token_start": 10,
+          "token_end": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "אין ספק שזה שולח לפלסטינים את המסר הנכון .",
+    "dicta": {
+      "text": "אין ספק שזה שולח לפלסטינים את המסר הנכון .",
+      "tokens": [
+        {
+          "token": "אין",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אין",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אין"
+          ],
+          "lex": "אין",
+          "morph": {
+            "token": "אין",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ספק",
+          "offsets": {
+            "start": 4,
+            "end": 7
+          },
+          "syntax": {
+            "word": "ספק",
+            "dep_head_idx": 0,
+            "dep_func": "nsubj",
+            "dep_head": "אין"
+          },
+          "seg": [
+            "ספק"
+          ],
+          "lex": "ספק",
+          "morph": {
+            "token": "ספק",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שזה",
+          "offsets": {
+            "start": 8,
+            "end": 11
+          },
+          "syntax": {
+            "word": "שזה",
+            "dep_head_idx": 3,
+            "dep_func": "nsubj",
+            "dep_head": "שולח"
+          },
+          "seg": [
+            "ש",
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "שזה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שולח",
+          "offsets": {
+            "start": 12,
+            "end": 16
+          },
+          "syntax": {
+            "word": "שולח",
+            "dep_head_idx": 1,
+            "dep_func": "acl:relcl",
+            "dep_head": "ספק"
+          },
+          "seg": [
+            "שולח"
+          ],
+          "lex": "שולח",
+          "morph": {
+            "token": "שולח",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לפלסטינים",
+          "offsets": {
+            "start": 17,
+            "end": 26
+          },
+          "syntax": {
+            "word": "לפלסטינים",
+            "dep_head_idx": 3,
+            "dep_func": "obl",
+            "dep_head": "שולח"
+          },
+          "seg": [
+            "ל",
+            "פלסטינים"
+          ],
+          "lex": "פלסטיני",
+          "morph": {
+            "token": "לפלסטינים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 27,
+            "end": 29
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 6,
+            "dep_func": "case:acc",
+            "dep_head": "המסר"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המסר",
+          "offsets": {
+            "start": 30,
+            "end": 34
+          },
+          "syntax": {
+            "word": "המסר",
+            "dep_head_idx": 3,
+            "dep_func": "obj",
+            "dep_head": "שולח"
+          },
+          "seg": [
+            "ה",
+            "מסר"
+          ],
+          "lex": "מסר",
+          "morph": {
+            "token": "המסר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הנכון",
+          "offsets": {
+            "start": 35,
+            "end": 40
+          },
+          "syntax": {
+            "word": "הנכון",
+            "dep_head_idx": 6,
+            "dep_func": "amod",
+            "dep_head": "המסר"
+          },
+          "seg": [
+            "ה",
+            "נכון"
+          ],
+          "lex": "נכון",
+          "morph": {
+            "token": "הנכון",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 41,
+            "end": 42
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "אין"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "sentence": "התכוונתי לקחת את השאלון ההשראתי של עמית האלמנה אבל אין לי כח .",
+    "dicta": {
+      "text": "התכוונתי לקחת את השאלון ההשראתי של עמית האלמנה אבל אין לי כח .",
+      "tokens": [
+        {
+          "token": "התכוונתי",
+          "offsets": {
+            "start": 0,
+            "end": 8
+          },
+          "syntax": {
+            "word": "התכוונתי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "התכוונתי"
+          ],
+          "lex": "התכוון",
+          "morph": {
+            "token": "התכוונתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לקחת",
+          "offsets": {
+            "start": 9,
+            "end": 13
+          },
+          "syntax": {
+            "word": "לקחת",
+            "dep_head_idx": 0,
+            "dep_func": "xcomp",
+            "dep_head": "התכוונתי"
+          },
+          "seg": [
+            "לקחת"
+          ],
+          "lex": "לקח",
+          "morph": {
+            "token": "לקחת",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 14,
+            "end": 16
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 3,
+            "dep_func": "case:acc",
+            "dep_head": "השאלון"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "השאלון",
+          "offsets": {
+            "start": 17,
+            "end": 23
+          },
+          "syntax": {
+            "word": "השאלון",
+            "dep_head_idx": 1,
+            "dep_func": "obj",
+            "dep_head": "לקחת"
+          },
+          "seg": [
+            "ה",
+            "שאלון"
+          ],
+          "lex": "שאלון",
+          "morph": {
+            "token": "השאלון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ההשראתי",
+          "offsets": {
+            "start": 24,
+            "end": 31
+          },
+          "syntax": {
+            "word": "ההשראתי",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "השאלון"
+          },
+          "seg": [
+            "ה",
+            "השראתי"
+          ],
+          "lex": "השראה",
+          "morph": {
+            "token": "ההשראתי",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "של",
+          "offsets": {
+            "start": 32,
+            "end": 34
+          },
+          "syntax": {
+            "word": "של",
+            "dep_head_idx": 6,
+            "dep_func": "case:gen",
+            "dep_head": "עמית"
+          },
+          "seg": [
+            "של"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "של",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עמית",
+          "offsets": {
+            "start": 35,
+            "end": 39
+          },
+          "syntax": {
+            "word": "עמית",
+            "dep_head_idx": 3,
+            "dep_func": "nmod:poss",
+            "dep_head": "השאלון"
+          },
+          "seg": [
+            "עמית"
+          ],
+          "lex": "עמית",
+          "morph": {
+            "token": "עמית",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "האלמנה",
+          "offsets": {
+            "start": 40,
+            "end": 46
+          },
+          "syntax": {
+            "word": "האלמנה",
+            "dep_head_idx": 6,
+            "dep_func": "appos",
+            "dep_head": "עמית"
+          },
+          "seg": [
+            "ה",
+            "אלמנה"
+          ],
+          "lex": "אלמנה",
+          "morph": {
+            "token": "האלמנה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אבל",
+          "offsets": {
+            "start": 47,
+            "end": 50
+          },
+          "syntax": {
+            "word": "אבל",
+            "dep_head_idx": 9,
+            "dep_func": "cc",
+            "dep_head": "אין"
+          },
+          "seg": [
+            "אבל"
+          ],
+          "lex": "אבל",
+          "morph": {
+            "token": "אבל",
+            "pos": "CCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אין",
+          "offsets": {
+            "start": 51,
+            "end": 54
+          },
+          "syntax": {
+            "word": "אין",
+            "dep_head_idx": 0,
+            "dep_func": "conj",
+            "dep_head": "התכוונתי"
+          },
+          "seg": [
+            "אין"
+          ],
+          "lex": "אין",
+          "morph": {
+            "token": "אין",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 55,
+            "end": 57
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 9,
+            "dep_func": "obl",
+            "dep_head": "אין"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כח",
+          "offsets": {
+            "start": 58,
+            "end": 60
+          },
+          "syntax": {
+            "word": "כח",
+            "dep_head_idx": 9,
+            "dep_func": "nsubj",
+            "dep_head": "אין"
+          },
+          "seg": [
+            "כח"
+          ],
+          "lex": "כוח",
+          "morph": {
+            "token": "כח",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 61,
+            "end": 62
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "התכוונתי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "עמית",
+          "label": "PER",
+          "start": 35,
+          "end": 39,
+          "token_start": 6,
+          "token_end": 6
+        }
+      ]
+    }
+  }
+]

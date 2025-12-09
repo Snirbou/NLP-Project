@@ -1,0 +1,944 @@
+[
+  {
+    "id": 1,
+    "sentence": "שוחררה לחלל האוויר הפיסקה הראשונה בספר האחרון של הארי פוטר - Harry Potter and the Deathly Hallows .",
+    "dicta": {
+      "text": "שוחררה לחלל האוויר הפיסקה הראשונה בספר האחרון של הארי פוטר - Harry Potter and the Deathly Hallows .",
+      "tokens": [
+        {
+          "token": "שוחררה",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "שוחררה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "שוחררה"
+          ],
+          "lex": "שוחרר",
+          "morph": {
+            "token": "שוחררה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לחלל",
+          "offsets": {
+            "start": 7,
+            "end": 11
+          },
+          "syntax": {
+            "word": "לחלל",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "שוחררה"
+          },
+          "seg": [
+            "ל",
+            "חלל"
+          ],
+          "lex": "חלל",
+          "morph": {
+            "token": "לחלל",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "האוויר",
+          "offsets": {
+            "start": 12,
+            "end": 18
+          },
+          "syntax": {
+            "word": "האוויר",
+            "dep_head_idx": 1,
+            "dep_func": "compound:smixut",
+            "dep_head": "לחלל"
+          },
+          "seg": [
+            "ה",
+            "אוויר"
+          ],
+          "lex": "אוויר",
+          "morph": {
+            "token": "האוויר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הפיסקה",
+          "offsets": {
+            "start": 19,
+            "end": 25
+          },
+          "syntax": {
+            "word": "הפיסקה",
+            "dep_head_idx": 0,
+            "dep_func": "nsubj",
+            "dep_head": "שוחררה"
+          },
+          "seg": [
+            "ה",
+            "פיסקה"
+          ],
+          "lex": "פסקה",
+          "morph": {
+            "token": "הפיסקה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הראשונה",
+          "offsets": {
+            "start": 26,
+            "end": 33
+          },
+          "syntax": {
+            "word": "הראשונה",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "הפיסקה"
+          },
+          "seg": [
+            "ה",
+            "ראשונה"
+          ],
+          "lex": "ראשון",
+          "morph": {
+            "token": "הראשונה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בספר",
+          "offsets": {
+            "start": 34,
+            "end": 38
+          },
+          "syntax": {
+            "word": "בספר",
+            "dep_head_idx": 3,
+            "dep_func": "nmod",
+            "dep_head": "הפיסקה"
+          },
+          "seg": [
+            "ב",
+            "ספר"
+          ],
+          "lex": "ספר",
+          "morph": {
+            "token": "בספר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "האחרון",
+          "offsets": {
+            "start": 39,
+            "end": 45
+          },
+          "syntax": {
+            "word": "האחרון",
+            "dep_head_idx": 5,
+            "dep_func": "amod",
+            "dep_head": "בספר"
+          },
+          "seg": [
+            "ה",
+            "אחרון"
+          ],
+          "lex": "אחרון",
+          "morph": {
+            "token": "האחרון",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "של",
+          "offsets": {
+            "start": 46,
+            "end": 48
+          },
+          "syntax": {
+            "word": "של",
+            "dep_head_idx": 8,
+            "dep_func": "case:gen",
+            "dep_head": "הארי"
+          },
+          "seg": [
+            "של"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "של",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הארי",
+          "offsets": {
+            "start": 49,
+            "end": 53
+          },
+          "syntax": {
+            "word": "הארי",
+            "dep_head_idx": 5,
+            "dep_func": "nmod:poss",
+            "dep_head": "בספר"
+          },
+          "seg": [
+            "הארי"
+          ],
+          "lex": "הארי",
+          "morph": {
+            "token": "הארי",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פוטר",
+          "offsets": {
+            "start": 54,
+            "end": 58
+          },
+          "syntax": {
+            "word": "פוטר",
+            "dep_head_idx": 8,
+            "dep_func": "flat",
+            "dep_head": "הארי"
+          },
+          "seg": [
+            "פוטר"
+          ],
+          "lex": "פוטר",
+          "morph": {
+            "token": "פוטר",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 59,
+            "end": 60
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 11,
+            "dep_func": "punct",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "harry",
+          "offsets": {
+            "start": 61,
+            "end": 66
+          },
+          "syntax": {
+            "word": "harry",
+            "dep_head_idx": 5,
+            "dep_func": "appos",
+            "dep_head": "בספר"
+          },
+          "seg": [
+            "harry"
+          ],
+          "lex": "great",
+          "morph": {
+            "token": "harry",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "potter",
+          "offsets": {
+            "start": 67,
+            "end": 73
+          },
+          "syntax": {
+            "word": "potter",
+            "dep_head_idx": 11,
+            "dep_func": "flat",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "potter"
+          ],
+          "lex": "pot",
+          "morph": {
+            "token": "potter",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "and",
+          "offsets": {
+            "start": 74,
+            "end": 77
+          },
+          "syntax": {
+            "word": "and",
+            "dep_head_idx": 11,
+            "dep_func": "flat",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "and"
+          ],
+          "lex": "and",
+          "morph": {
+            "token": "and",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "the",
+          "offsets": {
+            "start": 78,
+            "end": 81
+          },
+          "syntax": {
+            "word": "the",
+            "dep_head_idx": 11,
+            "dep_func": "flat",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "the"
+          ],
+          "lex": "the",
+          "morph": {
+            "token": "the",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "deathly",
+          "offsets": {
+            "start": 82,
+            "end": 89
+          },
+          "syntax": {
+            "word": "deathly",
+            "dep_head_idx": 11,
+            "dep_func": "flat",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "deathly"
+          ],
+          "lex": "great",
+          "morph": {
+            "token": "deathly",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "hallows",
+          "offsets": {
+            "start": 90,
+            "end": 97
+          },
+          "syntax": {
+            "word": "hallows",
+            "dep_head_idx": 11,
+            "dep_func": "flat",
+            "dep_head": "harry"
+          },
+          "seg": [
+            "hallows"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "hallows",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 98,
+            "end": 99
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "שוחררה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "הארי פוטר",
+          "label": "WOA",
+          "start": 49,
+          "end": 58,
+          "token_start": 8,
+          "token_end": 9
+        },
+        {
+          "phrase": "har pot and the death",
+          "label": "WOA",
+          "start": 61,
+          "end": 89,
+          "token_start": 11,
+          "token_end": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "יופי , ככה אפשר יהיה לזהות את סריקות ה - PDF המזויפות .",
+    "dicta": {
+      "text": "יופי , ככה אפשר יהיה לזהות את סריקות ה - PDF המזויפות .",
+      "tokens": [
+        {
+          "token": "יופי",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "יופי",
+            "dep_head_idx": 3,
+            "dep_func": "discourse",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "יופי"
+          ],
+          "lex": "יופי",
+          "morph": {
+            "token": "יופי",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 5,
+            "end": 6
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "יופי"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ככה",
+          "offsets": {
+            "start": 7,
+            "end": 10
+          },
+          "syntax": {
+            "word": "ככה",
+            "dep_head_idx": 3,
+            "dep_func": "advmod",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "ככה"
+          ],
+          "lex": "ככה",
+          "morph": {
+            "token": "ככה",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אפשר",
+          "offsets": {
+            "start": 11,
+            "end": 15
+          },
+          "syntax": {
+            "word": "אפשר",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אפשר"
+          ],
+          "lex": "אפשר",
+          "morph": {
+            "token": "אפשר",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יהיה",
+          "offsets": {
+            "start": 16,
+            "end": 20
+          },
+          "syntax": {
+            "word": "יהיה",
+            "dep_head_idx": 3,
+            "dep_func": "aux",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "יהיה"
+          ],
+          "lex": "היי",
+          "morph": {
+            "token": "יהיה",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לזהות",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "לזהות",
+            "dep_head_idx": 3,
+            "dep_func": "csubj",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "לזהות"
+          ],
+          "lex": "זיהה",
+          "morph": {
+            "token": "לזהות",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 27,
+            "end": 29
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 7,
+            "dep_func": "case:acc",
+            "dep_head": "סריקות"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סריקות",
+          "offsets": {
+            "start": 30,
+            "end": 36
+          },
+          "syntax": {
+            "word": "סריקות",
+            "dep_head_idx": 5,
+            "dep_func": "obj",
+            "dep_head": "לזהות"
+          },
+          "seg": [
+            "סריקות"
+          ],
+          "lex": "סריקה",
+          "morph": {
+            "token": "סריקות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ה",
+          "offsets": {
+            "start": 37,
+            "end": 38
+          },
+          "syntax": {
+            "word": "ה",
+            "dep_head_idx": 10,
+            "dep_func": "det",
+            "dep_head": "pdf"
+          },
+          "seg": [
+            "ה"
+          ],
+          "lex": "ה",
+          "morph": {
+            "token": "ה",
+            "pos": "DET",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 39,
+            "end": 40
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 8,
+            "dep_func": "punct",
+            "dep_head": "ה"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "pdf",
+          "offsets": {
+            "start": 41,
+            "end": 44
+          },
+          "syntax": {
+            "word": "pdf",
+            "dep_head_idx": 7,
+            "dep_func": "compound:smixut",
+            "dep_head": "סריקות"
+          },
+          "seg": [
+            "pdf"
+          ],
+          "lex": "pdf",
+          "morph": {
+            "token": "pdf",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המזויפות",
+          "offsets": {
+            "start": 45,
+            "end": 53
+          },
+          "syntax": {
+            "word": "המזויפות",
+            "dep_head_idx": 7,
+            "dep_func": "amod",
+            "dep_head": "סריקות"
+          },
+          "seg": [
+            "ה",
+            "מזויפות"
+          ],
+          "lex": "מזויף",
+          "morph": {
+            "token": "המזויפות",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 54,
+            "end": 55
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 3,
+      "ner_entities": [
+        {
+          "phrase": "pdf",
+          "label": "DUC",
+          "start": 41,
+          "end": 44,
+          "token_start": 10,
+          "token_end": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "ולהלן הפיסקה :",
+    "dicta": {
+      "text": "ולהלן הפיסקה :",
+      "tokens": [
+        {
+          "token": "ולהלן",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ולהלן",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ":"
+          },
+          "seg": [
+            "ו",
+            "להלן"
+          ],
+          "lex": "להלן",
+          "morph": {
+            "token": "ולהלן",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הפיסקה",
+          "offsets": {
+            "start": 6,
+            "end": 12
+          },
+          "syntax": {
+            "word": "הפיסקה",
+            "dep_head_idx": 0,
+            "dep_func": "nsubj",
+            "dep_head": "ולהלן"
+          },
+          "seg": [
+            "ה",
+            "פיסקה"
+          ],
+          "lex": "פסקה",
+          "morph": {
+            "token": "הפיסקה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "ולהלן"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

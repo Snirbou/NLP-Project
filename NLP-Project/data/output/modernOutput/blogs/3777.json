@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "sentence": "אני והיא עומדות כאן במבחן .",
+    "dicta": {
+      "text": "אני והיא עומדות כאן במבחן .",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 2,
+            "dep_func": "nsubj",
+            "dep_head": "עומדות"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "והיא",
+          "offsets": {
+            "start": 4,
+            "end": 8
+          },
+          "syntax": {
+            "word": "והיא",
+            "dep_head_idx": 0,
+            "dep_func": "conj",
+            "dep_head": "אני"
+          },
+          "seg": [
+            "ו",
+            "היא"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "והיא",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עומדות",
+          "offsets": {
+            "start": 9,
+            "end": 15
+          },
+          "syntax": {
+            "word": "עומדות",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "עומדות"
+          ],
+          "lex": "עומד",
+          "morph": {
+            "token": "עומדות",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur",
+              "Person": "1",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כאן",
+          "offsets": {
+            "start": 16,
+            "end": 19
+          },
+          "syntax": {
+            "word": "כאן",
+            "dep_head_idx": 2,
+            "dep_func": "advmod",
+            "dep_head": "עומדות"
+          },
+          "seg": [
+            "כאן"
+          ],
+          "lex": "כאן",
+          "morph": {
+            "token": "כאן",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "במבחן",
+          "offsets": {
+            "start": 20,
+            "end": 25
+          },
+          "syntax": {
+            "word": "במבחן",
+            "dep_head_idx": 2,
+            "dep_func": "obl",
+            "dep_head": "עומדות"
+          },
+          "seg": [
+            "ב",
+            "מבחן"
+          ],
+          "lex": "מבחן",
+          "morph": {
+            "token": "במבחן",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 26,
+            "end": 27
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "עומדות"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 2,
+      "ner_entities": []
+    }
+  }
+]

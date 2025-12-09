@@ -1,0 +1,1536 @@
+[
+  {
+    "id": 1,
+    "sentence": "[ אתמול .",
+    "dicta": {
+      "text": "[ אתמול .",
+      "tokens": [
+        {
+          "token": "[",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "[",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "אתמול"
+          },
+          "seg": [
+            "["
+          ],
+          "lex": "[",
+          "morph": {
+            "token": "[",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אתמול",
+          "offsets": {
+            "start": 2,
+            "end": 7
+          },
+          "syntax": {
+            "word": "אתמול",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אתמול"
+          ],
+          "lex": "אתמול",
+          "morph": {
+            "token": "אתמול",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 8,
+            "end": 9
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "אתמול"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "נסיעה במכונית עם אבא .",
+    "dicta": {
+      "text": "נסיעה במכונית עם אבא .",
+      "tokens": [
+        {
+          "token": "נסיעה",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "נסיעה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "נסיעה"
+          ],
+          "lex": "נסיעה",
+          "morph": {
+            "token": "נסיעה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "במכונית",
+          "offsets": {
+            "start": 6,
+            "end": 13
+          },
+          "syntax": {
+            "word": "במכונית",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "נסיעה"
+          },
+          "seg": [
+            "ב",
+            "מכונית"
+          ],
+          "lex": "מכונית",
+          "morph": {
+            "token": "במכונית",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עם",
+          "offsets": {
+            "start": 14,
+            "end": 16
+          },
+          "syntax": {
+            "word": "עם",
+            "dep_head_idx": 3,
+            "dep_func": "case",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            "עם"
+          ],
+          "lex": "עם",
+          "morph": {
+            "token": "עם",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אבא",
+          "offsets": {
+            "start": 17,
+            "end": 20
+          },
+          "syntax": {
+            "word": "אבא",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "נסיעה"
+          },
+          "seg": [
+            "אבא"
+          ],
+          "lex": "אבא",
+          "morph": {
+            "token": "אבא",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 21,
+            "end": 22
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "נסיעה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "ברדיו מתנגן ה \" כמעט סופשבוע בגלגלצ \" ] אני : \" חה חה אבא תראה איזו טעות , היום רק יום שלישי והם כבר שמים את ה \" כמעט סופשבוע שלהם .",
+    "dicta": {
+      "text": "ברדיו מתנגן ה \" כמעט סופשבוע בגלגלצ \" ] אני : \" חה חה אבא תראה איזו טעות , היום רק יום שלישי והם כבר שמים את ה \" כמעט סופשבוע שלהם .",
+      "tokens": [
+        {
+          "token": "ברדיו",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ברדיו",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "מתנגן"
+          },
+          "seg": [
+            "ב",
+            "רדיו"
+          ],
+          "lex": "רדיו",
+          "morph": {
+            "token": "ברדיו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מתנגן",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "מתנגן",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "מתנגן"
+          ],
+          "lex": "מתנגן",
+          "morph": {
+            "token": "מתנגן",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ה",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": "ה",
+            "dep_head_idx": 5,
+            "dep_func": "det",
+            "dep_head": "סופשבוע"
+          },
+          "seg": [
+            "ה"
+          ],
+          "lex": "ה",
+          "morph": {
+            "token": "ה",
+            "pos": "DET",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 14,
+            "end": 15
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "כמעט"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כמעט",
+          "offsets": {
+            "start": 16,
+            "end": 20
+          },
+          "syntax": {
+            "word": "כמעט",
+            "dep_head_idx": 5,
+            "dep_func": "advmod",
+            "dep_head": "סופשבוע"
+          },
+          "seg": [
+            "כמעט"
+          ],
+          "lex": "כמעט",
+          "morph": {
+            "token": "כמעט",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סופשבוע",
+          "offsets": {
+            "start": 21,
+            "end": 28
+          },
+          "syntax": {
+            "word": "סופשבוע",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "מתנגן"
+          },
+          "seg": [
+            "סופשבוע"
+          ],
+          "lex": "סופשבוע",
+          "morph": {
+            "token": "סופשבוע",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בגלגלצ",
+          "offsets": {
+            "start": 29,
+            "end": 35
+          },
+          "syntax": {
+            "word": "בגלגלצ",
+            "dep_head_idx": 5,
+            "dep_func": "nmod",
+            "dep_head": "סופשבוע"
+          },
+          "seg": [
+            "ב",
+            "גלגלצ"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "בגלגלצ",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 36,
+            "end": 37
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "כמעט"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "]",
+          "offsets": {
+            "start": 38,
+            "end": 39
+          },
+          "syntax": {
+            "word": "]",
+            "dep_head_idx": 9,
+            "dep_func": "punct",
+            "dep_head": "אני"
+          },
+          "seg": [
+            "]"
+          ],
+          "lex": "]",
+          "morph": {
+            "token": "]",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 40,
+            "end": 43
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "מתנגן"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 44,
+            "end": 45
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 9,
+            "dep_func": "punct",
+            "dep_head": "אני"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 46,
+            "end": 47
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 9,
+            "dep_func": "punct",
+            "dep_head": "אני"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חה",
+          "offsets": {
+            "start": 48,
+            "end": 50
+          },
+          "syntax": {
+            "word": "חה",
+            "dep_head_idx": 15,
+            "dep_func": "discourse",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "חה"
+          ],
+          "lex": "חה",
+          "morph": {
+            "token": "חה",
+            "pos": "INTJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חה",
+          "offsets": {
+            "start": 51,
+            "end": 53
+          },
+          "syntax": {
+            "word": "חה",
+            "dep_head_idx": 21,
+            "dep_func": "advmod",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "חה"
+          ],
+          "lex": "חה",
+          "morph": {
+            "token": "חה",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אבא",
+          "offsets": {
+            "start": 54,
+            "end": 57
+          },
+          "syntax": {
+            "word": "אבא",
+            "dep_head_idx": 15,
+            "dep_func": "vocative",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "אבא"
+          ],
+          "lex": "אבא",
+          "morph": {
+            "token": "אבא",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תראה",
+          "offsets": {
+            "start": 58,
+            "end": 62
+          },
+          "syntax": {
+            "word": "תראה",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "מתנגן"
+          },
+          "seg": [
+            "תראה"
+          ],
+          "lex": "הראה",
+          "morph": {
+            "token": "תראה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "2",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "איזו",
+          "offsets": {
+            "start": 63,
+            "end": 67
+          },
+          "syntax": {
+            "word": "איזו",
+            "dep_head_idx": 17,
+            "dep_func": "det",
+            "dep_head": "טעות"
+          },
+          "seg": [
+            "איזו"
+          ],
+          "lex": "איזה",
+          "morph": {
+            "token": "איזו",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "טעות",
+          "offsets": {
+            "start": 68,
+            "end": 72
+          },
+          "syntax": {
+            "word": "טעות",
+            "dep_head_idx": 15,
+            "dep_func": "obj",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "טעות"
+          ],
+          "lex": "טעות",
+          "morph": {
+            "token": "טעות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 73,
+            "end": 74
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 21,
+            "dep_func": "punct",
+            "dep_head": "יום"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היום",
+          "offsets": {
+            "start": 75,
+            "end": 79
+          },
+          "syntax": {
+            "word": "היום",
+            "dep_head_idx": 21,
+            "dep_func": "advmod",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "ה",
+            "יום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "היום",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "רק",
+          "offsets": {
+            "start": 80,
+            "end": 82
+          },
+          "syntax": {
+            "word": "רק",
+            "dep_head_idx": 21,
+            "dep_func": "advmod",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "רק"
+          ],
+          "lex": "רק",
+          "morph": {
+            "token": "רק",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יום",
+          "offsets": {
+            "start": 83,
+            "end": 86
+          },
+          "syntax": {
+            "word": "יום",
+            "dep_head_idx": 15,
+            "dep_func": "parataxis",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "יום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "יום",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שלישי",
+          "offsets": {
+            "start": 87,
+            "end": 92
+          },
+          "syntax": {
+            "word": "שלישי",
+            "dep_head_idx": 21,
+            "dep_func": "compound:smixut",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "שלישי"
+          ],
+          "lex": "שלושה",
+          "morph": {
+            "token": "שלישי",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "והם",
+          "offsets": {
+            "start": 93,
+            "end": 96
+          },
+          "syntax": {
+            "word": "והם",
+            "dep_head_idx": 21,
+            "dep_func": "nsubj",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "ו",
+            "הם"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "והם",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כבר",
+          "offsets": {
+            "start": 97,
+            "end": 100
+          },
+          "syntax": {
+            "word": "כבר",
+            "dep_head_idx": 25,
+            "dep_func": "advmod",
+            "dep_head": "שמים"
+          },
+          "seg": [
+            "כבר"
+          ],
+          "lex": "כבר",
+          "morph": {
+            "token": "כבר",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שמים",
+          "offsets": {
+            "start": 101,
+            "end": 105
+          },
+          "syntax": {
+            "word": "שמים",
+            "dep_head_idx": 15,
+            "dep_func": "advcl",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "שמים"
+          ],
+          "lex": "שם",
+          "morph": {
+            "token": "שמים",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 106,
+            "end": 108
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 17,
+            "dep_func": "case:acc",
+            "dep_head": "טעות"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ה",
+          "offsets": {
+            "start": 109,
+            "end": 110
+          },
+          "syntax": {
+            "word": "ה",
+            "dep_head_idx": 17,
+            "dep_func": "det",
+            "dep_head": "טעות"
+          },
+          "seg": [
+            "ה"
+          ],
+          "lex": "ה",
+          "morph": {
+            "token": "ה",
+            "pos": "DET",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 111,
+            "end": 112
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 29,
+            "dep_func": "punct",
+            "dep_head": "כמעט"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כמעט",
+          "offsets": {
+            "start": 113,
+            "end": 117
+          },
+          "syntax": {
+            "word": "כמעט",
+            "dep_head_idx": 30,
+            "dep_func": "advmod",
+            "dep_head": "סופשבוע"
+          },
+          "seg": [
+            "כמעט"
+          ],
+          "lex": "כמעט",
+          "morph": {
+            "token": "כמעט",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סופשבוע",
+          "offsets": {
+            "start": 118,
+            "end": 125
+          },
+          "syntax": {
+            "word": "סופשבוע",
+            "dep_head_idx": 25,
+            "dep_func": "obj",
+            "dep_head": "שמים"
+          },
+          "seg": [
+            "סופשבוע"
+          ],
+          "lex": "סופשבוע",
+          "morph": {
+            "token": "סופשבוע",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שלהם",
+          "offsets": {
+            "start": 126,
+            "end": 130
+          },
+          "syntax": {
+            "word": "שלהם",
+            "dep_head_idx": 30,
+            "dep_func": "nmod:poss",
+            "dep_head": "סופשבוע"
+          },
+          "seg": [
+            "שלהם"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "שלהם",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            }
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 131,
+            "end": 132
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "מתנגן"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": [
+        {
+          "phrase": "בגלגל",
+          "label": "DUC",
+          "start": 29,
+          "end": 35,
+          "token_start": 6,
+          "token_end": 6
+        },
+        {
+          "phrase": "יום שלישי",
+          "label": "TIMEX",
+          "start": 83,
+          "end": 92,
+          "token_start": 21,
+          "token_end": 22
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "sentence": "\" \" אבא : \" היום יום חמישי .",
+    "dicta": {
+      "text": "\" \" אבא : \" היום יום חמישי .",
+      "tokens": [
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 2,
+            "end": 3
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אבא",
+          "offsets": {
+            "start": 4,
+            "end": 7
+          },
+          "syntax": {
+            "word": "אבא",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אבא"
+          ],
+          "lex": "אבא",
+          "morph": {
+            "token": "אבא",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 8,
+            "end": 9
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 10,
+            "end": 11
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 6,
+            "dep_func": "punct",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היום",
+          "offsets": {
+            "start": 12,
+            "end": 16
+          },
+          "syntax": {
+            "word": "היום",
+            "dep_head_idx": 6,
+            "dep_func": "advmod",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "היום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "היום",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יום",
+          "offsets": {
+            "start": 17,
+            "end": 20
+          },
+          "syntax": {
+            "word": "יום",
+            "dep_head_idx": 2,
+            "dep_func": "parataxis",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            "יום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "יום",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חמישי",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "חמישי",
+            "dep_head_idx": 6,
+            "dep_func": "compound:smixut",
+            "dep_head": "יום"
+          },
+          "seg": [
+            "חמישי"
+          ],
+          "lex": "חמישה",
+          "morph": {
+            "token": "חמישי",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "אבא"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 2,
+      "ner_entities": [
+        {
+          "phrase": "יום",
+          "label": "TIMEX",
+          "start": 17,
+          "end": 20,
+          "token_start": 6,
+          "token_end": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "sentence": "\" אז סופ\"ש רביעי שמח לכם .",
+    "dicta": {
+      "text": "\" אז סופ\"ש רביעי שמח לכם .",
+      "tokens": [
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "שמח"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אז",
+          "offsets": {
+            "start": 2,
+            "end": 4
+          },
+          "syntax": {
+            "word": "אז",
+            "dep_head_idx": 4,
+            "dep_func": "advmod",
+            "dep_head": "שמח"
+          },
+          "seg": [
+            "אז"
+          ],
+          "lex": "אז",
+          "morph": {
+            "token": "אז",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "סופ\"ש",
+          "offsets": {
+            "start": 5,
+            "end": 10
+          },
+          "syntax": {
+            "word": "סופ\"ש",
+            "dep_head_idx": 4,
+            "dep_func": "nsubj",
+            "dep_head": "שמח"
+          },
+          "seg": [
+            "סופ\"ש"
+          ],
+          "lex": "סופ\"ש",
+          "morph": {
+            "token": "סופ\"ש",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "רביעי",
+          "offsets": {
+            "start": 11,
+            "end": 16
+          },
+          "syntax": {
+            "word": "רביעי",
+            "dep_head_idx": 2,
+            "dep_func": "amod",
+            "dep_head": "סופ\"ש"
+          },
+          "seg": [
+            "רביעי"
+          ],
+          "lex": "רביעי",
+          "morph": {
+            "token": "רביעי",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שמח",
+          "offsets": {
+            "start": 17,
+            "end": 20
+          },
+          "syntax": {
+            "word": "שמח",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "שמח"
+          ],
+          "lex": "שמח",
+          "morph": {
+            "token": "שמח",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לכם",
+          "offsets": {
+            "start": 21,
+            "end": 24
+          },
+          "syntax": {
+            "word": "לכם",
+            "dep_head_idx": 4,
+            "dep_func": "obl",
+            "dep_head": "שמח"
+          },
+          "seg": [
+            "לכם"
+          ],
+          "lex": "לו",
+          "morph": {
+            "token": "לכם",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 25,
+            "end": 26
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "שמח"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 4,
+      "ner_entities": []
+    }
+  }
+]

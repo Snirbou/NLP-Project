@@ -1,0 +1,700 @@
+[
+  {
+    "id": 1,
+    "sentence": "לעתים אני זקוק שתהיי כרוכה אחרי , תינקי בצמא את דברי , תחבקי , לעתים , אחרות , אני זקוק לזה שתהיי כרוכה לי תינקי",
+    "dicta": {
+      "text": "לעתים אני זקוק שתהיי כרוכה אחרי , תינקי בצמא את דברי , תחבקי , לעתים , אחרות , אני זקוק לזה שתהיי כרוכה לי תינקי",
+      "tokens": [
+        {
+          "token": "לעתים",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "לעתים",
+            "dep_head_idx": 2,
+            "dep_func": "advmod",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "לעתים"
+          ],
+          "lex": "עת",
+          "morph": {
+            "token": "לעתים",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 6,
+            "end": 9
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 2,
+            "dep_func": "nsubj",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זקוק",
+          "offsets": {
+            "start": 10,
+            "end": 14
+          },
+          "syntax": {
+            "word": "זקוק",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "זקוק"
+          ],
+          "lex": "זקוק",
+          "morph": {
+            "token": "זקוק",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1,2,3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שתהיי",
+          "offsets": {
+            "start": 15,
+            "end": 20
+          },
+          "syntax": {
+            "word": "שתהיי",
+            "dep_head_idx": 4,
+            "dep_func": "cop",
+            "dep_head": "כרוכה"
+          },
+          "seg": [
+            "ש",
+            "תהיי"
+          ],
+          "lex": "היי",
+          "morph": {
+            "token": "שתהיי",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כרוכה",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "כרוכה",
+            "dep_head_idx": 7,
+            "dep_func": "advcl",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "כרוכה"
+          ],
+          "lex": "כרוך",
+          "morph": {
+            "token": "כרוכה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1,2,3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אחרי",
+          "offsets": {
+            "start": 27,
+            "end": 31
+          },
+          "syntax": {
+            "word": "אחרי",
+            "dep_head_idx": 4,
+            "dep_func": "advmod",
+            "dep_head": "כרוכה"
+          },
+          "seg": [
+            "אחרי"
+          ],
+          "lex": "אחרי",
+          "morph": {
+            "token": "אחרי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 32,
+            "end": 33
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 7,
+            "dep_func": "punct",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תינקי",
+          "offsets": {
+            "start": 34,
+            "end": 39
+          },
+          "syntax": {
+            "word": "תינקי",
+            "dep_head_idx": 2,
+            "dep_func": "parataxis",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "תינקי"
+          ],
+          "lex": "שתת",
+          "morph": {
+            "token": "תינקי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בצמא",
+          "offsets": {
+            "start": 40,
+            "end": 44
+          },
+          "syntax": {
+            "word": "בצמא",
+            "dep_head_idx": 7,
+            "dep_func": "obl",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "ב",
+            "צמא"
+          ],
+          "lex": "צמא",
+          "morph": {
+            "token": "בצמא",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 45,
+            "end": 47
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 10,
+            "dep_func": "case:acc",
+            "dep_head": "דברי"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "דברי",
+          "offsets": {
+            "start": 48,
+            "end": 52
+          },
+          "syntax": {
+            "word": "דברי",
+            "dep_head_idx": 7,
+            "dep_func": "obj",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "דברי"
+          ],
+          "lex": "דבר",
+          "morph": {
+            "token": "דברי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 53,
+            "end": 54
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 7,
+            "dep_func": "punct",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תחבקי",
+          "offsets": {
+            "start": 55,
+            "end": 60
+          },
+          "syntax": {
+            "word": "תחבקי",
+            "dep_head_idx": 2,
+            "dep_func": "parataxis",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "תחבקי"
+          ],
+          "lex": "חיבק",
+          "morph": {
+            "token": "תחבקי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 61,
+            "end": 62
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 14,
+            "dep_func": "punct",
+            "dep_head": "לעתים"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לעתים",
+          "offsets": {
+            "start": 63,
+            "end": 68
+          },
+          "syntax": {
+            "word": "לעתים",
+            "dep_head_idx": 7,
+            "dep_func": "advmod",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "לעתים"
+          ],
+          "lex": "עת",
+          "morph": {
+            "token": "לעתים",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 69,
+            "end": 70
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 14,
+            "dep_func": "punct",
+            "dep_head": "לעתים"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אחרות",
+          "offsets": {
+            "start": 71,
+            "end": 76
+          },
+          "syntax": {
+            "word": "אחרות",
+            "dep_head_idx": 7,
+            "dep_func": "nsubj",
+            "dep_head": "תינקי"
+          },
+          "seg": [
+            "אחרות"
+          ],
+          "lex": "אחר",
+          "morph": {
+            "token": "אחרות",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 77,
+            "end": 78
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 16,
+            "dep_func": "punct",
+            "dep_head": "אחרות"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 79,
+            "end": 82
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 19,
+            "dep_func": "nsubj",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זקוק",
+          "offsets": {
+            "start": 83,
+            "end": 87
+          },
+          "syntax": {
+            "word": "זקוק",
+            "dep_head_idx": 2,
+            "dep_func": "parataxis",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "זקוק"
+          ],
+          "lex": "זקוק",
+          "morph": {
+            "token": "זקוק",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1,2,3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לזה",
+          "offsets": {
+            "start": 88,
+            "end": 91
+          },
+          "syntax": {
+            "word": "לזה",
+            "dep_head_idx": 19,
+            "dep_func": "obl",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "ל",
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "לזה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שתהיי",
+          "offsets": {
+            "start": 92,
+            "end": 97
+          },
+          "syntax": {
+            "word": "שתהיי",
+            "dep_head_idx": 20,
+            "dep_func": "acl:relcl",
+            "dep_head": "לזה"
+          },
+          "seg": [
+            "ש",
+            "תהיי"
+          ],
+          "lex": "היי",
+          "morph": {
+            "token": "שתהיי",
+            "pos": "AUX",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כרוכה",
+          "offsets": {
+            "start": 98,
+            "end": 103
+          },
+          "syntax": {
+            "word": "כרוכה",
+            "dep_head_idx": 20,
+            "dep_func": "acl:relcl",
+            "dep_head": "לזה"
+          },
+          "seg": [
+            "כרוכה"
+          ],
+          "lex": "כרוך",
+          "morph": {
+            "token": "כרוכה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 104,
+            "end": 106
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 21,
+            "dep_func": "obl",
+            "dep_head": "שתהיי"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "תינקי",
+          "offsets": {
+            "start": 107,
+            "end": 112
+          },
+          "syntax": {
+            "word": "תינקי",
+            "dep_head_idx": 2,
+            "dep_func": "parataxis",
+            "dep_head": "זקוק"
+          },
+          "seg": [
+            "תינקי"
+          ],
+          "lex": "התחנן",
+          "morph": {
+            "token": "תינקי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 2,
+      "ner_entities": []
+    }
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "id": 1,
+    "sentence": "הוריי !",
+    "dicta": {
+      "text": "הוריי !",
+      "tokens": [
+        {
+          "token": "הוריי",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "הוריי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "הוריי"
+          ],
+          "lex": "הורה",
+          "morph": {
+            "token": "הוריי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 6,
+            "end": 7
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "הוריי"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "אלמד בנהריה .",
+    "dicta": {
+      "text": "אלמד בנהריה .",
+      "tokens": [
+        {
+          "token": "אלמד",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "אלמד",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אלמד"
+          ],
+          "lex": "לימד",
+          "morph": {
+            "token": "אלמד",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בנהריה",
+          "offsets": {
+            "start": 5,
+            "end": 11
+          },
+          "syntax": {
+            "word": "בנהריה",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "אלמד"
+          },
+          "seg": [
+            "ב",
+            "נהריה"
+          ],
+          "lex": "נהריה",
+          "morph": {
+            "token": "בנהריה",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "אלמד"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "בנהריה",
+          "label": "GPE",
+          "start": 5,
+          "end": 11,
+          "token_start": 1,
+          "token_end": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "שיעור ראשון היום ב - 12:20 .",
+    "dicta": {
+      "text": "שיעור ראשון היום ב - 12:20 .",
+      "tokens": [
+        {
+          "token": "שיעור",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "שיעור",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "שיעור"
+          ],
+          "lex": "שיעור",
+          "morph": {
+            "token": "שיעור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ראשון",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "ראשון",
+            "dep_head_idx": 0,
+            "dep_func": "amod",
+            "dep_head": "שיעור"
+          },
+          "seg": [
+            "ראשון"
+          ],
+          "lex": "ראשון",
+          "morph": {
+            "token": "ראשון",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היום",
+          "offsets": {
+            "start": 12,
+            "end": 16
+          },
+          "syntax": {
+            "word": "היום",
+            "dep_head_idx": 0,
+            "dep_func": "advmod",
+            "dep_head": "שיעור"
+          },
+          "seg": [
+            "היום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "היום",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ב",
+          "offsets": {
+            "start": 17,
+            "end": 18
+          },
+          "syntax": {
+            "word": "ב",
+            "dep_head_idx": 5,
+            "dep_func": "case",
+            "dep_head": "12"
+          },
+          "seg": [
+            "ב"
+          ],
+          "lex": "ב",
+          "morph": {
+            "token": "ב",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 19,
+            "end": 20
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "ב"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "12",
+          "offsets": {
+            "start": 21,
+            "end": 23
+          },
+          "syntax": {
+            "word": "12",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "שיעור"
+          },
+          "seg": [
+            "12"
+          ],
+          "lex": "12",
+          "morph": {
+            "token": "12",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 23,
+            "end": 24
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 5,
+            "dep_func": "case",
+            "dep_head": "12"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "SYM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "20",
+          "offsets": {
+            "start": 24,
+            "end": 26
+          },
+          "syntax": {
+            "word": "20",
+            "dep_head_idx": 5,
+            "dep_func": "nmod",
+            "dep_head": "12"
+          },
+          "seg": [
+            "20"
+          ],
+          "lex": "20",
+          "morph": {
+            "token": "20",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "שיעור"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 4,
+    "sentence": "בהצלחה לי !",
+    "dicta": {
+      "text": "בהצלחה לי !",
+      "tokens": [
+        {
+          "token": "בהצלחה",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "בהצלחה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "ב",
+            "הצלחה"
+          ],
+          "lex": "הצלחה",
+          "morph": {
+            "token": "בהצלחה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 7,
+            "end": 9
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "בהצלחה"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 10,
+            "end": 11
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "בהצלחה"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

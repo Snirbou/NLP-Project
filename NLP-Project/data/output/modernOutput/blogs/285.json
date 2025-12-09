@@ -1,0 +1,577 @@
+[
+  {
+    "id": 1,
+    "sentence": "ואני צמחוני .",
+    "dicta": {
+      "text": "ואני צמחוני .",
+      "tokens": [
+        {
+          "token": "ואני",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "ואני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "צמחוני"
+          },
+          "seg": [
+            "ו",
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "ואני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "צמחוני",
+          "offsets": {
+            "start": 5,
+            "end": 11
+          },
+          "syntax": {
+            "word": "צמחוני",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "צמחוני"
+          ],
+          "lex": "צמחוני",
+          "morph": {
+            "token": "צמחוני",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "צמחוני"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "וופי - היי , לא אכלתי בשר כבר שנה ו 5 חודשים .",
+    "dicta": {
+      "text": "וופי - היי , לא אכלתי בשר כבר שנה ו 5 חודשים .",
+      "tokens": [
+        {
+          "token": "וופי",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "וופי",
+            "dep_head_idx": 5,
+            "dep_func": "discourse",
+            "dep_head": "אכלתי"
+          },
+          "seg": [
+            "ו",
+            "ופי"
+          ],
+          "lex": "ואו",
+          "morph": {
+            "token": "וופי",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 5,
+            "end": 6
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "היי"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "היי",
+          "offsets": {
+            "start": 7,
+            "end": 10
+          },
+          "syntax": {
+            "word": "היי",
+            "dep_head_idx": 8,
+            "dep_func": "discourse",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "היי"
+          ],
+          "lex": "היי",
+          "morph": {
+            "token": "היי",
+            "pos": "INTJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 11,
+            "end": 12
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "היי"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לא",
+          "offsets": {
+            "start": 13,
+            "end": 15
+          },
+          "syntax": {
+            "word": "לא",
+            "dep_head_idx": 5,
+            "dep_func": "advmod",
+            "dep_head": "אכלתי"
+          },
+          "seg": [
+            "לא"
+          ],
+          "lex": "לא",
+          "morph": {
+            "token": "לא",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אכלתי",
+          "offsets": {
+            "start": 16,
+            "end": 21
+          },
+          "syntax": {
+            "word": "אכלתי",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "אכלתי"
+          ],
+          "lex": "אוכל",
+          "morph": {
+            "token": "אכלתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בשר",
+          "offsets": {
+            "start": 22,
+            "end": 25
+          },
+          "syntax": {
+            "word": "בשר",
+            "dep_head_idx": 5,
+            "dep_func": "obj",
+            "dep_head": "אכלתי"
+          },
+          "seg": [
+            "בשר"
+          ],
+          "lex": "בשר",
+          "morph": {
+            "token": "בשר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כבר",
+          "offsets": {
+            "start": 26,
+            "end": 29
+          },
+          "syntax": {
+            "word": "כבר",
+            "dep_head_idx": 8,
+            "dep_func": "advmod",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "כבר"
+          ],
+          "lex": "כבר",
+          "morph": {
+            "token": "כבר",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שנה",
+          "offsets": {
+            "start": 30,
+            "end": 33
+          },
+          "syntax": {
+            "word": "שנה",
+            "dep_head_idx": 5,
+            "dep_func": "obl:tmod",
+            "dep_head": "אכלתי"
+          },
+          "seg": [
+            "שנה"
+          ],
+          "lex": "שנה",
+          "morph": {
+            "token": "שנה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ו",
+          "offsets": {
+            "start": 34,
+            "end": 35
+          },
+          "syntax": {
+            "word": "ו",
+            "dep_head_idx": 11,
+            "dep_func": "cc",
+            "dep_head": "חודשים"
+          },
+          "seg": [
+            "ו"
+          ],
+          "lex": "או",
+          "morph": {
+            "token": "ו",
+            "pos": "CCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "5",
+          "offsets": {
+            "start": 36,
+            "end": 37
+          },
+          "syntax": {
+            "word": "5",
+            "dep_head_idx": 11,
+            "dep_func": "nummod",
+            "dep_head": "חודשים"
+          },
+          "seg": [
+            "5"
+          ],
+          "lex": "5",
+          "morph": {
+            "token": "5",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חודשים",
+          "offsets": {
+            "start": 38,
+            "end": 44
+          },
+          "syntax": {
+            "word": "חודשים",
+            "dep_head_idx": 8,
+            "dep_func": "conj",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "חודשים"
+          ],
+          "lex": "חודש",
+          "morph": {
+            "token": "חודשים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 45,
+            "end": 46
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 5,
+            "dep_func": "punct",
+            "dep_head": "אכלתי"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 5,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "ואתם קציצות , קציצות .",
+    "dicta": {
+      "text": "ואתם קציצות , קציצות .",
+      "tokens": [
+        {
+          "token": "ואתם",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "ואתם",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "קציצות"
+          },
+          "seg": [
+            "ו",
+            "אתם"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "ואתם",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "קציצות",
+          "offsets": {
+            "start": 5,
+            "end": 11
+          },
+          "syntax": {
+            "word": "קציצות",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "קציצות"
+          ],
+          "lex": "קציצה",
+          "morph": {
+            "token": "קציצות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "קציצות"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "קציצות",
+          "offsets": {
+            "start": 14,
+            "end": 20
+          },
+          "syntax": {
+            "word": "קציצות",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "קציצות"
+          },
+          "seg": [
+            "קציצות"
+          ],
+          "lex": "קציצה",
+          "morph": {
+            "token": "קציצות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 21,
+            "end": 22
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "קציצות"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

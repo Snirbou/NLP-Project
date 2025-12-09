@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "sentence": "is empty .",
+    "dicta": {
+      "text": "is empty .",
+      "tokens": [
+        {
+          "token": "is",
+          "offsets": {
+            "start": 0,
+            "end": 2
+          },
+          "syntax": {
+            "word": "is",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "is"
+          ],
+          "lex": "is",
+          "morph": {
+            "token": "is",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "empty",
+          "offsets": {
+            "start": 3,
+            "end": 8
+          },
+          "syntax": {
+            "word": "empty",
+            "dep_head_idx": 0,
+            "dep_func": "dep",
+            "dep_head": "is"
+          },
+          "seg": [
+            "empty"
+          ],
+          "lex": "here",
+          "morph": {
+            "token": "empty",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 9,
+            "end": 10
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "is"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "i wanna go home .",
+    "dicta": {
+      "text": "i wanna go home .",
+      "tokens": [
+        {
+          "token": "i",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "i",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "wanna"
+          },
+          "seg": [
+            "i"
+          ],
+          "lex": "i",
+          "morph": {
+            "token": "i",
+            "pos": "PRON",
+            "feats": {
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "wanna",
+          "offsets": {
+            "start": 2,
+            "end": 7
+          },
+          "syntax": {
+            "word": "wanna",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "wanna"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "wanna",
+            "pos": "VERB",
+            "feats": {
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "go",
+          "offsets": {
+            "start": 8,
+            "end": 10
+          },
+          "syntax": {
+            "word": "go",
+            "dep_head_idx": 1,
+            "dep_func": "xcomp",
+            "dep_head": "wanna"
+          },
+          "seg": [
+            "go"
+          ],
+          "lex": "go",
+          "morph": {
+            "token": "go",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "home",
+          "offsets": {
+            "start": 11,
+            "end": 15
+          },
+          "syntax": {
+            "word": "home",
+            "dep_head_idx": 2,
+            "dep_func": "advmod",
+            "dep_head": "go"
+          },
+          "seg": [
+            "home"
+          ],
+          "lex": "home",
+          "morph": {
+            "token": "home",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 16,
+            "end": 17
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "wanna"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

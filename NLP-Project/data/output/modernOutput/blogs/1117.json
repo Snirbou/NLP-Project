@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "sentence": "חבל שאי אפשר להחזיר את השעון חצי שנה אחורה !",
+    "dicta": {
+      "text": "חבל שאי אפשר להחזיר את השעון חצי שנה אחורה !",
+      "tokens": [
+        {
+          "token": "חבל",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "חבל",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "חבל"
+          ],
+          "lex": "חבל",
+          "morph": {
+            "token": "חבל",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שאי",
+          "offsets": {
+            "start": 4,
+            "end": 7
+          },
+          "syntax": {
+            "word": "שאי",
+            "dep_head_idx": 2,
+            "dep_func": "compound:affix",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "ש",
+            "אי"
+          ],
+          "lex": "אי",
+          "morph": {
+            "token": "שאי",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אפשר",
+          "offsets": {
+            "start": 8,
+            "end": 12
+          },
+          "syntax": {
+            "word": "אפשר",
+            "dep_head_idx": 0,
+            "dep_func": "advcl",
+            "dep_head": "חבל"
+          },
+          "seg": [
+            "אפשר"
+          ],
+          "lex": "אפשר",
+          "morph": {
+            "token": "אפשר",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "להחזיר",
+          "offsets": {
+            "start": 13,
+            "end": 19
+          },
+          "syntax": {
+            "word": "להחזיר",
+            "dep_head_idx": 2,
+            "dep_func": "csubj",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "להחזיר"
+          ],
+          "lex": "החזיר",
+          "morph": {
+            "token": "להחזיר",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 20,
+            "end": 22
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 5,
+            "dep_func": "case:acc",
+            "dep_head": "השעון"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "השעון",
+          "offsets": {
+            "start": 23,
+            "end": 28
+          },
+          "syntax": {
+            "word": "השעון",
+            "dep_head_idx": 3,
+            "dep_func": "obj",
+            "dep_head": "להחזיר"
+          },
+          "seg": [
+            "ה",
+            "שעון"
+          ],
+          "lex": "שעון",
+          "morph": {
+            "token": "השעון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חצי",
+          "offsets": {
+            "start": 29,
+            "end": 32
+          },
+          "syntax": {
+            "word": "חצי",
+            "dep_head_idx": 2,
+            "dep_func": "dep",
+            "dep_head": "אפשר"
+          },
+          "seg": [
+            "חצי"
+          ],
+          "lex": "חצי",
+          "morph": {
+            "token": "חצי",
+            "pos": "NUM",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שנה",
+          "offsets": {
+            "start": 33,
+            "end": 36
+          },
+          "syntax": {
+            "word": "שנה",
+            "dep_head_idx": 6,
+            "dep_func": "compound:smixut",
+            "dep_head": "חצי"
+          },
+          "seg": [
+            "שנה"
+          ],
+          "lex": "שנה",
+          "morph": {
+            "token": "שנה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אחורה",
+          "offsets": {
+            "start": 37,
+            "end": 42
+          },
+          "syntax": {
+            "word": "אחורה",
+            "dep_head_idx": 3,
+            "dep_func": "advmod",
+            "dep_head": "להחזיר"
+          },
+          "seg": [
+            "אחורה"
+          ],
+          "lex": "אחורה",
+          "morph": {
+            "token": "אחורה",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 43,
+            "end": 44
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "חבל"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "חבל .",
+    "dicta": {
+      "text": "חבל .",
+      "tokens": [
+        {
+          "token": "חבל",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "חבל",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "חבל"
+          ],
+          "lex": "חבל",
+          "morph": {
+            "token": "חבל",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 4,
+            "end": 5
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "חבל"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

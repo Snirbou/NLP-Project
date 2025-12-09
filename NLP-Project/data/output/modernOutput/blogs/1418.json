@@ -1,0 +1,261 @@
+[
+  {
+    "id": 1,
+    "sentence": "אמרו לי יותר מפעם שיש לי אגו של גברים",
+    "dicta": {
+      "text": "אמרו לי יותר מפעם שיש לי אגו של גברים",
+      "tokens": [
+        {
+          "token": "אמרו",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "אמרו",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "גברים"
+          },
+          "seg": [
+            "אמרו"
+          ],
+          "lex": "נאמר",
+          "morph": {
+            "token": "אמרו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 5,
+            "end": 7
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "אמרו"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "יותר",
+          "offsets": {
+            "start": 8,
+            "end": 12
+          },
+          "syntax": {
+            "word": "יותר",
+            "dep_head_idx": 0,
+            "dep_func": "advmod",
+            "dep_head": "אמרו"
+          },
+          "seg": [
+            "יותר"
+          ],
+          "lex": "יותר",
+          "morph": {
+            "token": "יותר",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מפעם",
+          "offsets": {
+            "start": 13,
+            "end": 17
+          },
+          "syntax": {
+            "word": "מפעם",
+            "dep_head_idx": 0,
+            "dep_func": "obl:tmod",
+            "dep_head": "אמרו"
+          },
+          "seg": [
+            "מ",
+            "פעם"
+          ],
+          "lex": "פעם",
+          "morph": {
+            "token": "מפעם",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שיש",
+          "offsets": {
+            "start": 18,
+            "end": 21
+          },
+          "syntax": {
+            "word": "שיש",
+            "dep_head_idx": 0,
+            "dep_func": "ccomp",
+            "dep_head": "אמרו"
+          },
+          "seg": [
+            "ש",
+            "יש"
+          ],
+          "lex": "יש",
+          "morph": {
+            "token": "שיש",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לי",
+          "offsets": {
+            "start": 22,
+            "end": 24
+          },
+          "syntax": {
+            "word": "לי",
+            "dep_head_idx": 4,
+            "dep_func": "obl",
+            "dep_head": "שיש"
+          },
+          "seg": [
+            "לי"
+          ],
+          "lex": "לי",
+          "morph": {
+            "token": "לי",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אגו",
+          "offsets": {
+            "start": 25,
+            "end": 28
+          },
+          "syntax": {
+            "word": "אגו",
+            "dep_head_idx": 4,
+            "dep_func": "nsubj",
+            "dep_head": "שיש"
+          },
+          "seg": [
+            "אגו"
+          ],
+          "lex": "אגו",
+          "morph": {
+            "token": "אגו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "של",
+          "offsets": {
+            "start": 29,
+            "end": 31
+          },
+          "syntax": {
+            "word": "של",
+            "dep_head_idx": 8,
+            "dep_func": "case:gen",
+            "dep_head": "גברים"
+          },
+          "seg": [
+            "של"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "של",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "גברים",
+          "offsets": {
+            "start": 32,
+            "end": 37
+          },
+          "syntax": {
+            "word": "גברים",
+            "dep_head_idx": 6,
+            "dep_func": "nmod:poss",
+            "dep_head": "אגו"
+          },
+          "seg": [
+            "גברים"
+          ],
+          "lex": "גבר",
+          "morph": {
+            "token": "גברים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "sentence": "אני ו 2 / 3 מהאילנות שהיו שם באותו ערב",
+    "dicta": {
+      "text": "אני ו 2 / 3 מהאילנות שהיו שם באותו ערב",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "ערב"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ו",
+          "offsets": {
+            "start": 4,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ו",
+            "dep_head_idx": 5,
+            "dep_func": "cc",
+            "dep_head": "מהאילנות"
+          },
+          "seg": [
+            "ו"
+          ],
+          "lex": "או",
+          "morph": {
+            "token": "ו",
+            "pos": "CCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "2",
+          "offsets": {
+            "start": 6,
+            "end": 7
+          },
+          "syntax": {
+            "word": "2",
+            "dep_head_idx": 0,
+            "dep_func": "conj",
+            "dep_head": "אני"
+          },
+          "seg": [
+            "2"
+          ],
+          "lex": "2",
+          "morph": {
+            "token": "2",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "/",
+          "offsets": {
+            "start": 8,
+            "end": 9
+          },
+          "syntax": {
+            "word": "/",
+            "dep_head_idx": 4,
+            "dep_func": "case",
+            "dep_head": "3"
+          },
+          "seg": [
+            "/"
+          ],
+          "lex": "/",
+          "morph": {
+            "token": "/",
+            "pos": "SYM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "3",
+          "offsets": {
+            "start": 10,
+            "end": 11
+          },
+          "syntax": {
+            "word": "3",
+            "dep_head_idx": 2,
+            "dep_func": "conj",
+            "dep_head": "2"
+          },
+          "seg": [
+            "3"
+          ],
+          "lex": "3",
+          "morph": {
+            "token": "3",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מהאילנות",
+          "offsets": {
+            "start": 12,
+            "end": 20
+          },
+          "syntax": {
+            "word": "מהאילנות",
+            "dep_head_idx": 0,
+            "dep_func": "conj",
+            "dep_head": "אני"
+          },
+          "seg": [
+            "מה",
+            "אילנות"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "מהאילנות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שהיו",
+          "offsets": {
+            "start": 21,
+            "end": 25
+          },
+          "syntax": {
+            "word": "שהיו",
+            "dep_head_idx": 5,
+            "dep_func": "acl:relcl",
+            "dep_head": "מהאילנות"
+          },
+          "seg": [
+            "ש",
+            "היו"
+          ],
+          "lex": "היה",
+          "morph": {
+            "token": "שהיו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Plur",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שם",
+          "offsets": {
+            "start": 26,
+            "end": 28
+          },
+          "syntax": {
+            "word": "שם",
+            "dep_head_idx": 6,
+            "dep_func": "advmod",
+            "dep_head": "שהיו"
+          },
+          "seg": [
+            "שם"
+          ],
+          "lex": "שם",
+          "morph": {
+            "token": "שם",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "באותו",
+          "offsets": {
+            "start": 29,
+            "end": 34
+          },
+          "syntax": {
+            "word": "באותו",
+            "dep_head_idx": 9,
+            "dep_func": "det",
+            "dep_head": "ערב"
+          },
+          "seg": [
+            "ב",
+            "אותו"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "באותו",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ערב",
+          "offsets": {
+            "start": 35,
+            "end": 38
+          },
+          "syntax": {
+            "word": "ערב",
+            "dep_head_idx": 6,
+            "dep_func": "obl",
+            "dep_head": "שהיו"
+          },
+          "seg": [
+            "ערב"
+          ],
+          "lex": "ערב",
+          "morph": {
+            "token": "ערב",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

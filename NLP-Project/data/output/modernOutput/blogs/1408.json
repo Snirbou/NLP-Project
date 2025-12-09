@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "sentence": "אני מדבר עם אחותי הקטנה שהיא מתוקה וחמודה וכוסיט !",
+    "dicta": {
+      "text": "אני מדבר עם אחותי הקטנה שהיא מתוקה וחמודה וכוסיט !",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "מדבר"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מדבר",
+          "offsets": {
+            "start": 4,
+            "end": 8
+          },
+          "syntax": {
+            "word": "מדבר",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "מדבר"
+          ],
+          "lex": "דיבר",
+          "morph": {
+            "token": "מדבר",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "עם",
+          "offsets": {
+            "start": 9,
+            "end": 11
+          },
+          "syntax": {
+            "word": "עם",
+            "dep_head_idx": 3,
+            "dep_func": "case",
+            "dep_head": "אחותי"
+          },
+          "seg": [
+            "עם"
+          ],
+          "lex": "עם",
+          "morph": {
+            "token": "עם",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אחותי",
+          "offsets": {
+            "start": 12,
+            "end": 17
+          },
+          "syntax": {
+            "word": "אחותי",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "מדבר"
+          },
+          "seg": [
+            "אחותי"
+          ],
+          "lex": "אחות",
+          "morph": {
+            "token": "אחותי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "הקטנה",
+          "offsets": {
+            "start": 18,
+            "end": 23
+          },
+          "syntax": {
+            "word": "הקטנה",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "אחותי"
+          },
+          "seg": [
+            "ה",
+            "קטנה"
+          ],
+          "lex": "קטן",
+          "morph": {
+            "token": "הקטנה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שהיא",
+          "offsets": {
+            "start": 24,
+            "end": 28
+          },
+          "syntax": {
+            "word": "שהיא",
+            "dep_head_idx": 6,
+            "dep_func": "nsubj",
+            "dep_head": "מתוקה"
+          },
+          "seg": [
+            "ש",
+            "היא"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "שהיא",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מתוקה",
+          "offsets": {
+            "start": 29,
+            "end": 34
+          },
+          "syntax": {
+            "word": "מתוקה",
+            "dep_head_idx": 3,
+            "dep_func": "acl:relcl",
+            "dep_head": "אחותי"
+          },
+          "seg": [
+            "מתוקה"
+          ],
+          "lex": "מתוק",
+          "morph": {
+            "token": "מתוקה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "וחמודה",
+          "offsets": {
+            "start": 35,
+            "end": 41
+          },
+          "syntax": {
+            "word": "וחמודה",
+            "dep_head_idx": 6,
+            "dep_func": "conj",
+            "dep_head": "מתוקה"
+          },
+          "seg": [
+            "ו",
+            "חמודה"
+          ],
+          "lex": "חמוד",
+          "morph": {
+            "token": "וחמודה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "וכוסיט",
+          "offsets": {
+            "start": 42,
+            "end": 48
+          },
+          "syntax": {
+            "word": "וכוסיט",
+            "dep_head_idx": 6,
+            "dep_func": "conj",
+            "dep_head": "מתוקה"
+          },
+          "seg": [
+            "ו",
+            "כוסיט"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "וכוסיט",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 49,
+            "end": 50
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "מדבר"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "וצנועה !",
+    "dicta": {
+      "text": "וצנועה !",
+      "tokens": [
+        {
+          "token": "וצנועה",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "וצנועה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "!"
+          },
+          "seg": [
+            "ו",
+            "צנועה"
+          ],
+          "lex": "צנוע",
+          "morph": {
+            "token": "וצנועה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "!",
+          "offsets": {
+            "start": 7,
+            "end": 8
+          },
+          "syntax": {
+            "word": "!",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "וצנועה"
+          },
+          "seg": [
+            "!"
+          ],
+          "lex": "!",
+          "morph": {
+            "token": "!",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

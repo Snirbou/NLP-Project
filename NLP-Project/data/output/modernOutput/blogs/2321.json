@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "sentence": "תראה לאן דנה הגיעה .",
+    "dicta": {
+      "text": "תראה לאן דנה הגיעה .",
+      "tokens": [
+        {
+          "token": "תראה",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "תראה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "תראה"
+          ],
+          "lex": "הראה",
+          "morph": {
+            "token": "תראה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "2",
+              "Tense": "Imp"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאן",
+          "offsets": {
+            "start": 5,
+            "end": 8
+          },
+          "syntax": {
+            "word": "לאן",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "ל",
+            "אן"
+          ],
+          "lex": "לאן",
+          "morph": {
+            "token": "לאן",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "דנה",
+          "offsets": {
+            "start": 9,
+            "end": 12
+          },
+          "syntax": {
+            "word": "דנה",
+            "dep_head_idx": 3,
+            "dep_func": "nsubj",
+            "dep_head": "הגיעה"
+          },
+          "seg": [
+            "דנה"
+          ],
+          "lex": "דנה",
+          "morph": {
+            "token": "דנה",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הגיעה",
+          "offsets": {
+            "start": 13,
+            "end": 18
+          },
+          "syntax": {
+            "word": "הגיעה",
+            "dep_head_idx": 1,
+            "dep_func": "acl:relcl",
+            "dep_head": "לאן"
+          },
+          "seg": [
+            "הגיעה"
+          ],
+          "lex": "הגיע",
+          "morph": {
+            "token": "הגיעה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 19,
+            "end": 20
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "תראה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "דנה",
+          "label": "PER",
+          "start": 9,
+          "end": 12,
+          "token_start": 2,
+          "token_end": 2
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "sentence": "היום שנה שאני ודימה ביחד : ) 3 >",
+    "dicta": {
+      "text": "היום שנה שאני ודימה ביחד : ) 3 >",
+      "tokens": [
+        {
+          "token": "היום",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "היום",
+            "dep_head_idx": 1,
+            "dep_func": "advmod",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "ה",
+            "יום"
+          ],
+          "lex": "יום",
+          "morph": {
+            "token": "היום",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שנה",
+          "offsets": {
+            "start": 5,
+            "end": 8
+          },
+          "syntax": {
+            "word": "שנה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ">"
+          },
+          "seg": [
+            "שנה"
+          ],
+          "lex": "שנה",
+          "morph": {
+            "token": "שנה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שאני",
+          "offsets": {
+            "start": 9,
+            "end": 13
+          },
+          "syntax": {
+            "word": "שאני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "ש",
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "שאני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ודימה",
+          "offsets": {
+            "start": 14,
+            "end": 19
+          },
+          "syntax": {
+            "word": "ודימה",
+            "dep_head_idx": 2,
+            "dep_func": "conj",
+            "dep_head": "שאני"
+          },
+          "seg": [
+            "ו",
+            "דימה"
+          ],
+          "lex": "דימה",
+          "morph": {
+            "token": "ודימה",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ביחד",
+          "offsets": {
+            "start": 20,
+            "end": 24
+          },
+          "syntax": {
+            "word": "ביחד",
+            "dep_head_idx": 2,
+            "dep_func": "advmod",
+            "dep_head": "שאני"
+          },
+          "seg": [
+            "ביחד"
+          ],
+          "lex": "יחד",
+          "morph": {
+            "token": "ביחד",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 25,
+            "end": 26
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ")",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": ")",
+            "dep_head_idx": 7,
+            "dep_func": "punct",
+            "dep_head": "3"
+          },
+          "seg": [
+            ")"
+          ],
+          "lex": ")",
+          "morph": {
+            "token": ")",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "3",
+          "offsets": {
+            "start": 29,
+            "end": 30
+          },
+          "syntax": {
+            "word": "3",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            "3"
+          ],
+          "lex": "3",
+          "morph": {
+            "token": "3",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ">",
+          "offsets": {
+            "start": 31,
+            "end": 32
+          },
+          "syntax": {
+            "word": ">",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "שנה"
+          },
+          "seg": [
+            ">"
+          ],
+          "lex": ">",
+          "morph": {
+            "token": ">",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": [
+        {
+          "phrase": "ודי",
+          "label": "PER",
+          "start": 14,
+          "end": 19,
+          "token_start": 3,
+          "token_end": 3
+        }
+      ]
+    }
+  }
+]

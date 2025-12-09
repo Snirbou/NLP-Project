@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1,
+    "sentence": "ובזה שחיים השאיר אצלי את המשקפיים XD",
+    "dicta": {
+      "text": "ובזה שחיים השאיר אצלי את המשקפיים XD",
+      "tokens": [
+        {
+          "token": "ובזה",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "ובזה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "xd"
+          },
+          "seg": [
+            "וב",
+            "זה"
+          ],
+          "lex": "בזה",
+          "morph": {
+            "token": "ובזה",
+            "pos": "PRON",
+            "feats": {
+              "Person": "3"
+            },
+            "prefixes": [
+              "CCONJ",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שחיים",
+          "offsets": {
+            "start": 5,
+            "end": 10
+          },
+          "syntax": {
+            "word": "שחיים",
+            "dep_head_idx": 2,
+            "dep_func": "nsubj",
+            "dep_head": "השאיר"
+          },
+          "seg": [
+            "ש",
+            "חיים"
+          ],
+          "lex": "חי",
+          "morph": {
+            "token": "שחיים",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "השאיר",
+          "offsets": {
+            "start": 11,
+            "end": 16
+          },
+          "syntax": {
+            "word": "השאיר",
+            "dep_head_idx": 0,
+            "dep_func": "acl:relcl",
+            "dep_head": "ובזה"
+          },
+          "seg": [
+            "השאיר"
+          ],
+          "lex": "השאיר",
+          "morph": {
+            "token": "השאיר",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אצלי",
+          "offsets": {
+            "start": 17,
+            "end": 21
+          },
+          "syntax": {
+            "word": "אצלי",
+            "dep_head_idx": 2,
+            "dep_func": "obl",
+            "dep_head": "השאיר"
+          },
+          "seg": [
+            "אצלי"
+          ],
+          "lex": "אצל",
+          "morph": {
+            "token": "אצלי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 22,
+            "end": 24
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 5,
+            "dep_func": "case:acc",
+            "dep_head": "המשקפיים"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המשקפיים",
+          "offsets": {
+            "start": 25,
+            "end": 33
+          },
+          "syntax": {
+            "word": "המשקפיים",
+            "dep_head_idx": 2,
+            "dep_func": "obj",
+            "dep_head": "השאיר"
+          },
+          "seg": [
+            "ה",
+            "משקפיים"
+          ],
+          "lex": "משקפיים",
+          "morph": {
+            "token": "המשקפיים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "xd",
+          "offsets": {
+            "start": 34,
+            "end": 36
+          },
+          "syntax": {
+            "word": "xd",
+            "dep_head_idx": 5,
+            "dep_func": "appos",
+            "dep_head": "המשקפיים"
+          },
+          "seg": [
+            "xd"
+          ],
+          "lex": "x",
+          "morph": {
+            "token": "xd",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "שחיים",
+          "label": "PER",
+          "start": 5,
+          "end": 10,
+          "token_start": 1,
+          "token_end": 1
+        }
+      ]
+    }
+  }
+]

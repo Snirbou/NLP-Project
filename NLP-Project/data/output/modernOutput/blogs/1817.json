@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "sentence": "מתוך כתבתו של אבי ישככרוף , בהארץ :",
+    "dicta": {
+      "text": "מתוך כתבתו של אבי ישככרוף , בהארץ :",
+      "tokens": [
+        {
+          "token": "מתוך",
+          "offsets": {
+            "start": 0,
+            "end": 4
+          },
+          "syntax": {
+            "word": "מתוך",
+            "dep_head_idx": 1,
+            "dep_func": "case",
+            "dep_head": "כתבתו"
+          },
+          "seg": [
+            "מתוך"
+          ],
+          "lex": "מתוך",
+          "morph": {
+            "token": "מתוך",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כתבתו",
+          "offsets": {
+            "start": 5,
+            "end": 10
+          },
+          "syntax": {
+            "word": "כתבתו",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ":"
+          },
+          "seg": [
+            "כתבתו"
+          ],
+          "lex": "כתבה",
+          "morph": {
+            "token": "כתבתו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            }
+          }
+        },
+        {
+          "token": "של",
+          "offsets": {
+            "start": 11,
+            "end": 13
+          },
+          "syntax": {
+            "word": "של",
+            "dep_head_idx": 3,
+            "dep_func": "case:gen",
+            "dep_head": "אבי"
+          },
+          "seg": [
+            "של"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "של",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אבי",
+          "offsets": {
+            "start": 14,
+            "end": 17
+          },
+          "syntax": {
+            "word": "אבי",
+            "dep_head_idx": 1,
+            "dep_func": "nmod:poss",
+            "dep_head": "כתבתו"
+          },
+          "seg": [
+            "אבי"
+          ],
+          "lex": "אבי",
+          "morph": {
+            "token": "אבי",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ישככרוף",
+          "offsets": {
+            "start": 18,
+            "end": 25
+          },
+          "syntax": {
+            "word": "ישככרוף",
+            "dep_head_idx": 3,
+            "dep_func": "flat",
+            "dep_head": "אבי"
+          },
+          "seg": [
+            "ישככרוף"
+          ],
+          "lex": "שורץ",
+          "morph": {
+            "token": "ישככרוף",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 26,
+            "end": 27
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 6,
+            "dep_func": "punct",
+            "dep_head": "בהארץ"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בהארץ",
+          "offsets": {
+            "start": 28,
+            "end": 33
+          },
+          "syntax": {
+            "word": "בהארץ",
+            "dep_head_idx": 1,
+            "dep_func": "nmod",
+            "dep_head": "כתבתו"
+          },
+          "seg": [
+            "ב",
+            "הארץ"
+          ],
+          "lex": "ארץ",
+          "morph": {
+            "token": "בהארץ",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 34,
+            "end": 35
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "כתבתו"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": [
+        {
+          "phrase": "אבי יש",
+          "label": "PER",
+          "start": 14,
+          "end": 25,
+          "token_start": 3,
+          "token_end": 4
+        },
+        {
+          "phrase": "בהארץ",
+          "label": "WOA",
+          "start": 28,
+          "end": 33,
+          "token_start": 6,
+          "token_end": 6
+        }
+      ]
+    }
+  }
+]

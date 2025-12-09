@@ -1,0 +1,549 @@
+[
+  {
+    "id": 1,
+    "sentence": "אני חושבת שהצלחתי לפענח את זה - זה פחד , בצורתו הגולמית ביותר , או פאניקה מוחלטת אם תרצו .",
+    "dicta": {
+      "text": "אני חושבת שהצלחתי לפענח את זה - זה פחד , בצורתו הגולמית ביותר , או פאניקה מוחלטת אם תרצו .",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "חושבת"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חושבת",
+          "offsets": {
+            "start": 4,
+            "end": 9
+          },
+          "syntax": {
+            "word": "חושבת",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "חושבת"
+          ],
+          "lex": "חושב",
+          "morph": {
+            "token": "חושבת",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שהצלחתי",
+          "offsets": {
+            "start": 10,
+            "end": 17
+          },
+          "syntax": {
+            "word": "שהצלחתי",
+            "dep_head_idx": 1,
+            "dep_func": "ccomp",
+            "dep_head": "חושבת"
+          },
+          "seg": [
+            "ש",
+            "הצלחתי"
+          ],
+          "lex": "הצליח",
+          "morph": {
+            "token": "שהצלחתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לפענח",
+          "offsets": {
+            "start": 18,
+            "end": 23
+          },
+          "syntax": {
+            "word": "לפענח",
+            "dep_head_idx": 2,
+            "dep_func": "xcomp",
+            "dep_head": "שהצלחתי"
+          },
+          "seg": [
+            "לפענח"
+          ],
+          "lex": "פענח",
+          "morph": {
+            "token": "לפענח",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 24,
+            "end": 26
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 5,
+            "dep_func": "case:acc",
+            "dep_head": "זה"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זה",
+          "offsets": {
+            "start": 27,
+            "end": 29
+          },
+          "syntax": {
+            "word": "זה",
+            "dep_head_idx": 3,
+            "dep_func": "obj",
+            "dep_head": "לפענח"
+          },
+          "seg": [
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "זה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 30,
+            "end": 31
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 8,
+            "dep_func": "punct",
+            "dep_head": "פחד"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "זה",
+          "offsets": {
+            "start": 32,
+            "end": 34
+          },
+          "syntax": {
+            "word": "זה",
+            "dep_head_idx": 8,
+            "dep_func": "nsubj",
+            "dep_head": "פחד"
+          },
+          "seg": [
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "זה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פחד",
+          "offsets": {
+            "start": 35,
+            "end": 38
+          },
+          "syntax": {
+            "word": "פחד",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "חושבת"
+          },
+          "seg": [
+            "פחד"
+          ],
+          "lex": "פחד",
+          "morph": {
+            "token": "פחד",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 39,
+            "end": 40
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 10,
+            "dep_func": "punct",
+            "dep_head": "בצורתו"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בצורתו",
+          "offsets": {
+            "start": 41,
+            "end": 47
+          },
+          "syntax": {
+            "word": "בצורתו",
+            "dep_head_idx": 8,
+            "dep_func": "nmod",
+            "dep_head": "פחד"
+          },
+          "seg": [
+            "ב",
+            "צורתו"
+          ],
+          "lex": "צורה",
+          "morph": {
+            "token": "בצורתו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            }
+          }
+        },
+        {
+          "token": "הגולמית",
+          "offsets": {
+            "start": 48,
+            "end": 55
+          },
+          "syntax": {
+            "word": "הגולמית",
+            "dep_head_idx": 10,
+            "dep_func": "amod",
+            "dep_head": "בצורתו"
+          },
+          "seg": [
+            "ה",
+            "גולמית"
+          ],
+          "lex": "גולמי",
+          "morph": {
+            "token": "הגולמית",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ביותר",
+          "offsets": {
+            "start": 56,
+            "end": 61
+          },
+          "syntax": {
+            "word": "ביותר",
+            "dep_head_idx": 11,
+            "dep_func": "advmod",
+            "dep_head": "הגולמית"
+          },
+          "seg": [
+            "ביותר"
+          ],
+          "lex": "יותר",
+          "morph": {
+            "token": "ביותר",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 62,
+            "end": 63
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 15,
+            "dep_func": "punct",
+            "dep_head": "פאניקה"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "או",
+          "offsets": {
+            "start": 64,
+            "end": 66
+          },
+          "syntax": {
+            "word": "או",
+            "dep_head_idx": 15,
+            "dep_func": "cc",
+            "dep_head": "פאניקה"
+          },
+          "seg": [
+            "או"
+          ],
+          "lex": "או",
+          "morph": {
+            "token": "או",
+            "pos": "CCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "פאניקה",
+          "offsets": {
+            "start": 67,
+            "end": 73
+          },
+          "syntax": {
+            "word": "פאניקה",
+            "dep_head_idx": 8,
+            "dep_func": "conj",
+            "dep_head": "פחד"
+          },
+          "seg": [
+            "פאניקה"
+          ],
+          "lex": "פניקה",
+          "morph": {
+            "token": "פאניקה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מוחלטת",
+          "offsets": {
+            "start": 74,
+            "end": 80
+          },
+          "syntax": {
+            "word": "מוחלטת",
+            "dep_head_idx": 15,
+            "dep_func": "amod",
+            "dep_head": "פאניקה"
+          },
+          "seg": [
+            "מוחלטת"
+          ],
+          "lex": "מוחלט",
+          "morph": {
+            "token": "מוחלטת",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אם",
+          "offsets": {
+            "start": 81,
+            "end": 83
+          },
+          "syntax": {
+            "word": "אם",
+            "dep_head_idx": 18,
+            "dep_func": "mark",
+            "dep_head": "תרצו"
+          },
+          "seg": [
+            "אם"
+          ],
+          "lex": "אם",
+          "morph": {
+            "token": "אם",
+            "pos": "SCONJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "תרצו",
+          "offsets": {
+            "start": 84,
+            "end": 88
+          },
+          "syntax": {
+            "word": "תרצו",
+            "dep_head_idx": 8,
+            "dep_func": "advcl",
+            "dep_head": "פחד"
+          },
+          "seg": [
+            "תרצו"
+          ],
+          "lex": "רוצה",
+          "morph": {
+            "token": "תרצו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 89,
+            "end": 90
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "חושבת"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

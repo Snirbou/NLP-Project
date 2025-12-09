@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "sentence": "ונופל מוציא את המוח שלי לפנסיה שוטה הנבואה",
+    "dicta": {
+      "text": "ונופל מוציא את המוח שלי לפנסיה שוטה הנבואה",
+      "tokens": [
+        {
+          "token": "ונופל",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ונופל",
+            "dep_head_idx": 1,
+            "dep_func": "conj",
+            "dep_head": "מוציא"
+          },
+          "seg": [
+            "ו",
+            "נופל"
+          ],
+          "lex": "נופל",
+          "morph": {
+            "token": "ונופל",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מוציא",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "מוציא",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "הנבואה"
+          },
+          "seg": [
+            "מוציא"
+          ],
+          "lex": "הוציא",
+          "morph": {
+            "token": "מוציא",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "את",
+          "offsets": {
+            "start": 12,
+            "end": 14
+          },
+          "syntax": {
+            "word": "את",
+            "dep_head_idx": 3,
+            "dep_func": "case:acc",
+            "dep_head": "המוח"
+          },
+          "seg": [
+            "את"
+          ],
+          "lex": "את",
+          "morph": {
+            "token": "את",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המוח",
+          "offsets": {
+            "start": 15,
+            "end": 19
+          },
+          "syntax": {
+            "word": "המוח",
+            "dep_head_idx": 1,
+            "dep_func": "obj",
+            "dep_head": "מוציא"
+          },
+          "seg": [
+            "ה",
+            "מוח"
+          ],
+          "lex": "מוח",
+          "morph": {
+            "token": "המוח",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שלי",
+          "offsets": {
+            "start": 20,
+            "end": 23
+          },
+          "syntax": {
+            "word": "שלי",
+            "dep_head_idx": 3,
+            "dep_func": "nmod:poss",
+            "dep_head": "המוח"
+          },
+          "seg": [
+            "שלי"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "שלי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "לפנסיה",
+          "offsets": {
+            "start": 24,
+            "end": 30
+          },
+          "syntax": {
+            "word": "לפנסיה",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "מוציא"
+          },
+          "seg": [
+            "ל",
+            "פנסיה"
+          ],
+          "lex": "פנסיה",
+          "morph": {
+            "token": "לפנסיה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שוטה",
+          "offsets": {
+            "start": 31,
+            "end": 35
+          },
+          "syntax": {
+            "word": "שוטה",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "מוציא"
+          },
+          "seg": [
+            "שוטה"
+          ],
+          "lex": "שוטה",
+          "morph": {
+            "token": "שוטה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הנבואה",
+          "offsets": {
+            "start": 36,
+            "end": 42
+          },
+          "syntax": {
+            "word": "הנבואה",
+            "dep_head_idx": 6,
+            "dep_func": "compound:smixut",
+            "dep_head": "שוטה"
+          },
+          "seg": [
+            "ה",
+            "נבואה"
+          ],
+          "lex": "נבואה",
+          "morph": {
+            "token": "הנבואה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

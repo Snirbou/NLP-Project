@@ -1,0 +1,781 @@
+[
+  {
+    "id": 1,
+    "sentence": "כניסה להריון בגיל 60 .",
+    "dicta": {
+      "text": "כניסה להריון בגיל 60 .",
+      "tokens": [
+        {
+          "token": "כניסה",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "כניסה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "כניסה"
+          ],
+          "lex": "כניסה",
+          "morph": {
+            "token": "כניסה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "להריון",
+          "offsets": {
+            "start": 6,
+            "end": 12
+          },
+          "syntax": {
+            "word": "להריון",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "כניסה"
+          },
+          "seg": [
+            "ל",
+            "הריון"
+          ],
+          "lex": "היריון",
+          "morph": {
+            "token": "להריון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בגיל",
+          "offsets": {
+            "start": 13,
+            "end": 17
+          },
+          "syntax": {
+            "word": "בגיל",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "כניסה"
+          },
+          "seg": [
+            "ב",
+            "גיל"
+          ],
+          "lex": "גיל",
+          "morph": {
+            "token": "בגיל",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "60",
+          "offsets": {
+            "start": 18,
+            "end": 20
+          },
+          "syntax": {
+            "word": "60",
+            "dep_head_idx": 2,
+            "dep_func": "compound:smixut",
+            "dep_head": "בגיל"
+          },
+          "seg": [
+            "60"
+          ],
+          "lex": "60",
+          "morph": {
+            "token": "60",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 21,
+            "end": 22
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "כניסה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "האם ייתכן הריון אחרי הבלות ?",
+    "dicta": {
+      "text": "האם ייתכן הריון אחרי הבלות ?",
+      "tokens": [
+        {
+          "token": "האם",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "האם",
+            "dep_head_idx": 1,
+            "dep_func": "mark:q",
+            "dep_head": "ייתכן"
+          },
+          "seg": [
+            "האם"
+          ],
+          "lex": "אם",
+          "morph": {
+            "token": "האם",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ייתכן",
+          "offsets": {
+            "start": 4,
+            "end": 9
+          },
+          "syntax": {
+            "word": "ייתכן",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "?"
+          },
+          "seg": [
+            "ייתכן"
+          ],
+          "lex": "ייתכן",
+          "morph": {
+            "token": "ייתכן",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Fut"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הריון",
+          "offsets": {
+            "start": 10,
+            "end": 15
+          },
+          "syntax": {
+            "word": "הריון",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "ייתכן"
+          },
+          "seg": [
+            "הריון"
+          ],
+          "lex": "היריון",
+          "morph": {
+            "token": "הריון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אחרי",
+          "offsets": {
+            "start": 16,
+            "end": 20
+          },
+          "syntax": {
+            "word": "אחרי",
+            "dep_head_idx": 4,
+            "dep_func": "case",
+            "dep_head": "הבלות"
+          },
+          "seg": [
+            "אחרי"
+          ],
+          "lex": "אחרי",
+          "morph": {
+            "token": "אחרי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הבלות",
+          "offsets": {
+            "start": 21,
+            "end": 26
+          },
+          "syntax": {
+            "word": "הבלות",
+            "dep_head_idx": 2,
+            "dep_func": "nmod",
+            "dep_head": "הריון"
+          },
+          "seg": [
+            "ה",
+            "בלות"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "הבלות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "?",
+          "offsets": {
+            "start": 27,
+            "end": 28
+          },
+          "syntax": {
+            "word": "?",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "ייתכן"
+          },
+          "seg": [
+            "?"
+          ],
+          "lex": "?",
+          "morph": {
+            "token": "?",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 3,
+    "sentence": "אני בת 60 , המחזור הפסיק בגיל 52 .",
+    "dicta": {
+      "text": "אני בת 60 , המחזור הפסיק בגיל 52 .",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "בת"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בת",
+          "offsets": {
+            "start": 4,
+            "end": 6
+          },
+          "syntax": {
+            "word": "בת",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "בת"
+          ],
+          "lex": "בת",
+          "morph": {
+            "token": "בת",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "60",
+          "offsets": {
+            "start": 7,
+            "end": 9
+          },
+          "syntax": {
+            "word": "60",
+            "dep_head_idx": 1,
+            "dep_func": "compound:smixut",
+            "dep_head": "בת"
+          },
+          "seg": [
+            "60"
+          ],
+          "lex": "60",
+          "morph": {
+            "token": "60",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 10,
+            "end": 11
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 5,
+            "dep_func": "punct",
+            "dep_head": "הפסיק"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המחזור",
+          "offsets": {
+            "start": 12,
+            "end": 18
+          },
+          "syntax": {
+            "word": "המחזור",
+            "dep_head_idx": 5,
+            "dep_func": "nsubj",
+            "dep_head": "הפסיק"
+          },
+          "seg": [
+            "ה",
+            "מחזור"
+          ],
+          "lex": "מחזור",
+          "morph": {
+            "token": "המחזור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הפסיק",
+          "offsets": {
+            "start": 19,
+            "end": 24
+          },
+          "syntax": {
+            "word": "הפסיק",
+            "dep_head_idx": 1,
+            "dep_func": "parataxis",
+            "dep_head": "בת"
+          },
+          "seg": [
+            "הפסיק"
+          ],
+          "lex": "הפסיק",
+          "morph": {
+            "token": "הפסיק",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בגיל",
+          "offsets": {
+            "start": 25,
+            "end": 29
+          },
+          "syntax": {
+            "word": "בגיל",
+            "dep_head_idx": 5,
+            "dep_func": "obl",
+            "dep_head": "הפסיק"
+          },
+          "seg": [
+            "ב",
+            "גיל"
+          ],
+          "lex": "גיל",
+          "morph": {
+            "token": "בגיל",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "52",
+          "offsets": {
+            "start": 30,
+            "end": 32
+          },
+          "syntax": {
+            "word": "52",
+            "dep_head_idx": 6,
+            "dep_func": "compound:smixut",
+            "dep_head": "בגיל"
+          },
+          "seg": [
+            "52"
+          ],
+          "lex": "52",
+          "morph": {
+            "token": "52",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 33,
+            "end": 34
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "בת"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 4,
+    "sentence": "הסיכוי להריון בגיל הזה שואף לאפס .",
+    "dicta": {
+      "text": "הסיכוי להריון בגיל הזה שואף לאפס .",
+      "tokens": [
+        {
+          "token": "הסיכוי",
+          "offsets": {
+            "start": 0,
+            "end": 6
+          },
+          "syntax": {
+            "word": "הסיכוי",
+            "dep_head_idx": 4,
+            "dep_func": "nsubj",
+            "dep_head": "שואף"
+          },
+          "seg": [
+            "ה",
+            "סיכוי"
+          ],
+          "lex": "סיכוי",
+          "morph": {
+            "token": "הסיכוי",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "להריון",
+          "offsets": {
+            "start": 7,
+            "end": 13
+          },
+          "syntax": {
+            "word": "להריון",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "הסיכוי"
+          },
+          "seg": [
+            "ל",
+            "הריון"
+          ],
+          "lex": "היריון",
+          "morph": {
+            "token": "להריון",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בגיל",
+          "offsets": {
+            "start": 14,
+            "end": 18
+          },
+          "syntax": {
+            "word": "בגיל",
+            "dep_head_idx": 0,
+            "dep_func": "nmod",
+            "dep_head": "הסיכוי"
+          },
+          "seg": [
+            "ב",
+            "גיל"
+          ],
+          "lex": "גיל",
+          "morph": {
+            "token": "בגיל",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET",
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הזה",
+          "offsets": {
+            "start": 19,
+            "end": 22
+          },
+          "syntax": {
+            "word": "הזה",
+            "dep_head_idx": 2,
+            "dep_func": "det",
+            "dep_head": "בגיל"
+          },
+          "seg": [
+            "ה",
+            "זה"
+          ],
+          "lex": "זה",
+          "morph": {
+            "token": "הזה",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שואף",
+          "offsets": {
+            "start": 23,
+            "end": 27
+          },
+          "syntax": {
+            "word": "שואף",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "שואף"
+          ],
+          "lex": "שואף",
+          "morph": {
+            "token": "שואף",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לאפס",
+          "offsets": {
+            "start": 28,
+            "end": 32
+          },
+          "syntax": {
+            "word": "לאפס",
+            "dep_head_idx": 4,
+            "dep_func": "obl",
+            "dep_head": "שואף"
+          },
+          "seg": [
+            "ל",
+            "אפס"
+          ],
+          "lex": "אפס",
+          "morph": {
+            "token": "לאפס",
+            "pos": "NUM",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 33,
+            "end": 34
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 4,
+            "dep_func": "punct",
+            "dep_head": "שואף"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 4,
+      "ner_entities": []
+    }
+  }
+]

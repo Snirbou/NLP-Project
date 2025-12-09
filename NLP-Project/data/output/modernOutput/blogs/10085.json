@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "sentence": "תמונה שלי שערכתי בפוטושופ .",
+    "dicta": {
+      "text": "תמונה שלי שערכתי בפוטושופ .",
+      "tokens": [
+        {
+          "token": "תמונה",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "תמונה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "תמונה"
+          ],
+          "lex": "תמונה",
+          "morph": {
+            "token": "תמונה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שלי",
+          "offsets": {
+            "start": 6,
+            "end": 9
+          },
+          "syntax": {
+            "word": "שלי",
+            "dep_head_idx": 0,
+            "dep_func": "nmod:poss",
+            "dep_head": "תמונה"
+          },
+          "seg": [
+            "שלי"
+          ],
+          "lex": "של",
+          "morph": {
+            "token": "שלי",
+            "pos": "ADP",
+            "feats": {},
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": "שערכתי",
+          "offsets": {
+            "start": 10,
+            "end": 16
+          },
+          "syntax": {
+            "word": "שערכתי",
+            "dep_head_idx": 0,
+            "dep_func": "acl:relcl",
+            "dep_head": "תמונה"
+          },
+          "seg": [
+            "ש",
+            "ערכתי"
+          ],
+          "lex": "נערך",
+          "morph": {
+            "token": "שערכתי",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "1",
+              "Tense": "Past"
+            },
+            "prefixes": [
+              "SCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בפוטושופ",
+          "offsets": {
+            "start": 17,
+            "end": 25
+          },
+          "syntax": {
+            "word": "בפוטושופ",
+            "dep_head_idx": 2,
+            "dep_func": "obl",
+            "dep_head": "שערכתי"
+          },
+          "seg": [
+            "ב",
+            "פוטושופ"
+          ],
+          "lex": "פוטושופ",
+          "morph": {
+            "token": "בפוטושופ",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 26,
+            "end": 27
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "תמונה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "בפוטושופ",
+          "label": "DUC",
+          "start": 17,
+          "end": 25,
+          "token_start": 3,
+          "token_end": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "תגיבו ביאטצ'ז .",
+    "dicta": {
+      "text": "תגיבו ביאטצ'ז .",
+      "tokens": [
+        {
+          "token": "תגיבו",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "תגיבו",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "תגיבו"
+          ],
+          "lex": "הגיב",
+          "morph": {
+            "token": "תגיבו",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "2",
+              "Tense": "Imp"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ביאטצ",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "ביאטצ",
+            "dep_head_idx": 0,
+            "dep_func": "obl",
+            "dep_head": "תגיבו"
+          },
+          "seg": [
+            "ב",
+            "יאטצ"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "ביאטצ",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "'",
+          "offsets": {
+            "start": 11,
+            "end": 12
+          },
+          "syntax": {
+            "word": "'",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "ביאטצ"
+          },
+          "seg": [
+            "'"
+          ],
+          "lex": "'",
+          "morph": {
+            "token": "'",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ז",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": "ז",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "ביאטצ"
+          },
+          "seg": [
+            "ז"
+          ],
+          "lex": "ז",
+          "morph": {
+            "token": "ז",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 14,
+            "end": 15
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 0,
+            "dep_func": "punct",
+            "dep_head": "תגיבו"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "ביא",
+          "label": "PER",
+          "start": 6,
+          "end": 11,
+          "token_start": 1,
+          "token_end": 1
+        },
+        {
+          "phrase": "ז",
+          "label": "PER",
+          "start": 12,
+          "end": 13,
+          "token_start": 3,
+          "token_end": 3
+        }
+      ]
+    }
+  }
+]

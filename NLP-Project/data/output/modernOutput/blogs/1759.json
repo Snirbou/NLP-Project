@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "sentence": "Happy New Year וייייייייי",
+    "dicta": {
+      "text": "Happy New Year וייייייייי",
+      "tokens": [
+        {
+          "token": "happy",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "happy",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "וייייייייי"
+          },
+          "seg": [
+            "happy"
+          ],
+          "lex": "happy",
+          "morph": {
+            "token": "happy",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "new",
+          "offsets": {
+            "start": 6,
+            "end": 9
+          },
+          "syntax": {
+            "word": "new",
+            "dep_head_idx": 0,
+            "dep_func": "compound:smixut",
+            "dep_head": "happy"
+          },
+          "seg": [
+            "new"
+          ],
+          "lex": "new",
+          "morph": {
+            "token": "new",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "year",
+          "offsets": {
+            "start": 10,
+            "end": 14
+          },
+          "syntax": {
+            "word": "year",
+            "dep_head_idx": 1,
+            "dep_func": "flat",
+            "dep_head": "new"
+          },
+          "seg": [
+            "year"
+          ],
+          "lex": "year",
+          "morph": {
+            "token": "year",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "וייייייייי",
+          "offsets": {
+            "start": 15,
+            "end": 25
+          },
+          "syntax": {
+            "word": "וייייייייי",
+            "dep_head_idx": 0,
+            "dep_func": "conj",
+            "dep_head": "happy"
+          },
+          "seg": [
+            "ו",
+            "ייייייייי"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "וייייייייי",
+            "pos": "VERB",
+            "feats": {},
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

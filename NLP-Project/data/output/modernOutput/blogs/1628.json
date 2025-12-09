@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "sentence": "\" החיים הם מחלה , כדור הארץ הוא בית חולים , המוות הוא רופאינו .",
+    "dicta": {
+      "text": "\" החיים הם מחלה , כדור הארץ הוא בית חולים , המוות הוא רופאינו .",
+      "tokens": [
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "מחלה"
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "החיים",
+          "offsets": {
+            "start": 2,
+            "end": 7
+          },
+          "syntax": {
+            "word": "החיים",
+            "dep_head_idx": 3,
+            "dep_func": "nsubj:cop",
+            "dep_head": "מחלה"
+          },
+          "seg": [
+            "החיים"
+          ],
+          "lex": "חי",
+          "morph": {
+            "token": "החיים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הם",
+          "offsets": {
+            "start": 8,
+            "end": 10
+          },
+          "syntax": {
+            "word": "הם",
+            "dep_head_idx": 3,
+            "dep_func": "cop",
+            "dep_head": "מחלה"
+          },
+          "seg": [
+            "הם"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "הם",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "מחלה",
+          "offsets": {
+            "start": 11,
+            "end": 15
+          },
+          "syntax": {
+            "word": "מחלה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "מחלה"
+          ],
+          "lex": "מחלה",
+          "morph": {
+            "token": "מחלה",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 16,
+            "end": 17
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 8,
+            "dep_func": "punct",
+            "dep_head": "בית"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "כדור",
+          "offsets": {
+            "start": 18,
+            "end": 22
+          },
+          "syntax": {
+            "word": "כדור",
+            "dep_head_idx": 8,
+            "dep_func": "nsubj:cop",
+            "dep_head": "בית"
+          },
+          "seg": [
+            "כדור"
+          ],
+          "lex": "כדור",
+          "morph": {
+            "token": "כדור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הארץ",
+          "offsets": {
+            "start": 23,
+            "end": 27
+          },
+          "syntax": {
+            "word": "הארץ",
+            "dep_head_idx": 5,
+            "dep_func": "compound:smixut",
+            "dep_head": "כדור"
+          },
+          "seg": [
+            "ה",
+            "ארץ"
+          ],
+          "lex": "ארץ",
+          "morph": {
+            "token": "הארץ",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הוא",
+          "offsets": {
+            "start": 28,
+            "end": 31
+          },
+          "syntax": {
+            "word": "הוא",
+            "dep_head_idx": 8,
+            "dep_func": "cop",
+            "dep_head": "בית"
+          },
+          "seg": [
+            "הוא"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "הוא",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "בית",
+          "offsets": {
+            "start": 32,
+            "end": 35
+          },
+          "syntax": {
+            "word": "בית",
+            "dep_head_idx": 3,
+            "dep_func": "parataxis",
+            "dep_head": "מחלה"
+          },
+          "seg": [
+            "בית"
+          ],
+          "lex": "בית",
+          "morph": {
+            "token": "בית",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "חולים",
+          "offsets": {
+            "start": 36,
+            "end": 41
+          },
+          "syntax": {
+            "word": "חולים",
+            "dep_head_idx": 8,
+            "dep_func": "compound:smixut",
+            "dep_head": "בית"
+          },
+          "seg": [
+            "חולים"
+          ],
+          "lex": "חולה",
+          "morph": {
+            "token": "חולים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ",",
+          "offsets": {
+            "start": 42,
+            "end": 43
+          },
+          "syntax": {
+            "word": ",",
+            "dep_head_idx": 13,
+            "dep_func": "punct",
+            "dep_head": "רופאינו"
+          },
+          "seg": [
+            ","
+          ],
+          "lex": ",",
+          "morph": {
+            "token": ",",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "המוות",
+          "offsets": {
+            "start": 44,
+            "end": 49
+          },
+          "syntax": {
+            "word": "המוות",
+            "dep_head_idx": 13,
+            "dep_func": "nsubj:cop",
+            "dep_head": "רופאינו"
+          },
+          "seg": [
+            "ה",
+            "מוות"
+          ],
+          "lex": "מוות",
+          "morph": {
+            "token": "המוות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הוא",
+          "offsets": {
+            "start": 50,
+            "end": 53
+          },
+          "syntax": {
+            "word": "הוא",
+            "dep_head_idx": 13,
+            "dep_func": "cop",
+            "dep_head": "רופאינו"
+          },
+          "seg": [
+            "הוא"
+          ],
+          "lex": "הוא",
+          "morph": {
+            "token": "הוא",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing",
+              "Person": "3"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "רופאינו",
+          "offsets": {
+            "start": 54,
+            "end": 61
+          },
+          "syntax": {
+            "word": "רופאינו",
+            "dep_head_idx": 8,
+            "dep_func": "parataxis",
+            "dep_head": "בית"
+          },
+          "seg": [
+            "רופאינו"
+          ],
+          "lex": "רופא",
+          "morph": {
+            "token": "רופאינו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": "PRON",
+            "suffix_feats": {
+              "Gender": "Masc",
+              "Number": "Plur",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 62,
+            "end": 63
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "מחלה"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 3,
+      "ner_entities": [
+        {
+          "phrase": "כדור הארץ",
+          "label": "LOC",
+          "start": 18,
+          "end": 27,
+          "token_start": 5,
+          "token_end": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "\"",
+    "dicta": {
+      "text": "\"",
+      "tokens": [
+        {
+          "token": "\"",
+          "offsets": {
+            "start": 0,
+            "end": 1
+          },
+          "syntax": {
+            "word": "\"",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "\""
+          },
+          "seg": [
+            "\""
+          ],
+          "lex": "\"",
+          "morph": {
+            "token": "\"",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  }
+]

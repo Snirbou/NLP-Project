@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "sentence": "הזכויות שמורות לבר הגו'קר XD",
+    "dicta": {
+      "text": "הזכויות שמורות לבר הגו'קר XD",
+      "tokens": [
+        {
+          "token": "הזכויות",
+          "offsets": {
+            "start": 0,
+            "end": 7
+          },
+          "syntax": {
+            "word": "הזכויות",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "שמורות"
+          },
+          "seg": [
+            "ה",
+            "זכויות"
+          ],
+          "lex": "זכות",
+          "morph": {
+            "token": "הזכויות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שמורות",
+          "offsets": {
+            "start": 8,
+            "end": 14
+          },
+          "syntax": {
+            "word": "שמורות",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "xd"
+          },
+          "seg": [
+            "שמורות"
+          ],
+          "lex": "שמור",
+          "morph": {
+            "token": "שמורות",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur",
+              "Person": "3",
+              "Tense": "Pres"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לבר",
+          "offsets": {
+            "start": 15,
+            "end": 18
+          },
+          "syntax": {
+            "word": "לבר",
+            "dep_head_idx": 1,
+            "dep_func": "obl",
+            "dep_head": "שמורות"
+          },
+          "seg": [
+            "ל",
+            "בר"
+          ],
+          "lex": "בר",
+          "morph": {
+            "token": "לבר",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הגו",
+          "offsets": {
+            "start": 19,
+            "end": 22
+          },
+          "syntax": {
+            "word": "הגו",
+            "dep_head_idx": 2,
+            "dep_func": "compound:smixut",
+            "dep_head": "לבר"
+          },
+          "seg": [
+            "ה",
+            "גו"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "הגו",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "DET"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "'",
+          "offsets": {
+            "start": 22,
+            "end": 23
+          },
+          "syntax": {
+            "word": "'",
+            "dep_head_idx": 3,
+            "dep_func": "flat",
+            "dep_head": "הגו"
+          },
+          "seg": [
+            "'"
+          ],
+          "lex": "'",
+          "morph": {
+            "token": "'",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "קר",
+          "offsets": {
+            "start": 23,
+            "end": 25
+          },
+          "syntax": {
+            "word": "קר",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "הגו"
+          },
+          "seg": [
+            "קר"
+          ],
+          "lex": "קר",
+          "morph": {
+            "token": "קר",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "xd",
+          "offsets": {
+            "start": 26,
+            "end": 28
+          },
+          "syntax": {
+            "word": "xd",
+            "dep_head_idx": 2,
+            "dep_func": "appos",
+            "dep_head": "לבר"
+          },
+          "seg": [
+            "xd"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "xd",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": [
+        {
+          "phrase": "הגו ' קר",
+          "label": "DUC",
+          "start": 19,
+          "end": 25,
+          "token_start": 3,
+          "token_end": 5
+        },
+        {
+          "phrase": "x",
+          "label": "DUC",
+          "start": 26,
+          "end": 28,
+          "token_start": 6,
+          "token_end": 6
+        }
+      ]
+    }
+  }
+]

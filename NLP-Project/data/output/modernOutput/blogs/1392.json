@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "sentence": "טיפות אורנוחתותבעיניים ושוקעותבנחתבין צללים שקטים .",
+    "dicta": {
+      "text": "טיפות אורנוחתותבעיניים ושוקעותבנחתבין צללים שקטים .",
+      "tokens": [
+        {
+          "token": "טיפות",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "טיפות",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "טיפות"
+          ],
+          "lex": "טיפה",
+          "morph": {
+            "token": "טיפות",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "אורנוחתותבעיניים",
+          "offsets": {
+            "start": 6,
+            "end": 22
+          },
+          "syntax": {
+            "word": "אורנוחתותבעיניים",
+            "dep_head_idx": 0,
+            "dep_func": "amod",
+            "dep_head": "טיפות"
+          },
+          "seg": [
+            "אורנוחתותבעיניים"
+          ],
+          "lex": "כחלחל",
+          "morph": {
+            "token": "אורנוחתותבעיניים",
+            "pos": "ADJ",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "ושוקעותבנחתבין",
+          "offsets": {
+            "start": 23,
+            "end": 37
+          },
+          "syntax": {
+            "word": "ושוקעותבנחתבין",
+            "dep_head_idx": 1,
+            "dep_func": "conj",
+            "dep_head": "אורנוחתותבעיניים"
+          },
+          "seg": [
+            "ו",
+            "שוקעותבנחתבין"
+          ],
+          "lex": "שוקע",
+          "morph": {
+            "token": "ושוקעותבנחתבין",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Person": "1,2,3"
+            },
+            "prefixes": [
+              "CCONJ"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": "צללים",
+          "offsets": {
+            "start": 38,
+            "end": 43
+          },
+          "syntax": {
+            "word": "צללים",
+            "dep_head_idx": 2,
+            "dep_func": "nsubj",
+            "dep_head": "ושוקעותבנחתבין"
+          },
+          "seg": [
+            "צללים"
+          ],
+          "lex": "צל",
+          "morph": {
+            "token": "צללים",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "שקטים",
+          "offsets": {
+            "start": 44,
+            "end": 49
+          },
+          "syntax": {
+            "word": "שקטים",
+            "dep_head_idx": 3,
+            "dep_func": "amod",
+            "dep_head": "צללים"
+          },
+          "seg": [
+            "שקטים"
+          ],
+          "lex": "שקט",
+          "morph": {
+            "token": "שקטים",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Masc",
+              "Number": "Plur"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 50,
+            "end": 51
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "ושוקעותבנחתבין"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": []
+    }
+  },
+  {
+    "id": 2,
+    "sentence": "אני הרחק משם .",
+    "dicta": {
+      "text": "אני הרחק משם .",
+      "tokens": [
+        {
+          "token": "אני",
+          "offsets": {
+            "start": 0,
+            "end": 3
+          },
+          "syntax": {
+            "word": "אני",
+            "dep_head_idx": 1,
+            "dep_func": "nsubj",
+            "dep_head": "הרחק"
+          },
+          "seg": [
+            "אני"
+          ],
+          "lex": "אני",
+          "morph": {
+            "token": "אני",
+            "pos": "PRON",
+            "feats": {
+              "Gender": "Fem,Masc",
+              "Number": "Sing",
+              "Person": "1"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "הרחק",
+          "offsets": {
+            "start": 4,
+            "end": 8
+          },
+          "syntax": {
+            "word": "הרחק",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "."
+          },
+          "seg": [
+            "הרחק"
+          ],
+          "lex": "הרחיק",
+          "morph": {
+            "token": "הרחק",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "משם",
+          "offsets": {
+            "start": 9,
+            "end": 12
+          },
+          "syntax": {
+            "word": "משם",
+            "dep_head_idx": 1,
+            "dep_func": "advmod",
+            "dep_head": "הרחק"
+          },
+          "seg": [
+            "משם"
+          ],
+          "lex": "שם",
+          "morph": {
+            "token": "משם",
+            "pos": "ADV",
+            "feats": {},
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": false
+          }
+        },
+        {
+          "token": ".",
+          "offsets": {
+            "start": 13,
+            "end": 14
+          },
+          "syntax": {
+            "word": ".",
+            "dep_head_idx": 1,
+            "dep_func": "punct",
+            "dep_head": "הרחק"
+          },
+          "seg": [
+            "."
+          ],
+          "lex": ".",
+          "morph": {
+            "token": ".",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 1,
+      "ner_entities": []
+    }
+  }
+]

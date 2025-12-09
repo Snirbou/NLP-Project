@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "sentence": "David Bowie - The Loneliest Guy",
+    "dicta": {
+      "text": "David Bowie - The Loneliest Guy",
+      "tokens": [
+        {
+          "token": "david",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "david",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": "guy"
+          },
+          "seg": [
+            "david"
+          ],
+          "lex": "david",
+          "morph": {
+            "token": "david",
+            "pos": "PROPN",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "bowie",
+          "offsets": {
+            "start": 6,
+            "end": 11
+          },
+          "syntax": {
+            "word": "bowie",
+            "dep_head_idx": 0,
+            "dep_func": "flat",
+            "dep_head": "david"
+          },
+          "seg": [
+            "bowie"
+          ],
+          "lex": "bow",
+          "morph": {
+            "token": "bowie",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "-",
+          "offsets": {
+            "start": 12,
+            "end": 13
+          },
+          "syntax": {
+            "word": "-",
+            "dep_head_idx": 3,
+            "dep_func": "punct",
+            "dep_head": "the"
+          },
+          "seg": [
+            "-"
+          ],
+          "lex": "-",
+          "morph": {
+            "token": "-",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "the",
+          "offsets": {
+            "start": 14,
+            "end": 17
+          },
+          "syntax": {
+            "word": "the",
+            "dep_head_idx": 0,
+            "dep_func": "appos",
+            "dep_head": "david"
+          },
+          "seg": [
+            "the"
+          ],
+          "lex": "the",
+          "morph": {
+            "token": "the",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "loneliest",
+          "offsets": {
+            "start": 18,
+            "end": 27
+          },
+          "syntax": {
+            "word": "loneliest",
+            "dep_head_idx": 3,
+            "dep_func": "flat",
+            "dep_head": "the"
+          },
+          "seg": [
+            "loneliest"
+          ],
+          "lex": "[BLANK]",
+          "morph": {
+            "token": "loneliest",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "guy",
+          "offsets": {
+            "start": 28,
+            "end": 31
+          },
+          "syntax": {
+            "word": "guy",
+            "dep_head_idx": 3,
+            "dep_func": "flat",
+            "dep_head": "the"
+          },
+          "seg": [
+            "guy"
+          ],
+          "lex": "guy",
+          "morph": {
+            "token": "guy",
+            "pos": "X",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 0,
+      "ner_entities": [
+        {
+          "phrase": "david bow",
+          "label": "PER",
+          "start": 0,
+          "end": 11,
+          "token_start": 0,
+          "token_end": 1
+        }
+      ]
+    }
+  }
+]

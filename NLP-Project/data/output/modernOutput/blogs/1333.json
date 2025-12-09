@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "sentence": "ציפור קטנה לחשה באוזני :",
+    "dicta": {
+      "text": "ציפור קטנה לחשה באוזני :",
+      "tokens": [
+        {
+          "token": "ציפור",
+          "offsets": {
+            "start": 0,
+            "end": 5
+          },
+          "syntax": {
+            "word": "ציפור",
+            "dep_head_idx": 2,
+            "dep_func": "nsubj",
+            "dep_head": "לחשה"
+          },
+          "seg": [
+            "ציפור"
+          ],
+          "lex": "ציפור",
+          "morph": {
+            "token": "ציפור",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "קטנה",
+          "offsets": {
+            "start": 6,
+            "end": 10
+          },
+          "syntax": {
+            "word": "קטנה",
+            "dep_head_idx": 0,
+            "dep_func": "amod",
+            "dep_head": "ציפור"
+          },
+          "seg": [
+            "קטנה"
+          ],
+          "lex": "קטן",
+          "morph": {
+            "token": "קטנה",
+            "pos": "ADJ",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "לחשה",
+          "offsets": {
+            "start": 11,
+            "end": 15
+          },
+          "syntax": {
+            "word": "לחשה",
+            "dep_head_idx": -1,
+            "dep_func": "root",
+            "dep_head": ":"
+          },
+          "seg": [
+            "לחשה"
+          ],
+          "lex": "לחש",
+          "morph": {
+            "token": "לחשה",
+            "pos": "VERB",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing",
+              "Person": "3",
+              "Tense": "Past"
+            },
+            "prefixes": [],
+            "suffix": false
+          }
+        },
+        {
+          "token": "באוזני",
+          "offsets": {
+            "start": 16,
+            "end": 22
+          },
+          "syntax": {
+            "word": "באוזני",
+            "dep_head_idx": 2,
+            "dep_func": "obl",
+            "dep_head": "לחשה"
+          },
+          "seg": [
+            "ב",
+            "אוזני"
+          ],
+          "lex": "באוזני",
+          "morph": {
+            "token": "באוזני",
+            "pos": "NOUN",
+            "feats": {
+              "Gender": "Fem",
+              "Number": "Sing"
+            },
+            "prefixes": [
+              "ADP"
+            ],
+            "suffix": "ADP_PRON",
+            "suffix_feats": {
+              "Number": "Sing",
+              "Person": "1"
+            }
+          }
+        },
+        {
+          "token": ":",
+          "offsets": {
+            "start": 23,
+            "end": 24
+          },
+          "syntax": {
+            "word": ":",
+            "dep_head_idx": 2,
+            "dep_func": "punct",
+            "dep_head": "לחשה"
+          },
+          "seg": [
+            ":"
+          ],
+          "lex": ":",
+          "morph": {
+            "token": ":",
+            "pos": "PUNCT",
+            "feats": {},
+            "prefixes": [],
+            "suffix": false
+          }
+        }
+      ],
+      "root_idx": 2,
+      "ner_entities": []
+    }
+  }
+]
