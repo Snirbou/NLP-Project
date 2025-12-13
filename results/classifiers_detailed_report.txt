@@ -1,0 +1,42 @@
+Detailed Classifiers Comparison Report
+======================================
+Task: Classification of Modern Hebrew Sentences into Biblical vs Rabbinic
+Training Data: Balanced (Biblical: ~5.8k, Rabbinic: ~5.8k)
+
+1. Performance on Validation Set (10-fold CV)
+---------------------------------------------
+Target Class: Biblical Hebrew
+
+| Classifier    | Features Used                                  | Accuracy | F1 Score |
+|---------------|------------------------------------------------|----------|----------|
+| Lexical       | Lemmas count, specific word pairs              | 75.45%   | 0.788    |
+| Morphological | POS counts, Tense, Suffixes (Possessive, etc)  | 85.33%   | 0.855    |
+| Syntactic     | Tree depth, Subordination, Word Order (V1/V2)  | 79.99%   | 0.811    |
+| Combined      | All of the above                               | 89.38%   | 0.896    |
+
+> **Insight:** Morphology is the strongest single indicator, significantly outperforming Lexical features. The Combined model performs best, showing that these feature sets are complementary.
+
+2. Modern Hebrew Classification Results
+---------------------------------------
+Percentage of sentences classified as **Biblical** by each model.
+(The remainder is classified as Rabbinic).
+
+| Genre       | Lexical | Morphological | Syntactic | Combined |
+|-------------|---------|---------------|-----------|----------|
+| News        | 63.5%   | 29.6%         | 38.7%     | 21.0%    |
+| Medical     | 70.0%   | 19.1%         | 44.4%     | 19.6%    |
+| Tapuz       | 48.2%   | 14.0%         | 28.0%     | 14.4%    |
+| Blogs       | 43.5%   | 14.9%         | 25.7%     | 11.2%    |
+
+3. Analysis
+-----------
+*   **Lexical Classifier Bias:** The Lexical classifier dramatically overestimates the "Biblical" nature of Modern Hebrew (classifying 43-70% as Biblical). This suggests Modern Hebrew vocabulary overlaps significantly with Biblical roots (lemmas), or that the specific "Mishnaic pairs" are less frequent in Modern Hebrew than Biblical ones.
+*   **Morphological Reality:** The Morphological classifier aligns much closer to the Combined model, classifying the vast majority of Modern Hebrew as **Rabbinic** (only ~15-30% Biblical). This confirms that structurally and morphologically, Modern Hebrew is much closer to Rabbinic Hebrew (e.g., tense system vs biblical aspect system).
+*   **Genre Differences:**
+    *   **News & Medical** (Formal) are consistently rated as *more Biblical* than Blogs/Tapuz across all classifiers.
+    *   **Blogs** (Informal) are the *most Rabbinic* (least Biblical) in the best-performing models (Combined/Morphological).
+
+4. Conclusion
+-------------
+While Modern Hebrew vocabulary may feel Biblical (as seen in the Lexical classifier), its grammar, morphology, and syntax are overwhelmingly Rabbinic. The "Combined" model provides the most robust classification, effectively filtering out the lexical "noise" to reveal the deeper structural affinities to Rabbinic Hebrew.
+
