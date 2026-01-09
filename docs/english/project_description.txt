@@ -1,0 +1,148 @@
+# Comparing Modern Hebrew to Biblical Hebrew and Mishnaic Hebrew
+Mini-Project, Semester A 2026
+
+In her last article, Prof. Edit Doron z"l made a surprising claim: The syntax of Modern Hebrew is closer to the syntax of Biblical Hebrew than to the syntax of Mishnaic Hebrew (it is commonly thought exactly the opposite), and she brings a variety of syntactic structures of different types in Modern Hebrew that correspond better to Biblical Hebrew.
+In this project, we will examine this claim computationally, using automatic analysis tools on various text corpora: from Biblical Hebrew, Mishnaic Hebrew, Enlightenment language, and various genres in Modern Hebrew. The research will also include human judgment by speakers of different types.
+
+## 1. Background
+*   **Morphology and Syntax**
+    *   Review what was said in the opening lecture.
+*   **Biblical Hebrew**
+    *   Read about Biblical Hebrew and its morphological and syntactic characteristics.
+    *   You can choose any background material you see fit, provided it is comprehensive and 'research-oriented'. You must cite exactly the sources you used.
+*   **Mishnaic Hebrew (Sages)**
+    *   Read about Mishnaic Hebrew and its morphological and syntactic characteristics.
+    *   You can choose any background material you see fit, provided it is comprehensive and 'research-oriented'. You must cite exactly the sources you used.
+*   **Modern Hebrew**
+    *   Read about Modern Hebrew and its morphological and syntactic characteristics.
+    *   You can choose any background material you see fit, provided it is comprehensive and 'research-oriented'. You must cite exactly the sources you used.
+*   Read about **Classifiers**.
+*   Read about **Classification Metrics**: Precision, Recall, F-Measure, Accuracy.
+
+## 2. Text Corpora
+*   **Bible (Mikra)**
+    *   The Tanakh, in XML format (you can also take it from any other available repository, Wikisource, etc.).
+*   **Sages (Hazal/Mishnaic)**
+    *   Six Orders of the Mishna.
+    *   Mishneh Torah by Maimonides (Rambam).
+*   **Modern Hebrew**
+    *   News items.
+    *   Literature (original and translated).
+    *   Tapuz Forum.
+    *   Blogs.
+    *   Medical texts.
+*   The corpora can be downloaded from here.
+
+## 3. Analysis of Different Text Corpora
+*   Run the Dicta parser (Demo) on each of the verses/sentences in the different corpora.
+*   The parser provides the following information:
+    *   **Morphology** – for every word:
+        *   **Lemma** – The dictionary value / basic form of the word.
+        *   **Lexical Category / Part of Speech (POS):** Noun, Verb, Adjective, Adverb, Preposition, Conjunction...
+        *   **Inflectional Features:** Masculine/Feminine, Singular/Plural, Person, Tense, Absolute/Construct...
+        *   **Prefixes:** m, sh, h, v, k, l, b; **Suffixes:** Possession (sifri, sifrecha), Object (mza'tiv, mza'ticha).
+    *   **Syntax** – for every sentence:
+        *   **Dependency Tree:** The edge between every two syntactically dependent words with an indication of the relation type between them (subject, object...).
+
+## 4. Statistical Data of Different Corpora
+(Biblical, Rabbinic, Modern) and sub-corpora (Tanakh, Mishna, Rambam, Literature, Tapuz, Blogs, Medical, News).
+
+*   Words/Lemmas and their frequency.
+*   Frequency of words appearing in the table on page 4 in Edit Doron's article.
+*   Frequency of subordinating words/particles (appearing in examples 5-20 in Edit Doron's article): she, asher, ki, ka'asher, me'asher, im, pen.
+*   Sentence lengths.
+*   Number of unique words in a sentence.
+*   Sentence depths, according to the syntactic tree (try to think what this means, relative to what you read about Biblical syntax and Mishnaic syntax).
+*   **Morphological Characteristics:**
+    *   Word categories (Noun, Verb...).
+    *   Inflectional characteristics.
+*   **Syntactic Structures:**
+    *   Type of syntactic relations (subject, predicate...).
+    *   Those appearing in Edit Doron's article:
+        *   V1 and V2 structures, as described in section 3.2 of Edit Doron's article.
+        *   Gerund and Infinitive structures (explained in section 3.6 of Edit Doron's article – see simpler explanation in Appendix 2 below).
+        *   Prepositional possessives and Construct-state possessive structures as demonstrated in example 47 on page 19 of Edit Doron's article.
+*   Any additional statistic related to features you encountered while reading material on Biblical and Mishnaic language.
+*   Any additional statistic that comes to mind.
+
+## 5. Examining the Proximity of Modern Hebrew to Biblical and Mishnaic Hebrew
+*   Based on things arising significantly from statistics in the previous section.
+*   Based on the distance between distributions of each of the statistics in the previous section (Formulas 9-16 here for example, measure, each in a different way, the distance between two such vectors), for each corpus.
+*   **Based on a Classifier:**
+    *   Training a classifier that distinguishes between Biblical language and Sages language, and applying it to sentences in Modern Hebrew (check separately on News, Literature, Medicine, Blogs...).
+    *   **Classifier Characteristics:**
+        *   Only Lexical (instead of every word, its lemma).
+        *   Only Morphological (instead of every word, a string of its inflectional features).
+        *   Only Syntactic (instead of every word, the number of the edge exiting it and the relation type).
+        *   The syntactic structure of the sentence, at different levels of abstraction (see Appendix 1 below).
+        *   Tree depth.
+        *   ...
+    *   **Tool:** WEKA package (you can play with algorithms and function types there), or scikit-learn.
+    *   Running the classifier in 10-fold cross-validation.
+    *   **Metrics:** precision, recall, f-measure, accuracy.
+    *   Running the classifier on sentences in Modern Hebrew.
+*   **Based on Human Judgment:**
+    *   Choose at least 100 sentences from the Bible and 100 from the Mishna.
+    *   Choose subjects from your surroundings, family and friends, of different ages (children, young adults, adults, 'elders').
+    *   Give each one pairs of sentences, one from the Bible and one from the Mishna, and ask them to note:
+        *   Which one is more understandable to them.
+        *   Whether the problem is in unclear/unfamiliar words, in the word form (lech'shetetzena, ya'azruchem) or in the sentence structure.
+    *   Try to reach insights from analyzing the experiment results.
+*   Any additional way that comes to mind to examine the fit of Modern Hebrew to Biblical or Mishnaic language.
+
+## 6. LLM Integration
+It is possible and even recommended to integrate Dicta's LLM models or their chat into the research, in any way you choose.
+
+## 7. Summary Report
+*   Description of the research question.
+*   Literature review (any material/article you read as part of the project).
+*   Short description of the data (text corpora you used in the research).
+*   Presentation of statistical data and their analysis, as detailed in section 4.
+*   Presentation of comparison results between corpora, as detailed in section 5.
+*   Conclusions.
+
+## 8. Project Submission
+*   Summary Report.
+*   Relevant Data.
+*   Relevant Code.
+
+## 9. Personal Initiative
+In grading the project, weight will be given to personal initiative beyond what was described. The goal of the project is experience in a research process; naturally, one cannot predict exactly what will happen. In many cases, an early result leads to checking different directions, sometimes new ones.
+
+---
+
+### Appendices:
+
+#### 1. Representing Syntactic Structure of a Sentence as a Feature
+Given a syntactically parsed sentence. The analysis defines for each word its lexical category ('POS' – noun, verb, adjective, preposition...), the edges exiting it to other words with its syntactic characterization (subject, object...).
+For example, for the sentence 'Dani achal tapuach' (Dani ate an apple):
+Achal V
+Dani N      Tapuach N
+
+One can represent the syntactic structure of the sentence as a string including the word categories and syntactic relations between them: N-obj <- V -> subj-N
+In this way, the representation preserves the syntactic skeleton but is still abstract - it does not include the words themselves, only their categories.
+One can even think of a more abstract representation that does not include word categories: obj <- V -> subj
+One can perhaps think of additional representations.
+
+#### 2. Gerund vs. Infinitive
+
+*   **Gerund (Shem HaPoal):** l'tzet, b'tzet, mi'tzet (to go out, in going out, from going out)
+    *   Classified as a Noun.
+    *   Always has a subject. The subject can be another word (l'tzet bnei yisrael), or an attached suffix (l'tzeto).
+    *   It usually describes a verb, specifically *when* it happened.
+    *   B'tzet bnei yisrael mi-mitzrayim (When the children of Israel went out of Egypt), l'tzet bnei yisrael me-eretz mitzrayim, b'tzetenu la-derech (when we set out on the way).
+*   **Infinitive (Makor Natuy):** la-tzet (to go out)
+    *   Classified as a Verb.
+    *   Has no gender-quantity-person inflections.
+    *   Has no subject.
+    *   It complements another verb.
+    *   Hu amar la-tzet (He said to go out).
+*   **Identifying Gerund and Infinitive in Parser Output:**
+    *   **Infinitive:** A verb with no inflectional features, which does not have a subject edge entering it.
+    *   **Gerund:**
+        *   The parser regrettably currently does not distinguish between a gerund and a noun.
+        *   If the word (without vowel points) appears in a list of gerunds (the list isn't the most accurate but sufficient for us), in the following way:
+            *   If the word (without vowels) appears in the gerund list without a suffix, and a subject edge enters it from another word (not from the prefix) (nsubj, or with nothing due to a parsing bug) - b'tzet bnei yisrael.
+            *   If the word (without vowels) appears in the gerund list with a suffix – b'tzeto.
+        *   Additionally, a verb without inflectional features that has a subject edge entering it will be considered a gerund (in case the morphological parser errs, as happens with 'latzet').
+
