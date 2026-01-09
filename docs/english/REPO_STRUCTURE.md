@@ -41,8 +41,8 @@ Outputs from the analysis scripts, organized by content type:
 
 #### `results/reports/`
 Organized by language. Contains the final findings and summaries.
-*   **english/**: `DETAILED_WORKFLOW.md`, `MANUAL_CLASSIFIER_REPORT.md`, `DICTABERT_ANALYSIS.md`, `STYLE_TRANSFER_REPORT.md`, etc.
-*   **hebrew/**: `FINAL_RESEARCH_REPORT.md`, `STYLE_TRANSFER_REPORT.md`.
+*   **english/**: `MANUAL_CLASSIFIER_REPORT.md`, `DICTABERT_ANALYSIS.md`, `STYLE_TRANSFER_REPORT.md`, `HUMAN_EVALUATION_REPORT.md`.
+*   **hebrew/**: `FINAL_RESEARCH_REPORT.md`, `STYLE_TRANSFER_REPORT.md`, `HUMAN_EVALUATION_POLL.pdf`.
 
 #### `results/raw_data/`
 *   `all_sentences_features.csv`: The master table containing all extracted features per sentence.
@@ -74,4 +74,10 @@ Scripts for feature extraction, statistical analysis, and machine learning.
 *   `classify_sentences.py`: Trains and evaluates classifiers to distinguish between corpora.
 *   `plot_results.py`: Generates visualization plots from statistics.
 *   `style_transfer_analysis.py`: Experimental analysis of style transfer capabilities.
+
+#### `src/analysis/perplexity/`
+Scripts for the N-gram Perplexity Analysis.
+*   `main.py`: Orchestrator for the perplexity pipeline.
+*   `calculate_perplexity.py`: Implementation of Lidstone-smoothed N-gram models.
+*   `data_loader.py`: Utilities for loading and processing JSON corpus data.
 
