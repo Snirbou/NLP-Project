@@ -103,9 +103,12 @@ Based on the original `project_description.txt`, the following requirements appe
 
 1.  **Subordination Analysis (Specific Words):**
     *   *Requirement:* Detailed stats for words like "ya'an", "ekev", etc. (Doron's examples).
-    *   *Status:* Basic subordination stats exist (`subordination_words_stats.csv`), but a deep dive analysis of these specific connective words is not highlighted in the final report.
+    *   *Status:* Basic stats exist in `subordination_words_stats.csv`. While a dedicated "deep dive" report isn't separate, the raw data is available in `results/aggregated_stats/`.
 2.  **Detailed Classification Report:**
-    *   *Status:* While classification was performed, the detailed breakdown of *which* specific Modern sub-genres (e.g., Sports vs. Literature) lean more towards Biblical/Rabbinic is not fully detailed in the summary text, though CSVs exist.
+    *   *Status:* Completed. See `MANUAL_CLASSIFIER_REPORT.md` and `DICTABERT_ANALYSIS.md` in `results/reports/english/`. Detailed CSVs are in `results/classification_data/`.
+
+### Completed Requirements (Previously Missing)
+*   **Human Judgment Experiment (Section 5):** Completed. See `HUMAN_EVALUATION_REPORT.md`. Findings integrated into Section 2 of this summary.
 
 ### Suggested Fixes & Improvements
 1.  **Refine Word Order Analysis:** The current V1/V2 detector is heuristic. Improve accuracy by handling complex sentences (e.g., sentences starting with temporal clauses) to ensure the V1 count isn't under-reported in Modern Hebrew.
