@@ -1,0 +1,27 @@
+Feature-Based Classifier Distance Analysis
+========================================
+
+Cosine distance matrix between classifier feature-distribution vectors:
+
+| Classifier | Lexical | Morphological | Syntactic | Combined |
+|-----------|-----------|-----------|-----------|-----------|
+| Lexical | 0.000 | 0.382 | 0.152 | 0.467 |
+| Morphological | 0.382 | 0.000 | 0.268 | 0.077 |
+| Syntactic | 0.152 | 0.268 | 0.000 | 0.266 |
+| Combined | 0.467 | 0.077 | 0.266 | 0.000 |
+
+Smallest off-diagonal cosine distance: 0.077
+  - Closest pair: Morphological vs Combined
+  - Closest pair: Combined vs Morphological
+Largest off-diagonal cosine distance: 0.467
+  - Farthest pair: Lexical vs Combined
+  - Farthest pair: Combined vs Lexical
+
+Per-classifier nearest and farthest neighbors (by cosine distance):
+
+- Lexical: closest to Syntactic (d = 0.152), farthest from Combined (d = 0.467).
+- Morphological: closest to Combined (d = 0.077), farthest from Lexical (d = 0.382).
+- Syntactic: closest to Lexical (d = 0.152), farthest from Morphological (d = 0.268).
+- Combined: closest to Morphological (d = 0.077), farthest from Lexical (d = 0.467).
+
+Interpretation: smaller distances indicate that two classifiers rely on more similar patterns of linguistic features (for both Biblical and Rabbinic predictions) when classifying Modern Hebrew sentences.

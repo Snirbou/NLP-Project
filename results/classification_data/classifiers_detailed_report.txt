@@ -40,3 +40,9 @@ Percentage of sentences classified as **Biblical** by each model.
 -------------
 While Modern Hebrew vocabulary may feel Biblical (as seen in the Lexical classifier), its grammar, morphology, and syntax are overwhelmingly Rabbinic. The "Combined" model provides the most robust classification, effectively filtering out the lexical "noise" to reveal the deeper structural affinities to Rabbinic Hebrew.
 
+5. Feature-Based Classifier Distance Analysis
+--------------------------------------------
+To quantify how similarly the different models *use* linguistic features when classifying Modern Hebrew, we computed a feature-distribution vector for each classifier (Lexical, Morphological, Syntactic, Combined) based on the average normalized feature values for sentences each model predicts as **Biblical** vs **Rabbinic**. Pairwise cosine distances between these vectors are summarized in `classifiers_feature_distance_matrix_cosine.csv`, with a textual overview in `classifiers_feature_distance_report.txt`.
+
+The distance analysis confirms and refines the observations above: the Morphological and Combined classifiers are the closest pair in feature space, indicating that the Combined model’s behavior is strongly driven by morphological cues. By contrast, the Lexical classifier is farthest from both Morphological and Combined, reflecting its tendency to overestimate the \"Biblical\" character of Modern Hebrew based on vocabulary alone. The Syntactic model typically falls in between, sharing some structural tendencies with Morphological/Combined, but without matching their overall alignment with Rabbinic-style morphology.
+
