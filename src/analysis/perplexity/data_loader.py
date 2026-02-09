@@ -21,7 +21,7 @@ def extract_features_from_folder(folder_path, feature='lex'):
                         if feature == 'lex':
                             val = token.get('lex')
                         else:
-                            val = token['morph'].get('pos')
+                            val = token.get('morph', {}).get('pos')
                             
                         if val and val not in [',', '.', ';', '?', '!', '[BLANK]']:
                             sentence_features.append(val.replace("##", ""))
