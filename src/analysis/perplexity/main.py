@@ -8,7 +8,7 @@ def main():
     # Configuration: change this to 'lex' for lexical analysis or 'pos' for syntactic analysis
     feature = 'lex'
     
-    current_dir = os.path.dirname(os.path.abspath(_file_))
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     base_data_path = os.path.abspath(os.path.join(current_dir, "../../../data/output"))
     bible_folder = os.path.join(base_data_path, 'mikraOutput')
     mishna_folder = os.path.join(base_data_path, 'hazalOutput')
@@ -64,5 +64,5 @@ def main():
     print(f"\nGraph saved to: {save_path}")
     plt.show()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
