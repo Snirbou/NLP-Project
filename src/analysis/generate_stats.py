@@ -5,8 +5,8 @@ import numpy as np
 from scipy.spatial.distance import euclidean
 
 # Configuration
-INPUT_FILE = "results/all_sentences_features.csv"
-OUTPUT_DIR = pathlib.Path("results/layer2_stats")
+INPUT_FILE = "results/raw_data/all_sentences_features.csv"
+OUTPUT_DIR = pathlib.Path("results/aggregated_stats")
 
 def load_data():
     path = pathlib.Path(INPUT_FILE)

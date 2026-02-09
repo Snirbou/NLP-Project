@@ -70,10 +70,8 @@ def train_evaluate_classifier(name, features, train_df, modern_df):
     X = train_df[features].fillna(0)
     y = train_df['corpus']
     
-    # Use n_jobs=-1 to use all CPU cores
     clf = RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)
     
-    # Cross Validation
     print(f"[{name}] Running 10-fold Cross Validation...")
     scoring = {
         'accuracy': 'accuracy',
@@ -83,13 +81,6 @@ def train_evaluate_classifier(name, features, train_df, modern_df):
     }
     
     cv = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
-    # n_jobs=-1 here might conflict with RF n_jobs, but usually scikit-learn handles it. 
-    # Safest is to let RF parallelize internal trees or CV parallelize folds. 
-    # Given small dataset (11k) and RF (100 trees), parallelizing folds (CV) might be better or equal.
-    # Let's parallelize CV and keep RF sequential or vice versa. 
-    # RF parallel (n_jobs=-1) is usually good enough. 
-    # Let's enable verbose in cross_validate if possible, but manual prints are better.
-    
     scores = cross_validate(clf, X, y, cv=cv, scoring=scoring, n_jobs=-1)
     
     print(f"[{name}] CV Completed.")

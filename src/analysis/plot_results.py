@@ -5,7 +5,7 @@ import seaborn as sns
 import sys
 
 # Configuration
-INPUT_DIR = pathlib.Path("results/layer2_stats")
+INPUT_DIR = pathlib.Path("results/aggregated_stats")
 OUTPUT_DIR = pathlib.Path("results/plots")
 
 def ensure_output_dir():
@@ -59,9 +59,7 @@ def plot_possession():
     if not all(c in df.columns for c in cols):
         return
         
-    # Normalize to percentage for stacked bar? Or raw counts?
-    # Prompt asks for "Stacked bar", usually implies counts or composition.
-    # Let's do 100% stacked bar to show preference style
+    # Normalize to percentage for 100% stacked bar
     totals = df[cols].sum(axis=1)
     df_pct = df[cols].div(totals, axis=0) * 100
     

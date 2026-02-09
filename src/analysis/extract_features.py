@@ -66,7 +66,6 @@ def extract_features_from_sentence(sentence_obj, file_label, sub_corpus, file_na
                 children_map[head] = []
             children_map[head].append(i)
     
-    # If explicit root not found, try heuristics (first node with head -1)
     if root_idx == -1:
          for i, t in enumerate(tokens):
             if t.get('syntax', {}).get('dep_head_idx') == -1:
@@ -81,7 +80,6 @@ def extract_features_from_sentence(sentence_obj, file_label, sub_corpus, file_na
     mishnaic_pair_count = 0
     
     pos_counts = {'NOUN': 0, 'VERB': 0, 'ADJ': 0, 'PRON': 0, 'ADV': 0}
-    # Future/Past/Pres logic might need adjustment based on specific Dicta tags
     tense_counts = {'Past': 0, 'Pres': 0, 'Fut': 0} 
     
     possession_construct = 0
@@ -124,12 +122,10 @@ def extract_features_from_sentence(sentence_obj, file_label, sub_corpus, file_na
             if tense in tense_counts:
                 tense_counts[tense] += 1
                 
-            # 5. Gerund vs Infinitive
+            # Gerund vs Infinitive classification
             has_finite_features = any(k in feats for k in ['Person', 'Gender', 'Number', 'Tense'])
             is_non_finite = not has_finite_features
             
-            # Additional heuristic: if pos is VERB but VerbForm is Inf?
-            # Dicta sometimes puts VerbForm in feats.
             if feats.get('VerbForm') == 'Inf':
                 is_non_finite = True
             
@@ -224,8 +220,6 @@ def process_files(root_path, output_csv):
                     print(f"Processed {processed_count}/{total_files} files...")
                     
             except Exception as e:
-                # Log error but continue
-                # print(f"Error processing {file_path}: {e}")
                 continue
                 
     except KeyboardInterrupt:

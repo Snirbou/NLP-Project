@@ -6,8 +6,8 @@ from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Configuration
-INPUT_FILE = '../../../data/style_transfer_input_50.json'
-OUTPUT_FILE = '../../../results/style_transfer_results.json'
+INPUT_FILE = '../../data/style_transfer_input_400.json'
+OUTPUT_FILE = '../../results/style_transfer_data/style_transfer_results_400.json'
 
 # Models
 REAL_MODEL = "dicta-il/dictalm2.0-instruct" # 7B params (~14GB)
@@ -21,8 +21,20 @@ def calculate_normalized_levenshtein(source, target):
     return dist / max_len
 
 def load_sentences(filepath):
+    """Load sentences from JSON file. Supports both old format (list of strings) 
+    and new format (list of dicts with 'text' and 'genre' keys)."""
     with open(filepath, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        data = json.load(f)
+    
+    # Handle backward compatibility
+    if isinstance(data, list) and len(data) > 0:
+        if isinstance(data[0], str):
+            # Old format: list of strings
+            return [{'text': s, 'genre': 'unknown'} for s in data]
+        elif isinstance(data[0], dict):
+            # New format: list of dicts
+            return data
+    return []
 
 def run_style_transfer():
     # Check for Test Mode
@@ -78,8 +90,12 @@ def run_style_transfer():
     # In test mode, process fewer sentences to be even faster
     process_limit = 5 if is_test_mode else len(sentences)
     
-    for i, original in enumerate(sentences[:process_limit]):
-        print(f"Processing sentence {i+1}/{process_limit}...")
+    for i, sentence_obj in enumerate(sentences[:process_limit]):
+        # Extract text and genre from new data structure
+        original = sentence_obj.get('text', sentence_obj) if isinstance(sentence_obj, dict) else sentence_obj
+        genre = sentence_obj.get('genre', 'unknown') if isinstance(sentence_obj, dict) else 'unknown'
+        
+        print(f"Processing sentence {i+1}/{process_limit} (Genre: {genre})...")
         
         # Biblical Prompt
         prompt_biblical = f"שכתב את המשפט הבא לעברית מקראית:\n{original}\nתשובה:"
@@ -88,7 +104,6 @@ def run_style_transfer():
         
         try:
             out_biblical = pipe(prompt_biblical)[0]['generated_text']
-            # Extract just the answer (naive splitting)
             gen_biblical = out_biblical.split("תשובה:")[-1].strip()
             
             out_rabbinic = pipe(prompt_rabbinic)[0]['generated_text']
@@ -99,6 +114,7 @@ def run_style_transfer():
             
             results.append({
                 'original': original,
+                'genre': genre,
                 'biblical_rewrite': gen_biblical,
                 'rabbinic_rewrite': gen_rabbinic,
                 'dist_biblical': dist_biblical,
@@ -113,19 +129,50 @@ def run_style_transfer():
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
         
-    # Calculate Average Distances
+    # Calculate Average Distances (Overall and Per-Genre)
     if results:
         avg_bib = sum(r['dist_biblical'] for r in results) / len(results)
         avg_rab = sum(r['dist_rabbinic'] for r in results) / len(results)
         
-        print("\n--- Style Transfer Results (Preliminary) ---")
-        print(f"Average Normalized Edit Distance to Biblical: {avg_bib:.4f}")
-        print(f"Average Normalized Edit Distance to Rabbinic: {avg_rab:.4f}")
+        print("\n" + "=" * 60)
+        print("STYLE TRANSFER RESULTS")
+        print("=" * 60)
+        print(f"Total sentences processed: {len(results)}")
+        print(f"\nOverall Average Normalized Edit Distance:")
+        print(f"  To Biblical Hebrew:  {avg_bib:.4f}")
+        print(f"  To Rabbinic Hebrew:  {avg_rab:.4f}")
+        print(f"  Difference:          {abs(avg_bib - avg_rab):.4f}")
         
         if avg_bib < avg_rab:
-            print("Result: Modern Hebrew required LESS effort to transform into Biblical Hebrew.")
+            print("\n✓ Modern Hebrew required LESS effort to transform into Biblical Hebrew.")
+            print("  This supports Doron's 'Historical Leap' hypothesis.")
         else:
-            print("Result: Modern Hebrew required LESS effort to transform into Rabbinic Hebrew.")
+            print("\n✗ Modern Hebrew required LESS effort to transform into Rabbinic Hebrew.")
+            print("  This contradicts Doron's 'Historical Leap' hypothesis.")
+        
+        # Per-Genre Analysis
+        genres = set(r.get('genre', 'unknown') for r in results)
+        if len(genres) > 1 and 'unknown' not in genres:
+            print("\n" + "-" * 60)
+            print("Per-Genre Analysis:")
+            print("-" * 60)
+            
+            for genre in sorted(genres):
+                genre_results = [r for r in results if r.get('genre') == genre]
+                if genre_results:
+                    g_avg_bib = sum(r['dist_biblical'] for r in genre_results) / len(genre_results)
+                    g_avg_rab = sum(r['dist_rabbinic'] for r in genre_results) / len(genre_results)
+                    
+                    print(f"\n{genre.upper()} (n={len(genre_results)}):")
+                    print(f"  Biblical:  {g_avg_bib:.4f}")
+                    print(f"  Rabbinic:  {g_avg_rab:.4f}")
+                    
+                    if g_avg_bib < g_avg_rab:
+                        print(f"  → Closer to Biblical (Δ={g_avg_rab - g_avg_bib:.4f})")
+                    else:
+                        print(f"  → Closer to Rabbinic (Δ={g_avg_bib - g_avg_rab:.4f})")
+        
+        print("=" * 60)
             
         if is_test_mode:
             print("\n[NOTE] These results are from a dummy model (GPT-Neo-Small) for testing logic.")

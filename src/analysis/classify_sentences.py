@@ -7,15 +7,18 @@ import sys
 import os
 
 # Define input file path
-INPUT_FILE = '../../results/all_sentences_features.csv'
+INPUT_FILE = '../../results/raw_data/all_sentences_features.csv'
 
 def load_data(filepath):
-    print(f"Loading data from {filepath}...")
+    # Resolve path relative to script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    abs_filepath = os.path.join(script_dir, filepath)
+    print(f"Loading data from {abs_filepath}...")
     try:
-        df = pd.read_csv(filepath)
+        df = pd.read_csv(abs_filepath)
         return df
     except FileNotFoundError:
-        print(f"Error: File not found at {filepath}")
+        print(f"Error: File not found at {abs_filepath}")
         sys.exit(1)
 
 def prepare_data(df):
@@ -59,37 +62,22 @@ def train_and_evaluate(train_df, feature_cols):
     X = train_df[feature_cols]
     y = train_df['corpus']
     
-    # Initialize Classifier
-    # Using RandomForest as a robust default
-    # Note: removed class_weight='balanced' since we manually balanced the dataset
+    # Initialize Random Forest classifier
     clf = RandomForestClassifier(n_estimators=100, random_state=42)
     
-    # Define metrics
+    # Define evaluation metrics (Biblical as positive class)
     scoring = {
         'accuracy': 'accuracy',
-        'precision': make_scorer(precision_score, pos_label='Biblical', average='binary'), # Treating Biblical as "positive" for metric calculation or just specific label
+        'precision': make_scorer(precision_score, pos_label='Biblical', average='binary'),
         'recall': make_scorer(recall_score, pos_label='Biblical', average='binary'),
         'f1': make_scorer(f1_score, pos_label='Biblical', average='binary')
     }
     
-    # Note: Precision/Recall/F1 need a specific pos_label if binary. 
-    # Let's check distribution first.
     print("\nClass distribution in Training Set:")
     print(y.value_counts())
     
-    # Since we have two classes, we can pick one as 'positive'. Let's pick 'Biblical'.
-    # Adjust scoring to handle labels correctly.
-    # We can also use 'weighted' or 'macro' average if we treat it symmetrically, 
-    # but the prompt asks for precision/recall/f-measure generically.
-    # Usually in this context (Biblical vs Rabbinic), we want to know how well we distinguish them.
-    # I will report for 'Biblical' class (and maybe 'Rabbinic' implicitly).
-    
     print("\nRunning 10-fold Cross Validation...")
     cv = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
-    
-    # We need to map labels to ensure pos_label works or pass pos_label to scorer
-    # Scikit-learn string labels work if pos_label is specified.
-    
     scores = cross_validate(clf, X, y, cv=cv, scoring=scoring)
     
     print("\n--- Cross Validation Results (Target: Biblical) ---")
@@ -125,20 +113,8 @@ def classify_modern(clf, modern_df, feature_cols):
     return modern_df
 
 def main():
-    # Adjust path if running from src/analysis
-    # Script is in src/analysis/classify_sentences.py
-    # CSV is in ../../results/all_sentences_features.csv
-    
-    # Check if file exists relative to script execution
-    # Assuming script is run from project root or src/analysis
-    # We will try absolute path or relative from known root.
-    
-    # Use absolute path based on workspace
     base_path = os.path.dirname(os.path.abspath(__file__))
-    # Assuming structure: .../NLP-Project/src/analysis
-    # Data: .../NLP-Project/results/
-    # Go up 3 levels to reach project root containing results folder
-    data_path = os.path.join(base_path, '../../../results/all_sentences_features.csv')
+    data_path = os.path.join(base_path, '../../results/raw_data/all_sentences_features.csv')
     
     df = load_data(data_path)
     
@@ -149,7 +125,7 @@ def main():
     classified_modern = classify_modern(clf, modern_df, feature_cols)
     
     # Optional: Save predictions
-    output_path = os.path.join(base_path, '../../../results/modern_classification_predictions.csv')
+    output_path = os.path.join(base_path, '../../results/classification_data/modern_classification_predictions.csv')
     classified_modern.to_csv(output_path, index=False)
     print(f"\nDetailed predictions saved to {output_path}")
 

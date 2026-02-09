@@ -20,17 +20,29 @@ The project includes:
 
 ## 📁 Folder Structure
 
-For a detailed explanation of every file and folder, see [docs/english/REPO_STRUCTURE.md](docs/english/REPO_STRUCTURE.md).
+For a detailed explanation of every file and folder, see [REPO_STRUCTURE.md](REPO_STRUCTURE.md).
 
 ```
 NLP-Project/
-├── data/                  # Input texts and parsed JSON outputs
-├── docs/                  # Documentation (Requirements, Architecture, etc.)
-├── results/               # Analysis results, plots, and reports
-├── src/                   # Python source code
-│   ├── analysis/          # Feature extraction and statistics scripts
-│   └── dictaParsing/      # Text processing pipeline
-└── README.md              # Project description
+├── data/                       # Raw input texts and experiment data
+│   ├── input/                  # Hebrew corpus files (Biblical, Mishnaic, Modern)
+│   └── style_transfer_input_400.json
+├── results/                    # All analysis outputs
+│   ├── aggregated_stats/       # Statistical summaries by corpus
+│   ├── classification_data/    # ML classifier results
+│   ├── plots/                  # Visualizations
+│   ├── raw_data/               # Full feature matrix CSV
+│   ├── reports/                # Analysis reports (English/Hebrew)
+│   └── style_transfer_data/    # LLM experiment results
+├── src/                        # Python source code
+│   ├── analysis/               # Feature extraction, statistics, ML classifiers
+│   │   └── perplexity/         # N-gram perplexity analysis
+│   └── dictaParsing/           # DictaBERT text processing pipeline
+├── final_report.docx           # Final Hebrew research report
+├── PROJECT_SUMMARY.md          # Complete project workflow & conclusions
+├── REPO_STRUCTURE.md           # Detailed repository documentation
+├── README.md                   # This file
+└── requirements.txt            # Python dependencies
 ```
 
 ---
