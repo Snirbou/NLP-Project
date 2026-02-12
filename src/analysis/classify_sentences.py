@@ -27,7 +27,6 @@ def prepare_data(df):
     modern_df = df[df['corpus'] == 'Modern'].copy()
     
     # Balance the training data
-    # User requested to downsample Rabbinic data to avoid bias (approx 1/5th or matching Biblical size)
     biblical_df = train_df_raw[train_df_raw['corpus'] == 'Biblical']
     rabbinic_df = train_df_raw[train_df_raw['corpus'] == 'Rabbinic']
     
